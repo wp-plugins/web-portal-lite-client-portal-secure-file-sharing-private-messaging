@@ -682,6 +682,118 @@ CREATE TABLE {$wpdb->prefix}wpc_client_categories (
 
 <h2>Find other Tips in the Help menu</h2>';
 
+
+'
+<h2 style="text-align: left;">Hi {contact_name}! Welcome to your private portal!</h2>
+<p style="text-align: left;">[wpc_client_logoutb/] &lt; Click here to logout</p>
+<p style="text-align: left;">From this HUB Page, you can access all the pages, documents, photos &amp; files that you have access to.</p>
+<hr />
+<h2 dir="ltr" style="text-align: left;">Your ' . $this->custom_titles['portal']['p'] . '</h2>
+<p dir="ltr" style="text-align: left;">[wpc_client_pagel categories="IDs|names" show_categories_titles="yes|no" show_current_page="no|yes" sort_type="date|title" sort="asc|desc" /]</p>
+<p style="text-align: left;"> </p>
+<hr />
+<h2 dir="ltr" style="text-align: left;">Your Files</h2>
+<p dir="ltr" style="text-align: left;">[wpc_client_filesla show_sort="yes|no" show_date="yes|no" show_size="yes|no show_tags="yes|no" category="" no_text="" exclude_author="no|yes" /]</p>
+<p style="text-align: left;"> </p>
+<hr />
+<h2 dir="ltr" style="text-align: left;">Your Uploaded Files</h2>
+<p dir="ltr" style="text-align: left;">[wpc_client_fileslu show_sort="yes|no" show_date="yes|no" show_size="yes|no" show_tags="yes|no" category="" no_text="" /]</p>
+<p style="text-align: left;"> </p>
+<hr />
+<h2 dir="ltr" style="text-align: left;">Upload Files Here</h2>
+<p dir="ltr" style="text-align: left;">[wpc_client_uploadf category="ID|name" /]</p>
+<p dir="ltr" style="text-align: left;"> </p>
+<hr />
+<h2 dir="ltr" style="text-align: left;">Private Messages</h2>
+<p dir="ltr" style="text-align: left;">[wpc_client_com redirect_after="" /]</p>
+<hr />
+<p><em><strong>&gt;&gt; Delete the instructional tips below before your Portal is live &lt;&lt;</strong></em></p>
+<hr />
+<h2 dir="ltr" style="text-align: left;">Customize this HUB Page template to fit your needs</h2>
+<p dir="ltr" style="text-align: left;">The above layout is only a sample. You can use whatever layout you like.</p>
+<p dir="ltr" style="text-align: left;">You can rename, remove or reformat any headings or text. </p>
+<p dir="ltr" style="text-align: left;">You can remove any parts that you don`t need.</p>
+<p style="text-align: left;">See below for tips on how you can modify various components.</p>
+<p style="text-align: left;">When you are ready, you can simply delete this instructional section.</p>
+<p style="text-align: left;">Shortcodes referenced below use {curly brackets} instead [square brackets] to keep them from inserting the components.</p>
+<p style="text-align: left;">In actual use, you should use [square brackets]</p>
+<hr />
+<h2 dir="ltr">TIP: Advanced HUB VS EZ HUB</h2>
+<ul>
+<li style="text-align: justify;">The items addressed below involving shortcodes only apply to the Advanced HUB Template. If you do not wish to use these, you can opt for the EZ HUB approach. The core of these EZ HUB Templates is the EZ HUB Navigation Bar. The EZ Bar allows the Client/Member to find the resources they need using an intuitive drop-down select box. The items that appear in the EZ Bar are completely customizable to fit your specific needs.</li>
+<li style="text-align: justify;">You can create EZ and Advanced HUB Templates from the HUB Templates menu, and assign them as you see fit to your Clients/Members and Circles.</li>
+</ul>
+<h2 dir="ltr"> </h2>
+<h2 dir="ltr">TIP: Displaying ' . $this->custom_titles['portal']['p'] . ' that Clients/Members have access to</h2>
+<ul>
+<li style="text-align: justify;">Use “categories=” to display ' . $this->custom_titles['portal']['p'] . ' only from a specific ' . $this->custom_titles['portal']['s'] . ' category. For example, the shortcode {wpc_client_pagel categories="Recreation"} would only display ' . $this->custom_titles['portal']['p'] . ' from the “Recreation” category</li>
+<li style="text-align: justify;">Use “show_categories_titles=” to determine if you want the ' . $this->custom_titles['portal']['s'] . ' category titles displayed next to the name of the ' . $this->custom_titles['portal']['s'] . '</li>
+<li style="text-align: justify;">Use “sort=” and “sort_type=” to determine how you would like the page listing to be sorted. For example {wpc_client_pagel sort_type="date" sort="desc"} would display the ' . $this->custom_titles['portal']['s'] . ' list sorted by date in descending order</li>
+<li style="text-align: justify;">Use “show_current_page=” to determine if you would like to display the current page the client/member is on in the listing of available ' . $this->custom_titles['portal']['p'] . '. This is not necessary if you are displaying the list of ' . $this->custom_titles['portal']['p'] . ' on a HUB Page. For example, let’s say a client/member has access to 3 ' . $this->custom_titles['portal']['p'] . ' (Alpha, Bravo, and Delta). On ' . $this->custom_titles['portal']['s'] . ' Alpha, you include the shortcode {wpc_client_pagel}, which displays a list of ' . $this->custom_titles['portal']['p'] . '. Since the client/member is already on ' . $this->custom_titles['portal']['s'] . ' Alpha, they do not necessarily need to see a link to that page in the list. If you add the modifier “show_current_page="no”” to the shortcode, it will exclude ' . $this->custom_titles['portal']['s'] . ' Alpha from the list, as Alpha is the page the client/member is on currently.</li>
+</ul>
+<p style="text-align: left;"> </p>
+<h2 dir="ltr">TIP: Displaying Files that Clients/Members have access to</h2>
+<ul>
+<li style="text-align: justify;">Use “show_sort=” to determine whether to display a sorting option for the clients/members to use</li>
+<li style="text-align: justify;">Use “show_date=” to determine whether to display the date that the file was uploaded</li>
+<li style="text-align: justify;">Use “show_size=” to determine whether to display the size of the file, in kilobytes (K)</li>
+<li style="text-align: justify;">Use “show_tags=” to determine whether to display the file tags</li>
+<li style="text-align: justify;">Use “category=” to only display files from a certain File Category. For example, {wpc_client_filesla category="Work"} would only display files from the “Work” File Category</li>
+<li style="text-align: justify;">Use “exclude_author=” to choose to display files the client/member has uploaded, in addition to files that have been uploaded/assigned to them by the admin. For example, {wpc_client_filesla exclude_author="yes"} would display files that have been uploaded/assigned to the client/member by the admin, but it would not display files the client/member has uploaded themselves</li>
+</ul>
+<p style="text-align: left;"> </p>
+<h2 dir="ltr">TIP: Displaying Files that Clients/Members have uploaded</h2>
+<ul>
+<li style="text-align: justify;">Use “show_sort=” to determine whether to display a sorting option for the clients/members to use</li>
+<li style="text-align: justify;">Use “show_date=” to determine whether to display the date that the file was uploaded</li>
+<li style="text-align: justify;">Use “show_size=” to determine whether to display the size of the file, in kilobytes (K)</li>
+<li style="text-align: justify;">Use “show_tags=” to determine whether to display the file tags</li>
+<li style="text-align: justify;">Use “category=” to only display files from a certain File Category. For example, {wpc_client_filesla category="Work"} would only display files from the “Work” File Category</li>
+</ul>
+<p dir="ltr"> </p>
+<h2 dir="ltr">TIP: Adjusting the File Upload Form</h2>
+<ul>
+<li style="text-align: justify;">Use “category=” Use “category=” to only allow files to be uploaded to a certain File Category. For example, {wpc_client_uploadf category="Work"} would automatically assign all uploaded files to the “Work” File Category</li>
+</ul>
+<p style="text-align: left;"> </p>
+<h2 dir="ltr">TIP: Adjusting the Private Messaging Form</h2>
+<ul>
+<li style="text-align: justify;">Use “redirect_after=” to redirect the client/member to a specific URL after sending a private message. For example, {wpc_client_com redirect_after="http://exampledomain.com/home/"} would redirect the client/member to the installation home page after sending a private message.</li>
+</ul>
+<h2 dir="ltr"> </h2>
+<h2 dir="ltr">TIP: Displaying Feedback Wizard</h2>
+<ul>
+<li style="text-align: justify;">To display a list of Feedback Wizards available to the client/member, you will first need to install and activate the Feedback Wizard extension in the Extensions menu. After that, simply place this shortcode in the client/member’s HUB Page: {wpc_client_feedback_wizards_list}</li>
+</ul>
+<h2 dir="ltr"> </h2>
+<h2 dir="ltr">TIP: Displaying private info for one Client/Member or Circle</h2>
+<ul>
+<li style="text-align: justify;">Use this shortcode: {wpc_client_private for="" for_circle=""}{/wpc_client_private}</li>
+<li style="text-align: justify;">This shortcode can be used to display unique information for a particular Client/Member or Circle. Simply place this shortcode into your HUB Template, and the information between the brackets will only be displayed for the correctly permissioned Client/Member or Circle. You can even do this for multiple Client/Members or Circles in the same Template. See below for an example:</li>
+<li style="text-align: justify;">This feature offers an exciting new way to think about your HUB Page template and/or any other ' . $this->custom_titles['portal']['s'] . ' that you are creating to be part of your portal. Now, you can place content for many different Circles on one page, and only show the content that a particular Circle is supposed to see to those who are part of that Circle.</li>
+<li style="text-align: justify;">This powerful feature lets you essentially create multiple Hub Page variations, each one unique to its’ unique Client Circle. Simply wrap each variation of Hub Page code in the appropriate “private for” short code and stack them on top of each other in the Hub Page template and the appropriate hub page will be shown to each Client depending on their Client Circle affiliation. This same effect can be achieved by creating  separate Advanced HUB or EZ HUB templates for each Client Circle and assigning those templates to those Circles.</li>
+</ul>
+<p style="padding-left: 30px;">For example… see the below  as a simple example…. users in Circle Alpha will only see ‘Elephants are Green’ while those in Circle Charlie will see ‘Elephants are Blue’, and so on…</p>
+<p style="padding-left: 30px;">———  Works on any HUB, ' . $this->custom_titles['portal']['s'] . ' or native WordPress page/post ———-</p>
+<p style="padding-left: 30px;">{wpc_client_private for_circle="Circle Alpha"}</p>
+<p style="padding-left: 30px;">Elephants are Green</p>
+<p style="padding-left: 30px;">{/wpc_client_private}</p>
+<p style="padding-left: 30px;">{wpc_client_private for_circle="Circle Bravo"}</p>
+<p style="padding-left: 30px;">Elephants are Red</p>
+<p style="padding-left: 30px;">{/wpc_client_private}</p>
+<p style="padding-left: 30px;">{wpc_client_private for_circle="Circle Charlie"}</p>
+<p style="padding-left: 30px;">Elephants are Blue</p>
+<p style="padding-left: 30px;">{/wpc_client_private}</p>
+<p style="padding-left: 30px;">{wpc_client_private for_circle="Circle Delta"}</p>
+<p style="padding-left: 30px;">Elephants are Purple</p>
+<p style="padding-left: 30px;">{/wpc_client_private}</p>
+<p style="padding-left: 30px;">———  Works on any HUB, ' . $this->custom_titles['portal']['s'] . ' or native WordPress page/post ———-</p>
+<p style="padding-left: 30px;"> </p>
+<h2>Find other Tips in the Help menu</h2>';
+
+
+
+
             $old_templates = get_option( 'wpc_ez_hub_templates' );
 
             $wpc_ez_hub_default = array(

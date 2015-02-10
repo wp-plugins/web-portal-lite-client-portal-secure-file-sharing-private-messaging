@@ -31,13 +31,13 @@ if ( !class_exists( "WPC_Client_Common" ) ) {
         function common_construct() {
 
             //setup proper directories
-            if ( is_multisite() && defined( 'WPMU_PLUGIN_URL' ) && defined( 'WPMU_PLUGIN_DIR' ) && file_exists( WPMU_PLUGIN_DIR . '/web-portal-lite.php' ) ) {
-                $this->plugin_dir = WPMU_PLUGIN_DIR . '/web-portal-lite/';
-                $this->plugin_url = WPMU_PLUGIN_URL . '/web-portal-lite/';
-            } else if ( defined( 'WP_PLUGIN_URL' ) && defined( 'WP_PLUGIN_DIR' ) && file_exists( WP_PLUGIN_DIR . '/web-portal-lite/web-portal-lite.php' ) ) {
-                $this->plugin_dir = WP_PLUGIN_DIR . '/web-portal-lite/';
-                $this->plugin_url = WP_PLUGIN_URL . '/web-portal-lite/';
-            } else if ( defined('WP_PLUGIN_URL' ) && defined( 'WP_PLUGIN_DIR' ) && file_exists( WP_PLUGIN_DIR . '/web-portal-lite.php' ) ) {
+            if ( is_multisite() && defined( 'WPMU_PLUGIN_URL' ) && defined( 'WPMU_PLUGIN_DIR' ) && file_exists( WPMU_PLUGIN_DIR . '/web-portal-lite-client-portal-secure-file-sharing-private-messaging.php' ) ) {
+                $this->plugin_dir = WPMU_PLUGIN_DIR . '/web-portal-lite-client-portal-secure-file-sharing-private-messaging/';
+                $this->plugin_url = WPMU_PLUGIN_URL . '/web-portal-lite-client-portal-secure-file-sharing-private-messaging/';
+            } else if ( defined( 'WP_PLUGIN_URL' ) && defined( 'WP_PLUGIN_DIR' ) && file_exists( WP_PLUGIN_DIR . '/web-portal-lite-client-portal-secure-file-sharing-private-messaging/web-portal-lite-client-portal-secure-file-sharing-private-messaging.php' ) ) {
+                $this->plugin_dir = WP_PLUGIN_DIR . '/web-portal-lite-client-portal-secure-file-sharing-private-messaging/';
+                $this->plugin_url = WP_PLUGIN_URL . '/web-portal-lite-client-portal-secure-file-sharing-private-messaging/';
+            } else if ( defined('WP_PLUGIN_URL' ) && defined( 'WP_PLUGIN_DIR' ) && file_exists( WP_PLUGIN_DIR . '/web-portal-lite-client-portal-secure-file-sharing-private-messaging.php' ) ) {
                 $this->plugin_dir = WP_PLUGIN_DIR;
                 $this->plugin_url = WP_PLUGIN_URL;
             }
@@ -1344,7 +1344,7 @@ if ( !class_exists( "WPC_Client_Common" ) ) {
          * Load translate textdomain file.
          */
         function _load_textdomain() {
-            load_plugin_textdomain( WPC_CLIENT_TEXT_DOMAIN, false, dirname( 'web-portal-lite/web-portal-lite.php' ) . '/languages/' );
+            load_plugin_textdomain( WPC_CLIENT_TEXT_DOMAIN, false, dirname( 'web-portal-lite-client-portal-secure-file-sharing-private-messaging/web-portal-lite-client-portal-secure-file-sharing-private-messaging.php' ) . '/languages/' );
         }
 
         /*

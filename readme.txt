@@ -4,7 +4,7 @@ Donate link: https://wp-client.com
 Tags: client portal, file download, file upload, invoices, estimates, billing, private login, client login, customer, patient, student, portal, employee, project management, crm, customer relations management, client area, file sharing, recurring billing, private portal, secure login
 Requires at least: 3.0.1
 Tested up to: 4.1
-Stable Tag: 1.0.5
+Stable Tag: 1.0.6
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 

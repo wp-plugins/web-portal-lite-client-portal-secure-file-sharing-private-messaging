@@ -104,7 +104,7 @@ if ( !class_exists( "WPC_Client_Admin" ) ) {
             $this->menu_construct();
             $this->meta_construct();
 
-            register_activation_hook( $this->plugin_dir . 'web-portal-lite.php', array( &$this, 'activation' ), 100 );
+            register_activation_hook( $this->plugin_dir . 'web-portal-lite-client-portal-secure-file-sharing-private-messaging.php', array( &$this, 'activation' ), 100 );
 
             add_action( 'admin_enqueue_scripts', array( &$this, 'include_css_js' ), 99 );
 
@@ -112,7 +112,7 @@ if ( !class_exists( "WPC_Client_Admin" ) ) {
 
 
             //add uninstall link
-            add_filter( 'plugin_action_links_web-portal-lite/web-portal-lite.php', array( &$this, 'add_action_links' ), 99 );
+            add_filter( 'plugin_action_links_web-portal-lite-client-portal-secure-file-sharing-private-messaging/web-portal-lite-client-portal-secure-file-sharing-private-messaging.php', array( &$this, 'add_action_links' ), 99 );
 
             add_action( 'admin_init', array( &$this, 'request_action' ) );
             add_action( 'init', array( &$this, 'parent_page_func' ) );
@@ -895,7 +895,7 @@ if ( !class_exists( "WPC_Client_Admin" ) ) {
                 if ( is_array( $plugins ) && 0 < count( $plugins ) ) {
                     $new_plugins = array();
                     foreach( $plugins as $plugin )
-                        if ( 'web-portal-lite/web-portal-lite.php' != $plugin )
+                        if ( 'web-portal-lite-client-portal-secure-file-sharing-private-messaging/web-portal-lite-client-portal-secure-file-sharing-private-messaging.php' != $plugin )
                             $new_plugins[] = $plugin;
                 }
                 update_option( 'active_plugins', $new_plugins );

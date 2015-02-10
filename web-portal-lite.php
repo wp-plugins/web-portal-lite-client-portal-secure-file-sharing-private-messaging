@@ -4,7 +4,7 @@ Plugin Name: WP-Client Lite :: Client Portals, File Sharing, Messaging & Invoici
 Plugin URI: http://www.WP-Client.com
 Description:  WP-Client Lite is a Client Portal Management Plugin that gives you the power to add a private and secure client portal to your existing WordPress site. Create clients yourself, or allow them to self-register, and give clients access to private pages and other resources. Upgrade to PRO for more features like file sharing, private messaging, invoicing, and much more.
 Author: WP-Client.com
-Version: 1.0.5
+Version: 1.0.6
 Author URI: http://www.WP-Client.com
 */
 
@@ -18,7 +18,7 @@ if ( class_exists( "wpc_client_lite" ) ) {
 } else {
 
     //current plugin version
-    define( 'WPC_CLIENT_LITE_VER', '1.0.5' );
+    define( 'WPC_CLIENT_LITE_VER', '1.0.6' );
     define( 'WP_PASSWORD_GENERATOR_VERSION_WPCLIENT', '2.2' );
 
     // The text domain for strings localization
