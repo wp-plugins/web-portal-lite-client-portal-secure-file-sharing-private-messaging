@@ -1,0 +1,48 @@
+#wpc_clients_list_form .wp-list-table.clients {
+    font-size: 12px !important;
+}
+
+.widefat th {
+    font-size: 12px !important;
+}
+
+.widefat td, .widefat td ol, .widefat td p, .widefat td ul {
+    font-size: 12px !important;
+}
+
+.row-actions {
+    font-size: 11px !important;
+}
+
+#wpc_clients_list_form .wp-list-table.clients .column-username {
+    width: 20%;
+}
+
+#wpc_clients_list_form .wp-list-table.clients .column-contact_name,
+#wpc_clients_list_form .wp-list-table.clients .column-business_name {
+    width: 11%;
+}
+
+#wpc_clients_list_form .wp-list-table.clients .column-email {
+    width: 11%;
+}
+
+#wpc_clients_list_form .wp-list-table.clients .column-creation_date {
+    width: 12%;
+}
+
+#wpc_clients_list_form .wp-list-table.clients .column-quick_actions {
+    width: 11%;
+    text-align: center !important;
+}
+
+#wpc_clients_list_form .wp-list-table.clients .column-circles,
+#wpc_clients_list_form .wp-list-table.clients .column-managers {
+    width: 8%;
+    text-align: center !important;
+}
+
+#wpc_clients_list_form .wp-list-table.clients select.quick_action {
+    width: 100%;
+    font-size: 12px !important;
+}

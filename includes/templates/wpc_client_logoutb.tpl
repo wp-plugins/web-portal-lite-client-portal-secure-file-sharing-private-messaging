@@ -1,0 +1,1 @@
+<a href="{if !empty($logout_url)}{$logout_url}{/if}">{if !empty($labels.logout)}{$labels.logout}{/if}</a>

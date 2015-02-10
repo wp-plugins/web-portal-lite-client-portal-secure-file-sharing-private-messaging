@@ -1,0 +1,52 @@
+.wp-list-table.files {
+    font-size: 12px !important;
+}
+
+.wp-list-table.files.widefat th {
+    font-size: 12px !important;
+}
+
+.wp-list-table.files.widefat td,
+.wp-list-table.files.widefat td ol,
+.wp-list-table.files.widefat td p,
+.wp-list-table.files.widefat td ul {
+    font-size: 12px !important;
+}
+
+.wp-list-table.files .row-actions {
+    font-size: 11px !important;
+}
+
+.wp-list-table.files .column-file_icon {
+    width: 40px;
+    text-align: center !important;
+}
+
+.wp-list-table.files .column-file_title {
+    width: 25%;
+}
+
+
+
+.wp-list-table.files .column-circles,
+.wp-list-table.files .column-clients {
+    width: 10%;
+    text-align: center !important;
+}
+
+.wp-list-table.files .column-order {
+    width: 7%;
+}
+
+.wp-list-table.files .column-author {
+    width: 8%;
+}
+
+.wp-list-table.files .column-categories {
+    width: 10%;
+}
+
+.wp-list-table.files .column-date,
+.wp-list-table.files .column-last_download {
+    width: 11%;
+}

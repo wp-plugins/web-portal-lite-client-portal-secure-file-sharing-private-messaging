@@ -1,0 +1,2908 @@
+# LANGUAGE (LOCALE) translation for WordPress.
+# Copyright (C) YEAR WordPress contributors.
+# This file is distributed under the same license as the WordPress package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: WP-Client\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-10-31 16:24+0200\n"
+"PO-Revision-Date: 2012-11-07 12:27+0100\n"
+"Last-Translator: Iñaki Cantalapiedra Ibáñez <desarrollo2@callemayor.es>\n"
+"Language-Team: Calle Mayor <desarrollo2@callemayor.es>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-Basepath: .\n"
+"X-Generator: Poedit 1.5.4\n"
+"Language: Spanish\n"
+"X-Poedit-SearchPath-0: c:\\WP-Client\n"
+
+#: c:\WP-Client/custom-logins.php:151
+msgid "WP-Client Settings"
+msgstr "Ajustes de WP-Client"
+
+#: c:\WP-Client/custom-logins.php:153
+msgid "From here you can manage a variety of options for the WP-Client plugin."
+msgstr ""
+"Desde aquí podrá gestionar una variedad de opciones del plugin WP-Client."
+
+#: c:\WP-Client/custom-logins.php:156
+msgid "General"
+msgstr "General"
+
+#: c:\WP-Client/custom-logins.php:157 c:\WP-Client/wp-client.php:163
+msgid "Custom Login"
+msgstr "Inicio de sesión personalizado"
+
+#: c:\WP-Client/custom-logins.php:158
+msgid "Login/Logout Redirects"
+msgstr "Redirecciones de Conexión/Desconexión"
+
+#: c:\WP-Client/custom-logins.php:159
+msgid "Skins"
+msgstr "Skins"
+
+#: c:\WP-Client/custom-logins.php:160
+msgid "Login Alerts"
+msgstr "Alertas de Conexión"
+
+#: c:\WP-Client/custom-logins.php:161
+msgid "About"
+msgstr "Acerca de"
+
+#: c:\WP-Client/custom-logins.php:169
+msgid "Custom Login Screen Settings"
+msgstr "Ajustes de Pantalla de Conexión Personalizada"
+
+#: c:\WP-Client/custom-logins.php:202
+msgid "Use Custom Login Settings:"
+msgstr "Utilizar Ajustes de Conexión Personalizados:"
+
+#: c:\WP-Client/custom-logins.php:219
+msgid "Background Image Url:"
+msgstr "Url de Imagen de Fondo:"
+
+#: c:\WP-Client/custom-logins.php:226
+msgid ""
+"URL path to image to use for background (sized 312px wide, and around 600px "
+"tall so that it can be cropped). You can upload your image with the media "
+"uploader"
+msgstr ""
+"URL de la ruta de la imagen a utilizar como fondo (312px de anchura, y "
+"alrededor de 600px de altura de modo que se puede recortar). Puede subir su "
+"imagen con el cargador de medios"
+
+#: c:\WP-Client/custom-logins.php:232
+msgid "Page Background Color:"
+msgstr "Color de Fondo de Página:"
+
+#: c:\WP-Client/custom-logins.php:239 c:\WP-Client/custom-logins.php:252
+#: c:\WP-Client/custom-logins.php:265
+msgid "6 digit hex color code"
+msgstr "Código de color hexadecimal de 6 dígitos"
+
+#: c:\WP-Client/custom-logins.php:245
+msgid "Text Color:"
+msgstr "Color de Texto:"
+
+#: c:\WP-Client/custom-logins.php:258
+msgid "Text Link Color:"
+msgstr "Color de Enlace de Texto:"
+
+#: c:\WP-Client/downloader.php:10 c:\WP-Client/downloader.php:18
+msgid "Invalid file. Please try downloading again!"
+msgstr "Archivo no válido. ¡Por favor, intente la descarga de nuevo!"
+
+#: c:\WP-Client/downloader.php:71
+msgid "You do not have access to this file!"
+msgstr "¡No tiene acceso a este archivo!"
+
+#: c:\WP-Client/exclude-pages.php:229
+msgid ""
+"Comma separated list of post and page IDs to exclude when returning pages "
+"from the get_pages function."
+msgstr ""
+"Lista separada por comas de IDs de entradas y páginas a excluir cuando se "
+"devuelvan páginas desde la función get_pages."
+
+#: c:\WP-Client/exclude-pages.php:267
+msgid "Include this page in lists of pages"
+msgstr "Incluir esta página en listas de páginas"
+
+#: c:\WP-Client/exclude-pages.php:272
+#, php-format
+msgid ""
+"N.B. An ancestor of this page is excluded, so this page is too (<a href="
+"\"%1$s\" title=\"%2$s\">edit ancestor</a>)."
+msgstr ""
+"Nota: si un antecesor de esta página es excluido, esta misma también lo será "
+"(<a href=\"%1$s\" title=\"%2$s\">editar antecesor</a>)."
+
+#: c:\WP-Client/exclude-pages.php:272
+msgid "edit the excluded ancestor"
+msgstr "editar el antecesor excluido"
+
+#: c:\WP-Client/exclude-pages.php:282
+#, php-format
+msgid ""
+"N.B. This page can still appear in explicitly created <a href=\"%1$s"
+"\">menus</a> (<a id=\"epw_toggle_more\" href=\"#epw_explain_more\">explain "
+"more</a>)"
+msgstr ""
+"Nota: esta página todavía puede aparecer en los <a href=\"%1$s\">menús</a> "
+"explícitamente creados (<a id=\"epw_toggle_more\" href=\"#epw_explain_more"
+"\">explicar más</a>)"
+
+#: c:\WP-Client/exclude-pages.php:285
+msgid ""
+"N.B. This page can still appear in explicitly created menus (<a id="
+"\"epw_toggle_more\" href=\"#epw_explain_more\">explain more</a>)"
+msgstr ""
+"Nota: esta página todavía puede aparecer en los menús explícitamente creados "
+"(<a id=\"epw_toggle_more\" href=\"#epw_explain_more\">explicar más</a>)"
+
+#: c:\WP-Client/exclude-pages.php:292
+#, php-format
+msgid ""
+"WordPress provides a simple function for you to maintain your site <a href="
+"\"%1$s\">menus</a>. If you create a menu which includes this page, the "
+"checkbox above will not have any effect on the visibility of that menu item."
+msgstr ""
+"WordPress provee de una simple función para mantener los <a href=\"%1$s"
+"\">menús</a> de su sitio. Si crea un menú que incluya esta página, la "
+"casilla superior no tendrá ningún efecto en la visibilidad de ese elemento "
+"del menú."
+
+#: c:\WP-Client/exclude-pages.php:295
+msgid ""
+"WordPress provides a simple function for you to maintain the site menus, "
+"which your site administrator is using. If a menu includes this page, the "
+"checkbox above will not have any effect on the visibility of that menu item."
+msgstr ""
+"WordPress provee de una simple función para mantener los menús de su sitio, "
+"que el administrador del sitio está utilizando. Si un menú incluye esta "
+"página, la casilla superior no tendrá ningún efecto en la visibilidad de ese "
+"elemento del menú."
+
+#: c:\WP-Client/exclude-pages.php:299
+msgid ""
+"If you think you no longer need the Exclude Pages plugin you should talk to "
+"your WordPress administrator about disabling it."
+msgstr ""
+"Si considera que no necesita más el plugin de Excluir Páginas debería hablar "
+"con su administrador sobre desactivarlo."
+
+#: c:\WP-Client/exclude-pages.php:436
+msgid "Exclude Pages"
+msgstr "Excluir Páginas"
+
+#: c:\WP-Client/login-redirect.php:353
+msgid "Register"
+msgstr "Registro"
+
+#: c:\WP-Client/login-redirect.php:357
+msgid "Site Admin"
+msgstr "Administrador del Sitio"
+
+#: c:\WP-Client/login-redirect.php:492
+msgid "ERROR: Non-local or invalid URL submitted for user "
+msgstr "ERROR: URL no local o no válida enviada para el usuario"
+
+#: c:\WP-Client/login-redirect.php:502
+msgid "ERROR: Unknown error updating user-specific URL for user "
+msgstr ""
+"ERROR: Error desconocido actualizando la URL específica de usuario para el "
+"usuario"
+
+#: c:\WP-Client/login-redirect.php:510
+msgid "ERROR: Non-existent username submitted "
+msgstr "ERROR: Nombre de usuario enviado no existente"
+
+#: c:\WP-Client/login-redirect.php:523
+msgid "Successfully updated user-specific URLs"
+msgstr "Actualizadas correctamente las URLs específicas de usuario"
+
+#: c:\WP-Client/login-redirect.php:569
+msgid "ERROR: Non-local or invalid URL submitted for role "
+msgstr "ERROR: URL no local o no válida enviada para rol"
+
+#: c:\WP-Client/login-redirect.php:576
+msgid "ERROR: Unknown error updating role-specific URL for role "
+msgstr ""
+"ERROR: Error desconocido actualizando la URL específica de rol para el rol"
+
+#: c:\WP-Client/login-redirect.php:584
+msgid "ERROR: Non-existent role submitted "
+msgstr "ERROR: Rol enviado no existente"
+
+#: c:\WP-Client/login-redirect.php:597
+msgid "Successfully updated role-specific URLs"
+msgstr "Actualizadas correctamente las URLs específicas de rol"
+
+#: c:\WP-Client/login-redirect.php:649
+msgid "ERROR: Non-local or invalid URL submitted for level "
+msgstr "ERROR: URL no local o no válida enviada para nivel"
+
+#: c:\WP-Client/login-redirect.php:656
+msgid "ERROR: Unknown error updating level-specific URL for level "
+msgstr ""
+"ERROR: Error desconocido actualizando la URL específica de nivel para el "
+"nivel"
+
+#: c:\WP-Client/login-redirect.php:664
+msgid "ERROR: Non-existent level submitted "
+msgstr "ERROR: Nivel enviado no existente"
+
+#: c:\WP-Client/login-redirect.php:677
+msgid "Successfully updated level-specific URLs"
+msgstr "Actualizadas correctamente las URLs específicas de nivel"
+
+#: c:\WP-Client/login-redirect.php:713
+msgid ""
+"ERROR: Unknown database problem removing URL for &#34;all other users&#34; "
+msgstr ""
+"ERROR: problema desconocido en la base de datos al eliminar URL para &#34;"
+"todos los demás usuarios&#34; "
+
+#: c:\WP-Client/login-redirect.php:715
+msgid "Successfully removed URL for &#34;all other users&#34; "
+msgstr ""
+"Eliminada correctamente la URL para &#34;todos los demás usuarios&#34; "
+
+#: c:\WP-Client/login-redirect.php:722
+msgid "ERROR: Non-local or invalid URL submitted "
+msgstr "ERROR: URL no local o no válida enviada"
+
+#: c:\WP-Client/login-redirect.php:731
+msgid ""
+"ERROR: Unknown database problem updating URL for &#34;all other users&#34; "
+msgstr ""
+"ERROR: Problema desconocido en la base de datos al actualizar URL para &#34;"
+"todos los demás usuarios&#34; "
+
+#: c:\WP-Client/login-redirect.php:733
+msgid "Successfully updated URL for &#34;all other users&#34;"
+msgstr "Actualiza correctamente la URL para &#34;todos los demás usuarios&#34;"
+
+#: c:\WP-Client/login-redirect.php:885
+msgid "Manage Login/Logout Redirect rules"
+msgstr "Gestionar las reglas de Redirección de Conexión/Desconexión"
+
+#: c:\WP-Client/login-redirect.php:888
+msgid ""
+">> Define custom URLs to which different users will be redirected upon "
+"successful login."
+msgstr ""
+">> Definir las URLs personalizadas a las que los diferentes usuario serán "
+"redirigidos después de una conexión con éxito."
+
+#: c:\WP-Client/login-redirect.php:889
+msgid ""
+">> Define custom URLs to which different users will be redirected upon logout"
+msgstr ""
+">> Definir las URLs personalizadas a las que los diferentes usuarios serán "
+"redirigidos después de una desconexión"
+
+#: c:\WP-Client/login-redirect.php:892
+msgid "Specific users"
+msgstr "Usuarios específicos"
+
+#: c:\WP-Client/login-redirect.php:896
+msgid "Username"
+msgstr "Nombre de Usuario"
+
+#: c:\WP-Client/login-redirect.php:897
+msgid "Login URL"
+msgstr "URL de Conexión"
+
+#: c:\WP-Client/login-redirect.php:898
+msgid "Logout URL"
+msgstr "URL de Desconexión"
+
+#: c:\WP-Client/login-redirect.php:903 c:\WP-Client/login-redirect.php:926
+#: c:\WP-Client/login-redirect.php:947
+msgid "Add:"
+msgstr "Añadir:"
+
+#: c:\WP-Client/login-redirect.php:905
+msgid "Select a username"
+msgstr "Seleccione un nombre de usuario"
+
+#: c:\WP-Client/login-redirect.php:908 c:\WP-Client/login-redirect.php:931
+#: c:\WP-Client/login-redirect.php:953 c:\WP-Client/login-redirect.php:960
+msgid "URL:"
+msgstr "URL:"
+
+#: c:\WP-Client/login-redirect.php:913 c:\WP-Client/login-redirect.php:933
+#: c:\WP-Client/login-redirect.php:955 c:\WP-Client/login-redirect.php:962
+msgid "Update"
+msgstr "Actualizar"
+
+#: c:\WP-Client/login-redirect.php:916
+msgid "Specific roles"
+msgstr "Roles específicos"
+
+#: c:\WP-Client/login-redirect.php:920
+msgid "Role"
+msgstr "Rol"
+
+#: c:\WP-Client/login-redirect.php:921 c:\WP-Client/login-redirect.php:942
+msgid "URL"
+msgstr "URL"
+
+#: c:\WP-Client/login-redirect.php:928
+msgid "Select a role"
+msgstr "Seleccione un rol"
+
+#: c:\WP-Client/login-redirect.php:936
+msgid "Specific levels"
+msgstr "Niveles específicos"
+
+#: c:\WP-Client/login-redirect.php:940
+msgid "Level"
+msgstr "Nivel"
+
+#: c:\WP-Client/login-redirect.php:941
+msgid "Order"
+msgstr "Orden"
+
+#: c:\WP-Client/login-redirect.php:949
+msgid "Select a level"
+msgstr "Seleccione un nivel"
+
+#: c:\WP-Client/login-redirect.php:952
+msgid "Order:"
+msgstr "Orden:"
+
+#: c:\WP-Client/login-redirect.php:958
+msgid "All other users"
+msgstr "Todos los demás usuarios"
+
+#: c:\WP-Client/login-redirect.php:961
+msgid "Logout URL:"
+msgstr "URL de Desconexión"
+
+#: c:\WP-Client/login-redirect.php:962
+#: c:\WP-Client/addons/feedback_wizard/feedback_wizard_type.php:121
+msgid "Delete"
+msgstr "Eliminar"
+
+#: c:\WP-Client/widget.php:9
+msgid "Allow client to login/Logout."
+msgstr "Permitir al cliente Conectar/Desconectar."
+
+#: c:\WP-Client/widget.php:10
+msgid "WP Client: Login/Logout"
+msgstr "WP Client: Conexión/Desconexión"
+
+#: c:\WP-Client/widget.php:111
+msgid "Login:"
+msgstr "Conexión:"
+
+#: c:\WP-Client/widget.php:116
+msgid "Password:"
+msgstr "Contraseña:"
+
+#: c:\WP-Client/widget.php:121
+msgid "Login"
+msgstr "Conexión"
+
+#: c:\WP-Client/widget.php:131
+msgid "Logout"
+msgstr "Desconexión"
+
+#: c:\WP-Client/widget.php:141
+msgid "Title:"
+msgstr "Título:"
+
+#: c:\WP-Client/widget.php:146
+msgid "Text for Login field:"
+msgstr "Texto para el campo de Conexión:"
+
+#: c:\WP-Client/widget.php:150
+msgid "Text for Password field:"
+msgstr "Texto para el campo de Contraseña:"
+
+#: c:\WP-Client/widget.php:154
+msgid "Text for Login Button:"
+msgstr "Texto para el Botón de Conexión:"
+
+#: c:\WP-Client/widget.php:158
+msgid "Welcome text:"
+msgstr "Texto de Bienvenida:"
+
+#: c:\WP-Client/widget.php:164
+msgid "Display Business Name"
+msgstr "Mostrar Nombre de Empresa"
+
+#: c:\WP-Client/widget.php:168
+msgid "Display Contact Name"
+msgstr "Mostrar Nombre de Contacto"
+
+#: c:\WP-Client/widget.php:172
+msgid "Text for Logout link:"
+msgstr "Texto para el enlace de Desconexión:"
+
+#: c:\WP-Client/widget.php:176
+msgid "Logout redirect link:"
+msgstr "Enlace de redirección de Desconexión:"
+
+#: c:\WP-Client/wp-client.php:142
+msgid "Hub Page"
+msgstr "Muro de Cliente (Hub Page)"
+
+#: c:\WP-Client/wp-client.php:142
+msgid "My Hub Page"
+msgstr "Mi Muro de Cliente"
+
+#: c:\WP-Client/wp-client.php:151
+msgid "WP Client"
+msgstr "WP Client"
+
+#: c:\WP-Client/wp-client.php:151
+msgid "WP-Client"
+msgstr "WP-Client"
+
+#: c:\WP-Client/wp-client.php:152
+msgid "Managers"
+msgstr "Gerentes"
+
+#: c:\WP-Client/wp-client.php:153
+msgid "Add Client Page"
+msgstr "Añadir Página de Cliente"
+
+#: c:\WP-Client/wp-client.php:154
+msgid "Templates"
+msgstr "Plantillas"
+
+#: c:\WP-Client/wp-client.php:155
+msgid "File Sharing"
+msgstr "Intercambio de Archivos"
+
+#: c:\WP-Client/wp-client.php:156
+#: c:\WP-Client/addons/feedback_wizard/feedback_wizards.php:227
+#: c:\WP-Client/addons/feedback_wizard/feedback_wizards.php:253
+msgid "Groups"
+msgstr "Grupos"
+
+#: c:\WP-Client/wp-client.php:157
+msgid "Settings"
+msgstr "Ajustes"
+
+#: c:\WP-Client/wp-client.php:158
+msgid "WP-Client Wordpress Client Management Portal | Documentation & Tips"
+msgstr ""
+"WP-Client Portal de Gestión de Clientes para Wordpress | Documentación y "
+"Consejos"
+
+#: c:\WP-Client/wp-client.php:158
+msgid "Help"
+msgstr "Ayuda"
+
+#: c:\WP-Client/wp-client.php:161 c:\WP-Client/wp-client.php:3624
+msgid "Add Client"
+msgstr "Añadir Cliente"
+
+#: c:\WP-Client/wp-client.php:162
+msgid "Login/logout redirects"
+msgstr "Redirecciones de Conexión/Desconexión"
+
+#: c:\WP-Client/wp-client.php:164
+msgid "Edit Client"
+msgstr "Editar Cliente"
+
+#: c:\WP-Client/wp-client.php:165
+msgid "Messages"
+msgstr "Mensajes"
+
+#: c:\WP-Client/wp-client.php:171
+msgid "Feedback Wizard"
+msgstr "Asistente de Comentarios (Feedback)"
+
+#: c:\WP-Client/wp-client.php:1132
+msgid "The Group already exists!!!"
+msgstr "¡¡¡El Grupo ya existe!!!"
+
+#: c:\WP-Client/wp-client.php:1141
+msgid "The changes of the group are saved!"
+msgstr "¡Los cambios en el grupo han sido guardados!"
+
+#: c:\WP-Client/wp-client.php:1165
+msgid "Group is created!"
+msgstr "¡El Grupo se ha creado!"
+
+#: c:\WP-Client/wp-client.php:1183
+msgid "Group is deleted!"
+msgstr "¡El Grupo se ha eliminado!"
+
+#: c:\WP-Client/wp-client.php:1207 c:\WP-Client/wp-client.php:1306
+msgid "Clients are assigned!"
+msgstr "¡Los Clientes han sido asignados!"
+
+#: c:\WP-Client/wp-client.php:1227
+msgid "Client is approved!"
+msgstr "¡El Cliente ha sido aprobado!"
+
+#: c:\WP-Client/wp-client.php:1308
+#: c:\WP-Client/addons/feedback_wizard/feedback_wizards.php:166
+msgid "Groups are assigned!"
+msgstr "¡Los Grupos han sido asignados!"
+
+#: c:\WP-Client/wp-client.php:1315
+msgid "Some error with assigning permission for file."
+msgstr "Se ha producido un error al asignar permisos al archivo."
+
+#: c:\WP-Client/wp-client.php:1333
+msgid "The Category already exists!!!"
+msgstr "¡¡¡La Categoría ya existe!!!"
+
+#: c:\WP-Client/wp-client.php:1342
+msgid "The changes of the Category are saved!"
+msgstr "¡Los cambios en la Categoría han sido guardados!"
+
+#: c:\WP-Client/wp-client.php:1351
+msgid "Category is created!"
+msgstr "¡La Categoría ha sido creada!"
+
+#: c:\WP-Client/wp-client.php:1375
+msgid "Category is deleted!"
+msgstr "¡La Categoría ha sido eliminada!"
+
+#: c:\WP-Client/wp-client.php:1406
+msgid "Files assigned to another category!"
+msgstr "¡Los archivos se han asignado a otra categoría!"
+
+#: c:\WP-Client/wp-client.php:1764
+msgid "You"
+msgstr "Usted"
+
+#: c:\WP-Client/wp-client.php:1766
+msgid "Administrator"
+msgstr "Administrador"
+
+#: c:\WP-Client/wp-client.php:1834 c:\WP-Client/wp-client.php:4535
+msgid "The file size more than allowed!"
+msgstr "¡El tamaño del archivo supera el máximo permitido!"
+
+#: c:\WP-Client/wp-client.php:1909 c:\WP-Client/wp-client.php:2099
+#: c:\WP-Client/wp-client.php:2280 c:\WP-Client/wp-client.php:4606
+msgid "There was an error uploading the file, please try again!"
+msgstr ""
+"Se produjo un error al subir el archivo, ¡por favor inténtelo de nuevo!"
+
+#: c:\WP-Client/wp-client.php:2300
+msgid "The file has been added"
+msgstr "El archivo ha sido añadido"
+
+#: c:\WP-Client/wp-client.php:2328
+msgid "File(s) are deleted!"
+msgstr "¡Archivo(s) eliminado(s)!"
+
+#: c:\WP-Client/wp-client.php:3351
+msgid "Note 1: Sorry, you do not have permission to see this page."
+msgstr "Nota 1: Lo sentimos, no tiene permiso para ver esta página."
+
+#: c:\WP-Client/wp-client.php:3373
+msgid "Note 2: Sorry, you do not have permission to see this page."
+msgstr "Nota 2: Lo sentimos, no tiene permiso para ver esta página."
+
+#: c:\WP-Client/wp-client.php:3621
+#: c:\WP-Client/addons/feedback_wizard/feedback_wizards.php:224
+#: c:\WP-Client/addons/feedback_wizard/feedback_wizards.php:250
+msgid "Clients"
+msgstr "Clientes"
+
+#: c:\WP-Client/wp-client.php:3627
+msgid "Approve Clients"
+msgstr "Aprobar Clientes"
+
+#: c:\WP-Client/wp-client.php:3630
+msgid "Clients Staff"
+msgstr "Personal de Clientes"
+
+#: c:\WP-Client/wp-client.php:3633
+msgid "Clients Staff Approve"
+msgstr "Aprobación de Personal de Clientes"
+
+#: c:\WP-Client/wp-client.php:3636
+msgid "Clients Staff Add"
+msgstr "Añadir Personal de Clientes"
+
+#: c:\WP-Client/wp-client.php:3639
+msgid "Custom Fields"
+msgstr "Campos Personalizados"
+
+#: c:\WP-Client/wp-client.php:3659
+msgid ""
+"Are you sure? You will lose all Clients, HUB Pages, Client Pages, Private "
+"Messages & Files"
+msgstr ""
+"¿Está seguro? Perderá todos sus Clientes, Muros de Clientes, Páginas de "
+"Clientes, Mensajes Privados & Archivos"
+
+#: c:\WP-Client/wp-client.php:3760
+msgid "Please enter your username!"
+msgstr "¡Por favor introduzca su nombre de usuario!"
+
+#: c:\WP-Client/wp-client.php:3765
+msgid "Please enter your password!"
+msgstr "¡Por favor introduzca su contraseña!"
+
+#: c:\WP-Client/wp-client.php:3779
+msgid "Invalid Login or Password!"
+msgstr "¡Conexión o Contraseña no válida!"
+
+#: c:\WP-Client/wp-client.php:4022
+msgid "Note 8: Sorry, you do not have permission to see this page."
+msgstr "Nota 8: Lo sentimos, no tiene permiso para ver esta página."
+
+#: c:\WP-Client/wp-client.php:4031
+msgid ""
+"Sorry, you do not have permission, your account has not approved yet. Please "
+"wait for approval."
+msgstr ""
+"Lo sentimos, no tiene permiso, su cuenta todavía no ha sido aprobada. Por "
+"favor espere su aprobación."
+
+#: c:\WP-Client/wp-client.php:4145
+msgid "Note 3: Sorry, you do not have permission to see this page."
+msgstr "Nota 3: Lo sentimos, no tiene permiso para ver esta página."
+
+#: c:\WP-Client/wp-client.php:4191 c:\WP-Client/wp-client.php:4245
+msgid "Sort by:"
+msgstr "Ordenar por:"
+
+#: c:\WP-Client/wp-client.php:4194 c:\WP-Client/wp-client.php:4196
+#: c:\WP-Client/wp-client.php:4198 c:\WP-Client/wp-client.php:4248
+#: c:\WP-Client/wp-client.php:4250 c:\WP-Client/wp-client.php:4252
+msgid "Time Added:"
+msgstr "Hora Añadida:"
+
+#: c:\WP-Client/wp-client.php:4194 c:\WP-Client/wp-client.php:4196
+#: c:\WP-Client/wp-client.php:4198 c:\WP-Client/wp-client.php:4203
+#: c:\WP-Client/wp-client.php:4205 c:\WP-Client/wp-client.php:4207
+#: c:\WP-Client/wp-client.php:4248 c:\WP-Client/wp-client.php:4250
+#: c:\WP-Client/wp-client.php:4252 c:\WP-Client/wp-client.php:4257
+#: c:\WP-Client/wp-client.php:4259 c:\WP-Client/wp-client.php:4261
+msgid "Asc"
+msgstr "Asc"
+
+#: c:\WP-Client/wp-client.php:4194 c:\WP-Client/wp-client.php:4196
+#: c:\WP-Client/wp-client.php:4198 c:\WP-Client/wp-client.php:4203
+#: c:\WP-Client/wp-client.php:4205 c:\WP-Client/wp-client.php:4207
+#: c:\WP-Client/wp-client.php:4248 c:\WP-Client/wp-client.php:4250
+#: c:\WP-Client/wp-client.php:4252 c:\WP-Client/wp-client.php:4257
+#: c:\WP-Client/wp-client.php:4259 c:\WP-Client/wp-client.php:4261
+msgid "Desc"
+msgstr "Desc"
+
+#: c:\WP-Client/wp-client.php:4203 c:\WP-Client/wp-client.php:4205
+#: c:\WP-Client/wp-client.php:4207 c:\WP-Client/wp-client.php:4257
+#: c:\WP-Client/wp-client.php:4259 c:\WP-Client/wp-client.php:4261
+msgid "Name:"
+msgstr "Nombre:"
+
+#: c:\WP-Client/wp-client.php:4502
+msgid "Note 4: Sorry, you do not have permission to see this page."
+msgstr "Nota 4: Lo sentimos, no tiene permiso para ver esta página."
+
+#: c:\WP-Client/wp-client.php:4521
+msgid "Note 6: Sorry, you do not have permission to see this page."
+msgstr "Nota 6: Lo sentimos, no tiene permiso para ver esta página."
+
+#: c:\WP-Client/wp-client.php:4629
+msgid "Note 5: Sorry, you do not have permission to see this page."
+msgstr "Nota 5: Lo sentimos, no tiene permiso para ver esta página."
+
+#: c:\WP-Client/wp-client.php:4649
+msgid "Note 7: Sorry, you do not have permission to see this page."
+msgstr "Nota 7: Lo sentimos, no tiene permiso para ver esta página."
+
+#: c:\WP-Client/wp-client.php:4663
+msgid "Employee <strong>Added</strong> Successfully."
+msgstr "Empleado <strong>Añadido</strong> Correctamente."
+
+#: c:\WP-Client/wp-client.php:4666
+msgid "Employee <strong>Deleted</strong> Successfully."
+msgstr "Empleado <strong>Eliminado</strong> Correctamente."
+
+#: c:\WP-Client/wp-client.php:5016
+msgid "Template"
+msgstr "Plantilla"
+
+#: c:\WP-Client/wp-client.php:5017
+msgid "Client Page Template"
+msgstr "Plantilla de Página de Cliente"
+
+#: c:\WP-Client/wp-client.php:5019
+msgid "Default Template"
+msgstr "Plantilla por Defecto"
+
+#: c:\WP-Client/wp-client.php:5483
+msgid "You do not have permission to access that page."
+msgstr "No tiene permiso para acceder a esa página."
+
+#: c:\WP-Client/wp-client.php:5505
+msgid "Edit Client Page Item"
+msgstr "Editar Elemento de Página de Cliente"
+
+#: c:\WP-Client/wp-client.php:5507
+msgid "View Client Page Item"
+msgstr "Ver Elemento de Página de Cliente"
+
+#: c:\WP-Client/wp-client.php:5508 c:\WP-Client/wp-client.php:5537
+msgid "Search Client Page"
+msgstr "Buscar Página de Cliente"
+
+#: c:\WP-Client/wp-client.php:5509 c:\WP-Client/wp-client.php:5538
+msgid "Nothing found"
+msgstr "No se ha encontrado nada"
+
+#: c:\WP-Client/wp-client.php:5510 c:\WP-Client/wp-client.php:5539
+msgid "Nothing found in Trash"
+msgstr "No se ha encontrado nada en la Papelera"
+
+#: c:\WP-Client/wp-client.php:5534
+msgid "Edit Hub Page Item"
+msgstr "Editar Elemento de Muro de Cliente"
+
+#: c:\WP-Client/wp-client.php:5536
+msgid "View Hub Page Item"
+msgstr "Ver Elemento de Muro de Cliente"
+
+#: c:\WP-Client/addons/feedback_wizard/feedback_wizard.php:407
+msgid "Feedback Wizards"
+msgstr "Asistentes de Comentarios"
+
+#: c:\WP-Client/addons/feedback_wizard/feedback_wizard.php:410
+#: c:\WP-Client/addons/feedback_wizard/feedback_wizard_edit.php:91
+msgid "Create Wizard"
+msgstr "Crear Asistente"
+
+#: c:\WP-Client/addons/feedback_wizard/feedback_wizard.php:413
+#: c:\WP-Client/addons/feedback_wizard/feedback_wizards.php:221
+#: c:\WP-Client/addons/feedback_wizard/feedback_wizards.php:247
+msgid "Items"
+msgstr "Elementos"
+
+#: c:\WP-Client/addons/feedback_wizard/feedback_wizard.php:416
+msgid "Add Item"
+msgstr "Añadir Elemento"
+
+#: c:\WP-Client/addons/feedback_wizard/feedback_wizard.php:419
+msgid "Results"
+msgstr "Resultados"
+
+#: c:\WP-Client/addons/feedback_wizard/feedback_wizard.php:422
+#: c:\WP-Client/addons/feedback_wizard/feedback_wizard_type_edit.php:136
+msgid "Feedback Type"
+msgstr "Tipo de Comentario"
+
+#: c:\WP-Client/addons/feedback_wizard/feedback_wizards.php:154
+msgid "Wizard <strong>Created</strong> Successfully."
+msgstr "Asistente <strong>Creado</strong> Correctamente."
+
+#: c:\WP-Client/addons/feedback_wizard/feedback_wizards.php:157
+msgid "Wizard <strong>Updated</strong> Successfully."
+msgstr "Asistente <strong>Actualizado</strong> Correctamente."
+
+#: c:\WP-Client/addons/feedback_wizard/feedback_wizards.php:160
+msgid "Wizard(s) <strong>Deleted</strong> Successfully."
+msgstr "Asistente(s) <strong>Eliminado(s)</strong> Correctamente."
+
+#: c:\WP-Client/addons/feedback_wizard/feedback_wizards.php:163
+msgid "Clients are assigned"
+msgstr "Los Clientes han sido asignados"
+
+#: c:\WP-Client/addons/feedback_wizard/feedback_wizards.php:169
+msgid "Some error with assigning permission for wizard."
+msgstr "Se ha producido un error al asignar permisos para el asistente."
+
+#: c:\WP-Client/addons/feedback_wizard/feedback_wizards.php:172
+msgid "Email sent to Clietn(s)"
+msgstr "Email enviado a Cliente(s)"
+
+#: c:\WP-Client/addons/feedback_wizard/feedback_wizards.php:175
+msgid "Email are not sent: no assigned Clients."
+msgstr "Los emails no han sido enviados: no se han asignado Clientes."
+
+#: c:\WP-Client/addons/feedback_wizard/feedback_wizards.php:178
+msgid ""
+"Email are not sent: Clients already left feedback for this wizard version."
+msgstr ""
+"Los emails no han sido enviados: los Clientes ya han dejado comentarios para "
+"esta versión del asistente."
+
+#: c:\WP-Client/addons/feedback_wizard/feedback_wizards.php:199
+msgid "Create New Wizard"
+msgstr "Crear Nuevo Asistente"
+
+#: c:\WP-Client/addons/feedback_wizard/feedback_wizards.php:215
+#: c:\WP-Client/addons/feedback_wizard/feedback_wizards.php:241
+#: c:\WP-Client/addons/feedback_wizard/feedback_wizard_results.php:139
+#: c:\WP-Client/addons/feedback_wizard/feedback_wizard_results.php:159
+msgid "Wizard Name"
+msgstr "Nombre del Asistente"
+
+#: c:\WP-Client/addons/feedback_wizard/feedback_wizards.php:218
+#: c:\WP-Client/addons/feedback_wizard/feedback_wizards.php:244
+msgid "Version"
+msgstr "Versión"
+
+#: c:\WP-Client/addons/feedback_wizard/feedback_wizards.php:230
+#: c:\WP-Client/addons/feedback_wizard/feedback_wizards.php:256
+#: c:\WP-Client/addons/feedback_wizard/feedback_wizard_results.php:148
+#: c:\WP-Client/addons/feedback_wizard/feedback_wizard_results.php:168
+msgid "Date"
+msgstr "Fecha"
+
+#: c:\WP-Client/addons/feedback_wizard/feedback_wizards.php:274
+#: c:\WP-Client/addons/feedback_wizard/feedback_wizard_items.php:115
+#: c:\WP-Client/addons/feedback_wizard/feedback_wizard_type.php:119
+msgid "Edit"
+msgstr "Editar"
+
+#: c:\WP-Client/addons/feedback_wizard/feedback_wizards.php:275
+#: c:\WP-Client/addons/feedback_wizard/feedback_wizards.php:400
+#: c:\WP-Client/addons/feedback_wizard/feedback_wizard_items.php:116
+#: c:\WP-Client/addons/feedback_wizard/feedback_wizard_items.php:152
+#: c:\WP-Client/addons/feedback_wizard/feedback_wizard_results.php:187
+#: c:\WP-Client/addons/feedback_wizard/feedback_wizard_results.php:214
+msgid "Delete Permanently"
+msgstr "Borrar Permanentemente"
+
+#: c:\WP-Client/addons/feedback_wizard/feedback_wizards.php:276
+msgid "Send Email to Client(s)"
+msgstr "Enviar Email a Cliente(s)"
+
+#: c:\WP-Client/addons/feedback_wizard/feedback_wizards.php:286
+#: c:\WP-Client/addons/feedback_wizard/feedback_wizards.php:344
+msgid "Assign"
+msgstr "Asignar"
+
+#: c:\WP-Client/addons/feedback_wizard/feedback_wizards.php:288
+#: c:\WP-Client/addons/feedback_wizard/feedback_wizards.php:290
+#: c:\WP-Client/addons/feedback_wizard/feedback_wizards.php:347
+#: c:\WP-Client/addons/feedback_wizard/feedback_wizards.php:349
+#: c:\WP-Client/addons/feedback_wizard/feedback_wizard_results.php:186
+msgid "View"
+msgstr "Ver"
+
+#: c:\WP-Client/addons/feedback_wizard/feedback_wizards.php:292
+msgid "Those Clients have access to wizard"
+msgstr "Aquellos Clientes que tienen acceso al asistente"
+
+#: c:\WP-Client/addons/feedback_wizard/feedback_wizards.php:351
+msgid "Those Groups have access to wizard"
+msgstr "Aquellos Grupos que tienen acceso al asistente"
+
+#: c:\WP-Client/addons/feedback_wizard/feedback_wizards.php:399
+#: c:\WP-Client/addons/feedback_wizard/feedback_wizard_items.php:151
+#: c:\WP-Client/addons/feedback_wizard/feedback_wizard_results.php:213
+msgid "Bulk Actions"
+msgstr "Acciones Masivas"
+
+#: c:\WP-Client/addons/feedback_wizard/feedback_wizards.php:402
+#: c:\WP-Client/addons/feedback_wizard/feedback_wizard_items.php:154
+#: c:\WP-Client/addons/feedback_wizard/feedback_wizard_results.php:216
+msgid "Apply"
+msgstr "Aplicar"
+
+#: c:\WP-Client/addons/feedback_wizard/feedback_wizards.php:437
+msgid "Select All."
+msgstr "Seleccionar Todo."
+
+#: c:\WP-Client/addons/feedback_wizard/feedback_wizards.php:449
+msgid "Save"
+msgstr "Guardar"
+
+#: c:\WP-Client/addons/feedback_wizard/feedback_wizards.php:450
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: c:\WP-Client/addons/feedback_wizard/feedback_wizards.php:533
+msgid "Assign Clients to the wizard"
+msgstr "Asignar Clientes al asistente"
+
+#: c:\WP-Client/addons/feedback_wizard/feedback_wizards.php:546
+msgid "No Clients for assign."
+msgstr "No hay Clientes para asignar."
+
+#: c:\WP-Client/addons/feedback_wizard/feedback_wizards.php:564
+msgid "Assign Groups to the wizard"
+msgstr "Asignar Grupos al asistente"
+
+#: c:\WP-Client/addons/feedback_wizard/feedback_wizards.php:576
+msgid "No Groups for assign."
+msgstr "No hay Grupos para asignar."
+
+#: c:\WP-Client/addons/feedback_wizard/feedback_wizard_edit.php:13
+msgid "Sorry, Wizard name is required.<br>"
+msgstr "Lo sentimos, se requiere el nombre del Asistente.<br />"
+
+#: c:\WP-Client/addons/feedback_wizard/feedback_wizard_edit.php:20
+msgid "New version number can't be less than previous version.<br>"
+msgstr ""
+"El nuevo número de versión no puede ser menor que la anterior versión.<br />"
+
+#: c:\WP-Client/addons/feedback_wizard/feedback_wizard_edit.php:93
+msgid "Update Wizard"
+msgstr "Actualizar Asistente"
+
+#: c:\WP-Client/addons/feedback_wizard/feedback_wizard_edit.php:142
+msgid "Available Items"
+msgstr "Elementos Disponibles"
+
+#: c:\WP-Client/addons/feedback_wizard/feedback_wizard_edit.php:145
+msgid ""
+"Drag Items from here to a Wizard on the right. Drag Items back here to "
+"delete them from Wizard."
+msgstr ""
+"Arrastre Elementos desde aquí al Asistente de la derecha. Arrastre Elementos "
+"de vuelta aquí para eliminarlos del Asistente."
+
+#: c:\WP-Client/addons/feedback_wizard/feedback_wizard_edit.php:215
+msgid "Wizard Items"
+msgstr "Elementos de Asistente"
+
+#: c:\WP-Client/addons/feedback_wizard/feedback_wizard_edit.php:219
+msgid "Wizard Name:"
+msgstr "Nombre de Asistente:"
+
+#: c:\WP-Client/addons/feedback_wizard/feedback_wizard_edit.php:222
+msgid "Feedback Type:"
+msgstr "Tipo de Comentarios:"
+
+#: c:\WP-Client/addons/feedback_wizard/feedback_wizard_edit.php:224
+msgid "Default Type"
+msgstr "Tipo por Defecto"
+
+#: c:\WP-Client/addons/feedback_wizard/feedback_wizard_edit.php:235
+msgid "Version:"
+msgstr "Versión:"
+
+#: c:\WP-Client/addons/feedback_wizard/feedback_wizard_edit.php:271
+msgid "Drag Items here."
+msgstr "Arrastrar Elementos aquí."
+
+#: c:\WP-Client/addons/feedback_wizard/feedback_wizard_edit.php:356
+msgid "A Wizard Name is required."
+msgstr "Se requiere un Nombre de Asistente."
+
+#: c:\WP-Client/addons/feedback_wizard/feedback_wizard_form.php:91
+msgid "Feedback for:"
+msgstr "Comentario para:"
+
+#: c:\WP-Client/addons/feedback_wizard/feedback_wizard_form.php:138
+msgid "Your Comment:"
+msgstr "Su Comentario:"
+
+#: c:\WP-Client/addons/feedback_wizard/feedback_wizard_form.php:235
+msgid "Approve"
+msgstr "Aprobar"
+
+#: c:\WP-Client/addons/feedback_wizard/feedback_wizard_form.php:236
+msgid "Not sure"
+msgstr "No es seguro"
+
+#: c:\WP-Client/addons/feedback_wizard/feedback_wizard_form.php:237
+msgid "Not approved"
+msgstr "No aprobado"
+
+#: c:\WP-Client/addons/feedback_wizard/feedback_wizard_form.php:244
+msgid "Final comment"
+msgstr "Comentario final"
+
+#: c:\WP-Client/addons/feedback_wizard/feedback_wizard_form.php:255
+msgid "Send Your Feedback"
+msgstr "Enviar Su Comentario"
+
+#: c:\WP-Client/addons/feedback_wizard/feedback_wizard_form.php:256
+msgid "Close"
+msgstr "Cerrar"
+
+#: c:\WP-Client/addons/feedback_wizard/feedback_wizard_items.php:41
+msgid "Item <strong>Added</strong> Successfully."
+msgstr "Elemento <strong>Añadido</strong> Correctamente."
+
+#: c:\WP-Client/addons/feedback_wizard/feedback_wizard_items.php:44
+msgid "Item <strong>Updated</strong> Successfully."
+msgstr "Elemento <strong>Actualizado</strong> Correctamente."
+
+#: c:\WP-Client/addons/feedback_wizard/feedback_wizard_items.php:47
+msgid "Item(s) <strong>Deleted</strong> Successfully."
+msgstr "Elemento(s) <strong>Eliminado(s)</strong> Correctamente."
+
+#: c:\WP-Client/addons/feedback_wizard/feedback_wizard_items.php:63
+msgid "Add New Item"
+msgstr "Añadir Nuevo Elemento"
+
+#: c:\WP-Client/addons/feedback_wizard/feedback_wizard_items.php:79
+#: c:\WP-Client/addons/feedback_wizard/feedback_wizard_items.php:93
+msgid "Item Name"
+msgstr "Nombre de Elemento"
+
+#: c:\WP-Client/addons/feedback_wizard/feedback_wizard_items.php:82
+#: c:\WP-Client/addons/feedback_wizard/feedback_wizard_items.php:96
+msgid "Item type"
+msgstr "Tipo de Elemento"
+
+#: c:\WP-Client/addons/feedback_wizard/feedback_wizard_items.php:123
+#: c:\WP-Client/addons/feedback_wizard/feedback_wizard_item_edit.php:219
+#: c:\WP-Client/addons/feedback_wizard/feedback_wizard_item_edit.php:232
+msgid "Image"
+msgstr "Imagen"
+
+#: c:\WP-Client/addons/feedback_wizard/feedback_wizard_items.php:127
+#: c:\WP-Client/addons/feedback_wizard/feedback_wizard_item_edit.php:220
+#: c:\WP-Client/addons/feedback_wizard/feedback_wizard_item_edit.php:278
+msgid "PDF"
+msgstr "PDF"
+
+#: c:\WP-Client/addons/feedback_wizard/feedback_wizard_items.php:131
+#: c:\WP-Client/addons/feedback_wizard/feedback_wizard_item_edit.php:221
+#: c:\WP-Client/addons/feedback_wizard/feedback_wizard_item_edit.php:323
+msgid "Attachment"
+msgstr "Adjunto"
+
+#: c:\WP-Client/addons/feedback_wizard/feedback_wizard_item_edit.php:13
+msgid "Sorry, Item name is required.<br>"
+msgstr "Lo sentimos, se requiere el nombre de Elemento.<br />"
+
+#: c:\WP-Client/addons/feedback_wizard/feedback_wizard_item_edit.php:17
+msgid "Sorry, Item file is required.<br>"
+msgstr "Lo sentimos, se requiere archivo de Elemento.<br />"
+
+#: c:\WP-Client/addons/feedback_wizard/feedback_wizard_item_edit.php:166
+msgid "Add new Item"
+msgstr "Añadir nuevo Elemento"
+
+#: c:\WP-Client/addons/feedback_wizard/feedback_wizard_item_edit.php:168
+msgid "Edit Item"
+msgstr "Editar Elemento"
+
+#: c:\WP-Client/addons/feedback_wizard/feedback_wizard_item_edit.php:213
+msgid "Type of Item"
+msgstr "Tipo de Elemento"
+
+#: c:\WP-Client/addons/feedback_wizard/feedback_wizard_item_edit.php:213
+msgid "(can't be changed later)"
+msgstr "(no puede cambiarse más adelante)"
+
+#: c:\WP-Client/addons/feedback_wizard/feedback_wizard_item_edit.php:237
+#: c:\WP-Client/addons/feedback_wizard/feedback_wizard_item_edit.php:283
+#: c:\WP-Client/addons/feedback_wizard/feedback_wizard_item_edit.php:328
+msgid "Name"
+msgstr "Nombre"
+
+#: c:\WP-Client/addons/feedback_wizard/feedback_wizard_item_edit.php:237
+#: c:\WP-Client/addons/feedback_wizard/feedback_wizard_item_edit.php:263
+#: c:\WP-Client/addons/feedback_wizard/feedback_wizard_item_edit.php:283
+#: c:\WP-Client/addons/feedback_wizard/feedback_wizard_item_edit.php:309
+#: c:\WP-Client/addons/feedback_wizard/feedback_wizard_item_edit.php:328
+#: c:\WP-Client/addons/feedback_wizard/feedback_wizard_item_edit.php:354
+msgid "(required)"
+msgstr "(requerido)"
+
+#: c:\WP-Client/addons/feedback_wizard/feedback_wizard_item_edit.php:245
+#: c:\WP-Client/addons/feedback_wizard/feedback_wizard_item_edit.php:291
+#: c:\WP-Client/addons/feedback_wizard/feedback_wizard_item_edit.php:336
+msgid "Description"
+msgstr "Descripción"
+
+#: c:\WP-Client/addons/feedback_wizard/feedback_wizard_item_edit.php:254
+msgid "Current Image"
+msgstr "Imagen Actual"
+
+#: c:\WP-Client/addons/feedback_wizard/feedback_wizard_item_edit.php:254
+msgid "(Thumbnail 400px)"
+msgstr "(Miniatura 400px)"
+
+#: c:\WP-Client/addons/feedback_wizard/feedback_wizard_item_edit.php:263
+msgid "Change Image"
+msgstr "Cambiar Imagen"
+
+#: c:\WP-Client/addons/feedback_wizard/feedback_wizard_item_edit.php:263
+msgid "Upload Image"
+msgstr "Subir Imagen"
+
+#: c:\WP-Client/addons/feedback_wizard/feedback_wizard_item_edit.php:267
+msgid "(jpg, png, gif)"
+msgstr "(jpg, png, gif)"
+
+#: c:\WP-Client/addons/feedback_wizard/feedback_wizard_item_edit.php:268
+msgid "Note: Previous Image will be deleted."
+msgstr "Nota: La Imagen Anterior será eliminada."
+
+#: c:\WP-Client/addons/feedback_wizard/feedback_wizard_item_edit.php:300
+msgid "Current PDF"
+msgstr "Actual PDF"
+
+#: c:\WP-Client/addons/feedback_wizard/feedback_wizard_item_edit.php:309
+msgid "Change PDF"
+msgstr "Cambiar PDF"
+
+#: c:\WP-Client/addons/feedback_wizard/feedback_wizard_item_edit.php:309
+msgid "Upload PDF"
+msgstr "Subir PDF"
+
+#: c:\WP-Client/addons/feedback_wizard/feedback_wizard_item_edit.php:313
+msgid "Note: Previous PDF will be deleted."
+msgstr "Nota: El Anterior PDF será eliminado."
+
+#: c:\WP-Client/addons/feedback_wizard/feedback_wizard_item_edit.php:345
+msgid "Current Attachment"
+msgstr "Adjunto Actual"
+
+#: c:\WP-Client/addons/feedback_wizard/feedback_wizard_item_edit.php:354
+msgid "Change Attachment"
+msgstr "Cambiar Adjunto"
+
+#: c:\WP-Client/addons/feedback_wizard/feedback_wizard_item_edit.php:354
+msgid "Upload Attachment"
+msgstr "Subir Adjunto"
+
+#: c:\WP-Client/addons/feedback_wizard/feedback_wizard_item_edit.php:358
+msgid "Note: Previous File will be deleted."
+msgstr "Nota: El Archivo Anterior será eliminado."
+
+#: c:\WP-Client/addons/feedback_wizard/feedback_wizard_item_edit.php:367
+msgid "Save Item"
+msgstr "Guardar Elemento"
+
+#: c:\WP-Client/addons/feedback_wizard/feedback_wizard_item_edit.php:409
+#: c:\WP-Client/addons/feedback_wizard/feedback_wizard_item_edit.php:418
+#: c:\WP-Client/addons/feedback_wizard/feedback_wizard_item_edit.php:427
+msgid "A Item Name is required."
+msgstr "Se requiere un Nombre de Elemento."
+
+#: c:\WP-Client/addons/feedback_wizard/feedback_wizard_item_edit.php:413
+#: c:\WP-Client/addons/feedback_wizard/feedback_wizard_item_edit.php:422
+#: c:\WP-Client/addons/feedback_wizard/feedback_wizard_item_edit.php:431
+msgid "A Item File is required."
+msgstr "Se requiere un Archivo de Elemento."
+
+#: c:\WP-Client/addons/feedback_wizard/feedback_wizard_results.php:92
+msgid "Result(s) <strong>Deleted</strong> Successfully."
+msgstr "Resultado(s) <strong>Eliminado(s)</strong> Correctamente."
+
+#: c:\WP-Client/addons/feedback_wizard/feedback_wizard_results.php:117
+msgid "Select Client"
+msgstr "Seleccionar Cliente"
+
+#: c:\WP-Client/addons/feedback_wizard/feedback_wizard_results.php:127
+msgid "Filter"
+msgstr "Filtro"
+
+#: c:\WP-Client/addons/feedback_wizard/feedback_wizard_results.php:142
+#: c:\WP-Client/addons/feedback_wizard/feedback_wizard_results.php:162
+msgid "Wizard Version"
+msgstr "Versión de Asistente"
+
+#: c:\WP-Client/addons/feedback_wizard/feedback_wizard_results.php:145
+#: c:\WP-Client/addons/feedback_wizard/feedback_wizard_results.php:165
+msgid "Client"
+msgstr "Cliente"
+
+#: c:\WP-Client/addons/feedback_wizard/feedback_wizard_type.php:42
+msgid "Feedback Type <strong>Added</strong> Successfully."
+msgstr "Tipo de Comentario <strong>Añadido</strong> Correctamente."
+
+#: c:\WP-Client/addons/feedback_wizard/feedback_wizard_type.php:45
+msgid "Feedback Type <strong>Updated</strong> Successfully."
+msgstr "Tipo de Comentario <strong>Actualizado</strong> Correctamente."
+
+#: c:\WP-Client/addons/feedback_wizard/feedback_wizard_type.php:48
+msgid "Feedback Type <strong>Deleted</strong> Successfully."
+msgstr "Tipo de Comentario <strong>Eliminado</strong> Correctamente."
+
+#: c:\WP-Client/addons/feedback_wizard/feedback_wizard_type.php:65
+msgid "Add New Feedback Type"
+msgstr "Añadir Nuevo Tipo de Comentario"
+
+#: c:\WP-Client/addons/feedback_wizard/feedback_wizard_type.php:76
+msgid "Type Name"
+msgstr "Nombre de Tipo"
+
+#: c:\WP-Client/addons/feedback_wizard/feedback_wizard_type.php:77
+msgid "Type Title"
+msgstr "Título de Tipo"
+
+#: c:\WP-Client/addons/feedback_wizard/feedback_wizard_type.php:78
+msgid "Type"
+msgstr "Tipo"
+
+#: c:\WP-Client/addons/feedback_wizard/feedback_wizard_type.php:79
+msgid "Actions"
+msgstr "Acciones"
+
+#: c:\WP-Client/addons/feedback_wizard/feedback_wizard_type.php:104
+#: c:\WP-Client/addons/feedback_wizard/feedback_wizard_type_edit.php:140
+msgid "Buttons"
+msgstr "Botones"
+
+#: c:\WP-Client/addons/feedback_wizard/feedback_wizard_type.php:107
+#: c:\WP-Client/addons/feedback_wizard/feedback_wizard_type_edit.php:141
+msgid "Radio Buttons"
+msgstr "Botones de Radio"
+
+#: c:\WP-Client/addons/feedback_wizard/feedback_wizard_type.php:110
+#: c:\WP-Client/addons/feedback_wizard/feedback_wizard_type_edit.php:142
+msgid "Checkboxes"
+msgstr "Casillas de Verificación"
+
+#: c:\WP-Client/addons/feedback_wizard/feedback_wizard_type.php:113
+#: c:\WP-Client/addons/feedback_wizard/feedback_wizard_type_edit.php:143
+msgid "Select Box"
+msgstr "Caja de Selección"
+
+#: c:\WP-Client/addons/feedback_wizard/feedback_wizard_type.php:132
+msgid "No Feedback Types yet created"
+msgstr "No se han creado Tipos de Comentarios todavía"
+
+#: c:\WP-Client/addons/feedback_wizard/feedback_wizard_type_edit.php:16
+msgid "A Feedback Type Name is required.<br/>"
+msgstr "Se requiere Nombre de Tipo de Comentario.<br />"
+
+#: c:\WP-Client/addons/feedback_wizard/feedback_wizard_type_edit.php:20
+#, php-format
+msgid "A Feedback Type with this name \"%s\" already exist already.<br/>"
+msgstr "Un Tipo de Comentario con este nombre  \"%s\" ya existe.<br />"
+
+#: c:\WP-Client/addons/feedback_wizard/feedback_wizard_type_edit.php:26
+msgid "A Feedback Type is required.<br/>"
+msgstr "Se requiere un Tipo de Comentario. <br />"
+
+#: c:\WP-Client/addons/feedback_wizard/feedback_wizard_type_edit.php:65
+msgid "Add Feedback Type"
+msgstr "Añadir Tipo de Comentario"
+
+#: c:\WP-Client/addons/feedback_wizard/feedback_wizard_type_edit.php:67
+msgid "Update Feedback Type"
+msgstr "Actualizar Tipo de Comentario"
+
+#: c:\WP-Client/addons/feedback_wizard/feedback_wizard_type_edit.php:110
+msgid "Feedback Type Name"
+msgstr "Nombre de Tipo de Comentario"
+
+#: c:\WP-Client/addons/feedback_wizard/feedback_wizard_type_edit.php:110
+#: c:\WP-Client/addons/feedback_wizard/feedback_wizard_type_edit.php:136
+msgid "required"
+msgstr "requerido"
+
+#: c:\WP-Client/addons/feedback_wizard/feedback_wizard_type_edit.php:116
+msgid "Can't be changed."
+msgstr "No puede cambiarse."
+
+#: c:\WP-Client/addons/feedback_wizard/feedback_wizard_type_edit.php:120
+msgid ""
+"The name used for identification the feedback type. Should consist \"a-z\" "
+"and sign \"_\"."
+msgstr ""
+"El nombre utilizado para la identificación del tipo de comentario. Debería "
+"consistir en  \"a-z\" y el signo \"_\"."
+
+#: c:\WP-Client/addons/feedback_wizard/feedback_wizard_type_edit.php:126
+msgid "Feedback Type Title"
+msgstr "Título de Tipo de Asistente"
+
+#: c:\WP-Client/addons/feedback_wizard/feedback_wizard_type_edit.php:131
+msgid "Displayed "
+msgstr "Mostrado"
+
+#: c:\WP-Client/addons/feedback_wizard/feedback_wizard_type_edit.php:146
+msgid "Select type of the feedback."
+msgstr "Seleccionar tipo de comentario."
+
+#: c:\WP-Client/addons/feedback_wizard/feedback_wizard_type_edit.php:149
+msgid "Fill in the options for feedback"
+msgstr "Rellene las opciones para el comentario"
+
+#: c:\WP-Client/addons/feedback_wizard/feedback_wizard_type_edit.php:150
+msgid "Order By"
+msgstr "Ordenar Por"
+
+#: c:\WP-Client/addons/feedback_wizard/feedback_wizard_type_edit.php:152
+msgid "Order Entered"
+msgstr "Orden de Ejecución"
+
+#: c:\WP-Client/addons/feedback_wizard/feedback_wizard_type_edit.php:153
+msgid "Name - Ascending"
+msgstr "Nombre - Ascendente"
+
+#: c:\WP-Client/addons/feedback_wizard/feedback_wizard_type_edit.php:154
+msgid "Name - Descending"
+msgstr "Nombre - Descendente"
+
+#: c:\WP-Client/addons/feedback_wizard/feedback_wizard_type_edit.php:157
+msgid "Align"
+msgstr "Alinear"
+
+#: c:\WP-Client/addons/feedback_wizard/feedback_wizard_type_edit.php:159
+msgid "Horizontally"
+msgstr "Horizontalmente"
+
+#: c:\WP-Client/addons/feedback_wizard/feedback_wizard_type_edit.php:160
+msgid "Vertically"
+msgstr "Verticalmente"
+
+#: c:\WP-Client/addons/feedback_wizard/feedback_wizard_type_edit.php:167
+#: c:\WP-Client/addons/feedback_wizard/feedback_wizard_type_edit.php:177
+#: c:\WP-Client/addons/feedback_wizard/feedback_wizard_type_edit.php:233
+msgid "Option"
+msgstr "Opción"
+
+#: c:\WP-Client/addons/feedback_wizard/feedback_wizard_type_edit.php:170
+#: c:\WP-Client/addons/feedback_wizard/feedback_wizard_type_edit.php:180
+#: c:\WP-Client/addons/feedback_wizard/feedback_wizard_type_edit.php:236
+msgid "Default Value"
+msgstr "Valor por Defecto"
+
+#: c:\WP-Client/addons/feedback_wizard/feedback_wizard_type_edit.php:186
+msgid "Add another option"
+msgstr "Añadir otra opción"
+
+#: c:\WP-Client/addons/feedback_wizard/feedback_wizard_type_edit.php:194
+msgid "Save Feedback Type"
+msgstr "Guardar Tipo de Comentario"
+
+#: c:\WP-Client/addons/feedback_wizard/feedback_wizard_view_result.php:45
+msgid "Result For:"
+msgstr "Resultado Para:"
+
+#: c:\WP-Client/forms/addclient.php:12
+#: c:\WP-Client/forms/client_registration_form.php:19
+#: c:\WP-Client/forms/editclient.php:10
+msgid "A Contact Name is required.<br/>"
+msgstr "Se requiere un Nombre de Contacto. <br />"
+
+#: c:\WP-Client/forms/addclient.php:15
+#: c:\WP-Client/forms/clients_staff_edit.php:15
+#: c:\WP-Client/forms/client_registration_form.php:22
+msgid "A username is required.<br/>"
+msgstr "Se requiere un nombre de usuario. <br />"
+
+#: c:\WP-Client/forms/addclient.php:18
+#: c:\WP-Client/forms/clients_staff_edit.php:20
+#: c:\WP-Client/forms/client_registration_form.php:25
+msgid "Sorry, that username already exists!<br/>"
+msgstr "¡Lo sentimos, ese nombre de usuario ya existe!<br />"
+
+#: c:\WP-Client/forms/addclient.php:21
+#: c:\WP-Client/forms/client_registration_form.php:28
+msgid "Sorry, that email address is already used!<br/>"
+msgstr "¡Lo sentimos, esa dirección de email ya está en uso!<br />"
+
+#: c:\WP-Client/forms/addclient.php:25
+#: c:\WP-Client/forms/clients_staff_edit.php:35
+#: c:\WP-Client/forms/client_registration_form.php:32
+#: c:\WP-Client/forms/editclient.php:21
+msgid "Sorry, password is required.<br/>"
+msgstr "¡Lo sentimos, se requiere contraseña.<br />"
+
+#: c:\WP-Client/forms/addclient.php:27
+#: c:\WP-Client/forms/clients_staff_edit.php:37
+#: c:\WP-Client/forms/client_registration_form.php:34
+#: c:\WP-Client/forms/editclient.php:23
+msgid "Sorry, confirm password is required.<br/>"
+msgstr "Lo sentimos, se requiere confirmar la contraseña.<br />"
+
+#: c:\WP-Client/forms/addclient.php:29
+#: c:\WP-Client/forms/clients_staff_edit.php:39
+#: c:\WP-Client/forms/client_registration_form.php:36
+#: c:\WP-Client/forms/editclient.php:25
+msgid "Sorry, Passwords are not matched! .<br/>"
+msgstr "¡Lo sentimos, las Contraseñas no coinciden!<br />"
+
+#: c:\WP-Client/forms/addclient.php:110
+#: c:\WP-Client/forms/client_registration_form.php:107
+msgid "Business or Client Name"
+msgstr "Empresa o Nombre de Cliente"
+
+#: c:\WP-Client/forms/addclient.php:116 c:\WP-Client/forms/clients.php:313
+#: c:\WP-Client/forms/clients.php:333
+#: c:\WP-Client/forms/clients_approve.php:163
+#: c:\WP-Client/forms/clients_approve.php:173
+#: c:\WP-Client/forms/client_registration_form.php:113
+#: c:\WP-Client/forms/editclient.php:113
+msgid "Contact Name"
+msgstr "Nombre de Contacto"
+
+#: c:\WP-Client/forms/addclient.php:122 c:\WP-Client/forms/clients.php:317
+#: c:\WP-Client/forms/clients.php:337
+#: c:\WP-Client/forms/clients_approve.php:165
+#: c:\WP-Client/forms/clients_approve.php:175
+#: c:\WP-Client/forms/clients_staff.php:98
+#: c:\WP-Client/forms/clients_staff.php:108
+#: c:\WP-Client/forms/clients_staff_approve.php:129
+#: c:\WP-Client/forms/clients_staff_approve.php:139
+#: c:\WP-Client/forms/client_registration_form.php:119
+#: c:\WP-Client/forms/editclient.php:119
+msgid "Email"
+msgstr "Email"
+
+#: c:\WP-Client/forms/addclient.php:128
+#: c:\WP-Client/forms/client_registration_form.php:125
+#: c:\WP-Client/forms/editclient.php:125
+msgid "Phone"
+msgstr "Teléfono"
+
+#: c:\WP-Client/forms/addclient.php:144 c:\WP-Client/forms/editclient.php:141
+msgid "Admin Manager"
+msgstr "Gerente de Administración"
+
+#: c:\WP-Client/forms/addclient.php:146
+#: c:\WP-Client/forms/clients_approve.php:239
+#: c:\WP-Client/forms/editclient.php:143
+msgid "None"
+msgstr "Ninguno"
+
+#: c:\WP-Client/forms/addclient.php:194
+#: c:\WP-Client/forms/clients_staff_edit.php:243
+#: c:\WP-Client/forms/client_registration_form.php:141
+#: c:\WP-Client/forms/editclient.php:167
+msgid "Password"
+msgstr "Contraseña"
+
+#: c:\WP-Client/forms/addclient.php:200
+#: c:\WP-Client/forms/client_registration_form.php:147
+#: c:\WP-Client/forms/editclient.php:173
+msgid "Confirm Password"
+msgstr "Confirmar Contraseña"
+
+#: c:\WP-Client/forms/addclient.php:206
+#: c:\WP-Client/forms/clients_staff_edit.php:250
+#: c:\WP-Client/forms/client_registration_form.php:153
+msgid "Strength indicator"
+msgstr "Fortaleza de la contraseña"
+
+#: c:\WP-Client/forms/addclient.php:207
+#: c:\WP-Client/forms/client_registration_form.php:154
+msgid ""
+"Hint: The password should be at least seven characters long. To make it "
+"stronger, use upper and lower case letters, numbers and symbols like ! \" ? "
+"$ % ^ & )."
+msgstr ""
+"Consejo: La contraseña debería tener al menos siete caracteres de longitud. "
+"Para hacerla más fuerte, utilice mayúsculas y minúsculas, números y símbolos "
+"como ! \" ? $ % ^ & )."
+
+#: c:\WP-Client/forms/addclient.php:212
+#: c:\WP-Client/forms/clients_staff_edit.php:226
+msgid "Send this password to the new user by email."
+msgstr "Enviar contraseña al nuevo usuario por email."
+
+#: c:\WP-Client/forms/addclient.php:219 c:\WP-Client/forms/editclient.php:181
+msgid "Reset Form"
+msgstr "Resetear Formulario"
+
+#: c:\WP-Client/forms/addclient.php:240
+#: c:\WP-Client/forms/client_registration_form.php:186
+#: c:\WP-Client/forms/editclient.php:204
+msgid "Business Name required."
+msgstr "Se requiere Nombre de Empresa."
+
+#: c:\WP-Client/forms/addclient.php:244
+#: c:\WP-Client/forms/client_registration_form.php:190
+#: c:\WP-Client/forms/editclient.php:208
+msgid "Contact Name required."
+msgstr "Se requiere Nombre de Contacto."
+
+#: c:\WP-Client/forms/addclient.php:248
+#: c:\WP-Client/forms/client_registration_form.php:194
+msgid "Contact Email required."
+msgstr "Se requiere Email de Contacto."
+
+#: c:\WP-Client/forms/addclient.php:250
+#: c:\WP-Client/forms/client_registration_form.php:196
+msgid "Invalid Contact Email."
+msgstr "Email de Contacto no válido."
+
+#: c:\WP-Client/forms/addclient.php:254
+#: c:\WP-Client/forms/clients_staff_edit.php:323
+#: c:\WP-Client/forms/client_registration_form.php:200
+#: c:\WP-Client/forms/editclient.php:219
+msgid "Password required."
+msgstr "Se requiere Contraseña."
+
+#: c:\WP-Client/forms/addclient.php:256
+#: c:\WP-Client/forms/clients_staff_edit.php:325
+#: c:\WP-Client/forms/client_registration_form.php:202
+#: c:\WP-Client/forms/editclient.php:221
+msgid "Confirm Password required."
+msgstr "Se requiere Confirmar la Contraseña."
+
+#: c:\WP-Client/forms/addclient.php:258
+#: c:\WP-Client/forms/clients_staff_edit.php:327
+#: c:\WP-Client/forms/client_registration_form.php:204
+#: c:\WP-Client/forms/editclient.php:223
+msgid "Passwords are not matched."
+msgstr "Las Contraseñas no coinciden."
+
+#: c:\WP-Client/forms/addclient.php:276
+#: c:\WP-Client/forms/clients_staff_edit.php:347
+#: c:\WP-Client/forms/client_registration_form.php:222
+msgid "Strength Indicator"
+msgstr "Fortaleza de la Contraseña"
+
+#: c:\WP-Client/forms/addclient.php:277
+#: c:\WP-Client/forms/clients_staff_edit.php:348
+#: c:\WP-Client/forms/client_registration_form.php:223
+msgid "Too Short"
+msgstr "Demasiado Corta"
+
+#: c:\WP-Client/forms/addclient.php:278
+#: c:\WP-Client/forms/clients_staff_edit.php:349
+#: c:\WP-Client/forms/client_registration_form.php:224
+msgid "Bad Password"
+msgstr "Contraseña Mala"
+
+#: c:\WP-Client/forms/addclient.php:279
+#: c:\WP-Client/forms/clients_staff_edit.php:350
+#: c:\WP-Client/forms/client_registration_form.php:225
+msgid "Good Password"
+msgstr "Contraseña Buena"
+
+#: c:\WP-Client/forms/addclient.php:280
+#: c:\WP-Client/forms/clients_staff_edit.php:351
+#: c:\WP-Client/forms/client_registration_form.php:226
+msgid "Strong Password"
+msgstr "Contraseña Fuerte"
+
+#: c:\WP-Client/forms/addclient.php:281
+#: c:\WP-Client/forms/clients_staff_edit.php:352
+#: c:\WP-Client/forms/client_registration_form.php:227
+msgid "Password Mismatch"
+msgstr "La Contraseña no coincide"
+
+#: c:\WP-Client/forms/addclientpage.php:89
+msgid "You must enter Client Page Title.<br/>"
+msgstr "Debe introducir el Título de la Página de Cliente.<br />"
+
+#: c:\WP-Client/forms/addclientpage.php:112
+msgid "Client Page is added."
+msgstr "Se ha añadido la Página de Clinete."
+
+#: c:\WP-Client/forms/addclientpage.php:129
+msgid "Client Page Title"
+msgstr "Título de Página de Cliente"
+
+#: c:\WP-Client/forms/addclientpage.php:133
+msgid "Page Content"
+msgstr "Contenido de Página"
+
+#: c:\WP-Client/forms/addclientpage.php:135
+msgid "Default Client Page Template"
+msgstr "Plantilla por defecto de Página de Cliente"
+
+#: c:\WP-Client/forms/addclientpage.php:158
+msgid "No found any page templates"
+msgstr "No se han encontrado plantillas de página"
+
+#: c:\WP-Client/forms/addclientpage.php:166
+msgid "Select Clients who will have permissions for this Client Page"
+msgstr ""
+"Seleccione los Clientes que tendrán permiso para esta Página de Cliente"
+
+#: c:\WP-Client/forms/addclientpage.php:167
+#: c:\WP-Client/forms/addclientpage.php:214
+msgid ""
+"This can be changed later in the editing interface for the appropriate "
+"Client Page"
+msgstr ""
+"Esto puede cambiarse más adelante en la interfaz de edición de la "
+"correspondiente página de Cliente"
+
+#: c:\WP-Client/forms/addclientpage.php:213
+msgid "Select Groups who will have permissions for this Client Page"
+msgstr "Seleccione los Grupos que tendrán permiso para esta Página de Cliente"
+
+#: c:\WP-Client/forms/addclientpage.php:242
+msgid "Create New Client Page"
+msgstr "Crear Nueva Página de Cliente"
+
+#: c:\WP-Client/forms/clients.php:230
+msgid "Please select a valid csv file to import."
+msgstr "Por favor seleccione un archivo csv válido para importar."
+
+#: c:\WP-Client/forms/clients.php:246
+#: c:\WP-Client/forms/clients_approve.php:21
+msgid "Client <strong>Added</strong> Successfully."
+msgstr "Cliente <strong>Añadido</strong> Correctamente."
+
+#: c:\WP-Client/forms/clients.php:249
+msgid "Client <strong>Updated</strong> Successfully."
+msgstr "Cliente <strong>Actualizado</strong> Correctamente."
+
+#: c:\WP-Client/forms/clients.php:252
+#: c:\WP-Client/forms/clients_approve.php:24
+msgid "Client <strong>Deleted</strong> Successfully."
+msgstr "Cliente <strong>Eliminado</strong> Correctamente."
+
+#: c:\WP-Client/forms/clients.php:278
+msgid "Import Clients from CSV File:"
+msgstr "Importar Clientes desde Archivo CSV:"
+
+#: c:\WP-Client/forms/clients.php:293
+msgid "Search Customer"
+msgstr "Buscar Cliente"
+
+#: c:\WP-Client/forms/clients.php:295
+msgid "Search"
+msgstr "Buscar"
+
+#: c:\WP-Client/forms/clients.php:314 c:\WP-Client/forms/clients.php:334
+#: c:\WP-Client/forms/clients_approve.php:164
+#: c:\WP-Client/forms/clients_approve.php:174
+#: c:\WP-Client/forms/editclient.php:107
+msgid "Business Name"
+msgstr "Nombre de Empresa"
+
+#: c:\WP-Client/forms/clients.php:321 c:\WP-Client/forms/clients.php:341
+#: c:\WP-Client/forms/clients_approve.php:166
+#: c:\WP-Client/forms/clients_approve.php:176
+#: c:\WP-Client/forms/clients_staff.php:100
+#: c:\WP-Client/forms/clients_staff.php:110
+#: c:\WP-Client/forms/clients_staff_approve.php:131
+#: c:\WP-Client/forms/clients_staff_approve.php:141
+msgid "Action"
+msgstr "Acción"
+
+#: c:\WP-Client/forms/clients.php:357 c:\WP-Client/forms/files.php:116
+#: c:\WP-Client/forms/files.php:125 c:\WP-Client/forms/files_cat.php:152
+#: c:\WP-Client/forms/files_cat.php:197
+msgid "Files"
+msgstr "Archivos"
+
+#: c:\WP-Client/forms/clients.php:361
+msgid "Are you sure to delete this Client? "
+msgstr "¿Está seguro de eliminar este Cliente?"
+
+#: c:\WP-Client/forms/clients.php:366
+msgid "Not Found Clients"
+msgstr "No se han encontrado Clientes"
+
+#: c:\WP-Client/forms/clients.php:366
+msgid "No Clients"
+msgstr "No hay Clientes"
+
+#: c:\WP-Client/forms/clients_approve.php:101
+#: c:\WP-Client/forms/clients_staff_approve.php:86
+msgid "Approve the Client"
+msgstr "Aprobar el Cliente"
+
+#: c:\WP-Client/forms/clients_approve.php:202
+#: c:\WP-Client/forms/clients_staff_approve.php:173
+msgid "Are you sure to delete this Client?"
+msgstr "¿Está seguro de eliminar este Cliente?"
+
+#: c:\WP-Client/forms/clients_approve.php:237
+msgid "Set Admin Manager"
+msgstr "Establecer Gerente de Administración"
+
+#: c:\WP-Client/forms/clients_approve.php:254
+msgid "Assign to Groups"
+msgstr "Asignar a Grupos"
+
+#: c:\WP-Client/forms/clients_approve.php:257
+msgid "Select all."
+msgstr "Seleccionar todo."
+
+#: c:\WP-Client/forms/clients_custom_fields.php:89
+msgid "Custom Field <strong>Added</strong> Successfully."
+msgstr "Campo Personalizado <strong>Añadido</strong> Correctamente."
+
+#: c:\WP-Client/forms/clients_custom_fields.php:92
+msgid "Custom Field <strong>Updated</strong> Successfully."
+msgstr "Campo Personalizado <strong>Actualizado</strong> Correctamente."
+
+#: c:\WP-Client/forms/clients_custom_fields.php:95
+msgid "Custom Field <strong>Deleted</strong> Successfully."
+msgstr "Campo Personalizado <strong>Eliminado</strong> Correctamente."
+
+#: c:\WP-Client/forms/clients_custom_fields.php:112
+msgid "Add New Custom Field"
+msgstr "Añadir Nuevo Campo Personalizado"
+
+#: c:\WP-Client/forms/clients_custom_fields.php:124
+msgid "Field Name (ID)"
+msgstr "Nombre de Campo (ID)"
+
+#: c:\WP-Client/forms/clients_custom_fields.php:125
+msgid "Title"
+msgstr "Título"
+
+#: c:\WP-Client/forms/clients_custom_fields.php:128
+msgid "Display"
+msgstr "Mostrar"
+
+#: c:\WP-Client/forms/clients_custom_fields.php:159
+#: c:\WP-Client/forms/clients_custom_field_edit.php:209
+msgid "Text Box"
+msgstr "Caja de Texto"
+
+#: c:\WP-Client/forms/clients_custom_fields.php:162
+#: c:\WP-Client/forms/clients_custom_field_edit.php:210
+msgid "Multi-line Text Box"
+msgstr "Caja de Texto Multi-línea"
+
+#: c:\WP-Client/forms/clients_custom_fields.php:174
+#: c:\WP-Client/forms/clients_custom_field_edit.php:214
+msgid "Multi Select Box"
+msgstr "Caja de Selección Múltiple"
+
+#: c:\WP-Client/forms/clients_custom_fields.php:192
+#: c:\WP-Client/forms/files_cat.php:266
+msgid "Drag&Drop for change category order."
+msgstr "Arrastrar&Soltar para cambiar el orden de categoría."
+
+#: c:\WP-Client/forms/clients_custom_fields.php:199
+msgid "No Custom Fields have been created"
+msgstr "No se han creado Campos personalizados"
+
+#: c:\WP-Client/forms/clients_custom_field_edit.php:16
+msgid "A Custom Field Name is required.<br/>"
+msgstr "Se requiere un Nombre de Campo Personalizado.<br />"
+
+#: c:\WP-Client/forms/clients_custom_field_edit.php:22
+#, php-format
+msgid "A Custom Field with this name \"%s\" already exist already.<br/>"
+msgstr "Un Campo Personalizado con este nombre \"%s\" ya existe.<br/>"
+
+#: c:\WP-Client/forms/clients_custom_field_edit.php:28
+msgid "A Custom Field Type is required.<br/>"
+msgstr "Se requiere un Tipo de Campo Personalizado.<br />"
+
+#: c:\WP-Client/forms/clients_custom_field_edit.php:68
+msgid "Add Custom Field"
+msgstr "Añadir Campo Personalizado"
+
+#: c:\WP-Client/forms/clients_custom_field_edit.php:70
+msgid "Update Custom Field"
+msgstr "Actualizar Campo Personalizado"
+
+#: c:\WP-Client/forms/clients_custom_field_edit.php:169
+msgid "Field Name"
+msgstr "Nombre de Campo"
+
+#: c:\WP-Client/forms/clients_custom_field_edit.php:179
+msgid ""
+"The name used to identify the custom field. Should consist only of these "
+"characters \"a-z\" and the underscore symbol \"_\" <br> - (not displayed on "
+"the form)."
+msgstr ""
+"El nombre utilizado para identificar el campo personalizado. Debería "
+"consistir sólamente de estos caracteres \"a-z\" y el símbolo de subrayado \"_"
+"\" <br /> - (no se mostrará en el formulario)."
+
+#: c:\WP-Client/forms/clients_custom_field_edit.php:185
+msgid "Field Title"
+msgstr "Título de Campo"
+
+#: c:\WP-Client/forms/clients_custom_field_edit.php:190
+msgid "The title of the custom field (displayed on the form)."
+msgstr "El título del campo personalizado (mostrado en el formulario)."
+
+#: c:\WP-Client/forms/clients_custom_field_edit.php:195
+msgid "Field Description"
+msgstr "Descripción del Campo"
+
+#: c:\WP-Client/forms/clients_custom_field_edit.php:200
+msgid "Description for the custom field (displayed on the form)."
+msgstr "Descripción del campo personalizado (mostrado en el formulario)."
+
+#: c:\WP-Client/forms/clients_custom_field_edit.php:205
+msgid "Field Type"
+msgstr "Tipo de Campo"
+
+#: c:\WP-Client/forms/clients_custom_field_edit.php:217
+msgid "Select type of the custom field."
+msgstr "Seleccione el tipo de campo personalizado."
+
+#: c:\WP-Client/forms/clients_custom_field_edit.php:220
+msgid "Fill in the options for this field"
+msgstr "Rellene las opciones para este campo"
+
+#: c:\WP-Client/forms/clients_custom_field_edit.php:257
+msgid "Display Field on Client Form"
+msgstr "Mostrar Campo en el Formulario de Cliente"
+
+#: c:\WP-Client/forms/clients_custom_field_edit.php:266
+msgid "Save Custom Field"
+msgstr "Guardar Campo personalizado"
+
+#: c:\WP-Client/forms/clients_staff.php:74
+msgid "Employee <strong>Updated</strong> Successfully."
+msgstr "Empleado <strong>Actualizado</strong> Correctamente."
+
+#: c:\WP-Client/forms/clients_staff.php:96
+#: c:\WP-Client/forms/clients_staff.php:106
+#: c:\WP-Client/forms/clients_staff_approve.php:127
+msgid "Employee"
+msgstr "Empleado"
+
+#: c:\WP-Client/forms/clients_staff.php:97
+#: c:\WP-Client/forms/clients_staff.php:107
+#: c:\WP-Client/forms/clients_staff_approve.php:128
+#: c:\WP-Client/forms/clients_staff_approve.php:138
+#: c:\WP-Client/forms/clients_staff_edit.php:206
+msgid "First Name"
+msgstr "Nombre"
+
+#: c:\WP-Client/forms/clients_staff.php:99
+#: c:\WP-Client/forms/clients_staff.php:109
+#: c:\WP-Client/forms/clients_staff_approve.php:130
+#: c:\WP-Client/forms/clients_staff_approve.php:140
+msgid "Assigned to Client"
+msgstr "Asignado al Cliente"
+
+#: c:\WP-Client/forms/clients_staff.php:135
+msgid "Are you sure to delete this Employee?"
+msgstr "¿Está seguro de eliminar este Empleado?"
+
+#: c:\WP-Client/forms/clients_staff_approve.php:21
+msgid "Employee is approved."
+msgstr "El Empleado ha sido aprobado."
+
+#: c:\WP-Client/forms/clients_staff_approve.php:24
+msgid "Employee is Deleted."
+msgstr "El Empleado ha sido eliminado."
+
+#: c:\WP-Client/forms/clients_staff_edit.php:28
+#: c:\WP-Client/forms/editclient.php:15
+msgid "Email address already uses.<br/>"
+msgstr "Dirección de Email ya en uso.<br />"
+
+#: c:\WP-Client/forms/clients_staff_edit.php:126
+msgid "Add new Employee"
+msgstr "Añadir nuevo Empleado"
+
+#: c:\WP-Client/forms/clients_staff_edit.php:128
+msgid "Update Employee"
+msgstr "Actualizar Empleado"
+
+#: c:\WP-Client/forms/clients_staff_edit.php:186
+msgid "Employee Login"
+msgstr "Conexión de Empleado"
+
+#: c:\WP-Client/forms/clients_staff_edit.php:198
+msgid "E-mail"
+msgstr "E-mail"
+
+#: c:\WP-Client/forms/clients_staff_edit.php:214
+msgid "Last Name"
+msgstr "Apellido"
+
+#: c:\WP-Client/forms/clients_staff_edit.php:223
+#: c:\WP-Client/forms/client_registration_form.php:159
+msgid "Send Password?"
+msgstr "¿Enviar Contraseña?"
+
+#: c:\WP-Client/forms/clients_staff_edit.php:232
+msgid "Update Password?"
+msgstr "¿Actualizar Contraseña?"
+
+#: c:\WP-Client/forms/clients_staff_edit.php:235
+msgid "Checking this box will change the password."
+msgstr "Al marcar esta casilla se cambiará la contraseña."
+
+#: c:\WP-Client/forms/clients_staff_edit.php:243
+msgid "(twice, required)"
+msgstr "(dos veces, requerido)"
+
+#: c:\WP-Client/forms/clients_staff_edit.php:251
+msgid ""
+"Hint: The password should be at least seven characters long. To make it "
+"stronger, use upper and lower case letters, numbers and symbols like ! \" ? "
+"$ % ^ &amp; )."
+msgstr ""
+"Consejo: La contraseña debería tener al menos siete caracteres de longitud. "
+"Para hacerla más fuerte, utilice mayúsculas y minúsculas, números y símbolos "
+"como ! \" ? $ % ^ & )."
+
+#: c:\WP-Client/forms/clients_staff_edit.php:258
+msgid "Assign to Client:"
+msgstr "Asignar al Cliente:"
+
+#: c:\WP-Client/forms/clients_staff_edit.php:311
+msgid "A username is required."
+msgstr "Se requiere nombre de usuario."
+
+#: c:\WP-Client/forms/clients_staff_edit.php:315
+#: c:\WP-Client/forms/editclient.php:212
+msgid "Email required."
+msgstr "Se requiere Email."
+
+#: c:\WP-Client/forms/clients_staff_edit.php:317
+#: c:\WP-Client/forms/editclient.php:214
+msgid "Invalid Email."
+msgstr "Email No válido."
+
+#: c:\WP-Client/forms/client_registration_form.php:7
+msgid "Registration is disabled!"
+msgstr "¡El registro ha sido desactivado!"
+
+#: c:\WP-Client/forms/client_registration_form.php:161
+msgid "Send this password to email."
+msgstr "Enviar esta contraseña al email."
+
+#: c:\WP-Client/forms/client_registration_form.php:166
+msgid "Registration"
+msgstr "Registro"
+
+#: c:\WP-Client/forms/editclient.php:161
+msgid "Update Password? Checking this box will change the password"
+msgstr "¿Actualizar Contraseña? Marcar esta casilla cambiará la contraseña"
+
+#: c:\WP-Client/forms/editclient.php:179
+msgid "Update Client"
+msgstr "Actualizar Cliente"
+
+#: c:\WP-Client/forms/edit_clientpage.php:6
+msgid "Sorry, you do not have permission to see this page."
+msgstr "Lo sentimos, no tiene permiso para ver esta página."
+
+#: c:\WP-Client/forms/edit_clientpage.php:10
+msgid "Sorry, you do not have permission to see this page!"
+msgstr "¡Lo sentimos, no tiene permiso para ver esta página!"
+
+#: c:\WP-Client/forms/files.php:117 c:\WP-Client/forms/files_cat.php:153
+#: c:\WP-Client/forms/files_cat.php:161
+msgid "File Categories"
+msgstr "Categorías de Archivo"
+
+#: c:\WP-Client/forms/files.php:125 c:\WP-Client/forms/files_cat.php:161
+msgid "Add New"
+msgstr "Añadir Nuevo"
+
+#: c:\WP-Client/forms/files.php:136
+msgid "Upload File(s)"
+msgstr "Subir Archivo(s)"
+
+#: c:\WP-Client/forms/files.php:141 c:\WP-Client/forms/files.php:323
+#: c:\WP-Client/forms/files.php:425 c:\WP-Client/forms/files.php:747
+msgid "Category"
+msgstr "Categoría"
+
+#: c:\WP-Client/forms/files.php:161 c:\WP-Client/forms/files.php:343
+#: c:\WP-Client/forms/files.php:444 c:\WP-Client/forms/files_cat.php:167
+#: c:\WP-Client/forms/files_cat.php:174
+msgid "New Category"
+msgstr "Nueva Categoría"
+
+#: c:\WP-Client/forms/files.php:171 c:\WP-Client/forms/files.php:353
+#: c:\WP-Client/forms/files.php:454
+msgid "Client(s)"
+msgstr "Cliente(s)"
+
+#: c:\WP-Client/forms/files.php:174 c:\WP-Client/forms/files.php:356
+#: c:\WP-Client/forms/files.php:457
+msgid "Assign To Client(s)"
+msgstr "Asignar a Cliente(s)"
+
+#: c:\WP-Client/forms/files.php:180 c:\WP-Client/forms/files.php:362
+#: c:\WP-Client/forms/files.php:463
+msgid "Group(s)"
+msgstr "Grupo(s)"
+
+#: c:\WP-Client/forms/files.php:183 c:\WP-Client/forms/files.php:365
+#: c:\WP-Client/forms/files.php:466
+msgid "Assign To Group(s)"
+msgstr "Asignar a Grupo(s)"
+
+#: c:\WP-Client/forms/files.php:191 c:\WP-Client/forms/files.php:373
+#: c:\WP-Client/forms/files.php:474
+msgid "Send notify to assigned Clients and his Staff"
+msgstr "Enviar notificación a los Clientes asignados y su Personal"
+
+#: c:\WP-Client/forms/files.php:198
+msgid "File(s)"
+msgstr "Archivo(s)"
+
+#: c:\WP-Client/forms/files.php:310 c:\WP-Client/forms/files.php:379
+msgid "Upload File"
+msgstr "Subir Archivo"
+
+#: c:\WP-Client/forms/files.php:315
+msgid "File"
+msgstr "Archivo"
+
+#: c:\WP-Client/forms/files.php:387
+msgid "Please select file to upload."
+msgstr "Por favor seleccione un archivo para subir."
+
+#: c:\WP-Client/forms/files.php:403
+msgid "Add an external file | From onsite or offsite server location"
+msgstr ""
+"Añadir archivo externo | Desde el sitio o ubicación de servidor externa"
+
+#: c:\WP-Client/forms/files.php:407 c:\WP-Client/forms/files.php:708
+#: c:\WP-Client/forms/files.php:735
+msgid "File Name"
+msgstr "Nombre de Archivo"
+
+#: c:\WP-Client/forms/files.php:411
+msgid "ex. file.zip"
+msgstr "ej. file.zip"
+
+#: c:\WP-Client/forms/files.php:416
+msgid "File URL"
+msgstr "URL de Archivo"
+
+#: c:\WP-Client/forms/files.php:420
+msgid "ex. http://www.site.com/file.zip"
+msgstr "ej. http://www.site.com/file.zip"
+
+#: c:\WP-Client/forms/files.php:480
+msgid "Add External File"
+msgstr "Añadir Archivo Externo"
+
+#: c:\WP-Client/forms/files.php:487
+msgid "Assign Client(s) To New File:"
+msgstr "Asignar Cliente(s) al Nuevo Archivo:"
+
+#: c:\WP-Client/forms/files.php:547
+msgid "No Clients For Assign."
+msgstr "No hay Clientes para Asignar."
+
+#: c:\WP-Client/forms/files.php:557 c:\WP-Client/forms/files.php:614
+msgid "Ok"
+msgstr "Ok"
+
+#: c:\WP-Client/forms/files.php:566
+msgid "Assign Group(s) To New File:"
+msgstr "Asignar Grupo(s) al Nuevo Archivo:"
+
+#: c:\WP-Client/forms/files.php:604
+msgid "No Groups For Assign."
+msgstr "No hay Grupos para Asignar"
+
+#: c:\WP-Client/forms/files.php:636
+msgid "All"
+msgstr "Todos"
+
+#: c:\WP-Client/forms/files.php:637
+msgid "Admin files"
+msgstr "Archivos de administrador"
+
+#: c:\WP-Client/forms/files.php:638
+msgid "Files for Admin"
+msgstr "Archivos para Administrador"
+
+#: c:\WP-Client/forms/files.php:646 c:\WP-Client/forms/files.php:648
+msgid "Search Media"
+msgstr "Búsqueda Multimedia"
+
+#: c:\WP-Client/forms/files.php:655
+msgid "Select Author"
+msgstr "Seleccionar Autor"
+
+#: c:\WP-Client/forms/files.php:671 c:\WP-Client/forms/files.php:925
+msgid "Reassign Category"
+msgstr "Reasignar Categoría"
+
+#: c:\WP-Client/forms/files.php:711 c:\WP-Client/forms/files.php:738
+msgid "Author"
+msgstr "Autor"
+
+#: c:\WP-Client/forms/files.php:720
+msgid "Categories"
+msgstr "Categorías"
+
+#: c:\WP-Client/forms/files.php:783 c:\WP-Client/forms/files.php:785
+msgid "Download"
+msgstr "Descargar"
+
+#: c:\WP-Client/forms/files.php:812
+msgid "Those Clients have access to file"
+msgstr "Aquellos Clientes que tienen acceso al archivo"
+
+#: c:\WP-Client/forms/files.php:873
+msgid "Those Groups have access to file"
+msgstr "Aquellos Grupos que tienen acceso al archivo"
+
+#: c:\WP-Client/forms/files.php:1166
+msgid "Assign Clients to the file"
+msgstr "Asignar Clientes al archivo"
+
+#: c:\WP-Client/forms/files.php:1197
+msgid "Assign Groups to the file"
+msgstr "Asignar Grupos al Archivo"
+
+#: c:\WP-Client/forms/files_cat.php:181
+msgid "Create Category"
+msgstr "Crear Categoría"
+
+#: c:\WP-Client/forms/files_cat.php:196
+msgid "Category Name"
+msgstr "Nombre de Categoría"
+
+#: c:\WP-Client/forms/files_cat.php:233
+msgid "Category have files. What do with files"
+msgstr "La Categoría tiene archivos. Qué hacer con los archivos"
+
+#: c:\WP-Client/forms/files_cat.php:243
+msgid "Reassign Files"
+msgstr "Reasignar Archivos"
+
+#: c:\WP-Client/forms/files_cat.php:245
+msgid "Delete Files"
+msgstr "Eliminar Archivos"
+
+#: c:\WP-Client/forms/files_cat.php:257
+msgid "No File Categories"
+msgstr "No hay Categorías de Archivo"
+
+#: c:\WP-Client/forms/files_cat.php:271
+msgid "Reassign Files Category"
+msgstr "Reasignar Categoría de Archivos"
+
+#: c:\WP-Client/forms/files_cat.php:277
+msgid "Category From"
+msgstr "De la Categoría"
+
+#: c:\WP-Client/forms/files_cat.php:287
+msgid "Category To"
+msgstr "A la Categoría"
+
+#: c:\WP-Client/forms/files_cat.php:297
+msgid "Reassign"
+msgstr "Reasignar"
+
+#: c:\WP-Client/forms/groups.php:181
+msgid "Create New Group"
+msgstr "Crear Nuevo Grupo"
+
+#: c:\WP-Client/forms/groups.php:191
+msgid "Group Name"
+msgstr "Nombre de Grupo"
+
+#: c:\WP-Client/forms/groups.php:198
+msgid "Auto-Select this group on the Add Client page"
+msgstr "Auto-Seleccionar este grupo en la página de Añadir Cliente"
+
+#: c:\WP-Client/forms/groups.php:205
+msgid "Assign all existing Clients"
+msgstr "Asignar todos los Clientes existentes"
+
+#: c:\WP-Client/forms/groups.php:211
+msgid "Add Group"
+msgstr "Añadir Grupo"
+
+#: c:\WP-Client/forms/groups.php:220
+msgid "List of Groups"
+msgstr "Listado de Grupos"
+
+#: c:\WP-Client/forms/groups.php:227
+msgid "Group Na"
+msgstr "Grupo Na"
+
+#: c:\WP-Client/forms/groups.php:228
+msgid "Auto-Select"
+msgstr "Auto-Seleccionar"
+
+#: c:\WP-Client/forms/groups.php:268
+msgid "Those Clients have access to group"
+msgstr "Aquellos Clientes que tienen acceso al grupo"
+
+#: c:\WP-Client/forms/groups.php:300
+msgid "Assign Clients"
+msgstr "Asignar Clientes"
+
+#: c:\WP-Client/forms/groups.php:318
+msgid "Assign Clients to the group"
+msgstr "Asignar Clientes al grupo"
+
+#: c:\WP-Client/forms/groups.php:325
+msgid "Select all Clients.  "
+msgstr "Seleccionar todos los Clientes."
+
+#: c:\WP-Client/forms/login_form.php:14
+msgid "Remember Me"
+msgstr "Recordarme"
+
+#: c:\WP-Client/forms/logout.php:4
+msgid "LOGOUT"
+msgstr "DESCONECTAR"
+
+#: c:\WP-Client/forms/managers.php:75
+msgid "Manager <strong>Added</strong> Successfully."
+msgstr "Gerente <strong>Añadido</strong> Correctamente."
+
+#: c:\WP-Client/forms/managers.php:78
+msgid "Manager <strong>Updated</strong> Successfully."
+msgstr "Gerente <strong>Actualizado</strong> Correctamente."
+
+#: c:\WP-Client/forms/managers.php:81
+msgid "Manager <strong>Deleted</strong> Successfully."
+msgstr "Gerente <strong>Eliminado</strong> Correctamente."
+
+#: c:\WP-Client/forms/managers.php:92 c:\WP-Client/forms/manager_edit.php:196
+msgid "Add Manager"
+msgstr "Añadir Gerente"
+
+#: c:\WP-Client/forms/managers.php:101 c:\WP-Client/forms/managers.php:109
+msgid "Nickname"
+msgstr "Alias"
+
+#: c:\WP-Client/forms/manager_edit.php:144
+msgid "Add new Manager"
+msgstr "Añadir nuevo Gerente"
+
+#: c:\WP-Client/forms/manager_edit.php:146
+msgid "Update Manager"
+msgstr "Actualizar Gerente"
+
+#: c:\WP-Client/forms/manager_edit.php:288
+msgid "Select all"
+msgstr "Seleccionar todo"
+
+#: c:\WP-Client/forms/messages.php:208
+msgid "Message marked as read."
+msgstr "Mensaje marcado como leído."
+
+#: c:\WP-Client/forms/messages.php:211
+msgid "Message is sent."
+msgstr "El Mensaje se ha enviado."
+
+#: c:\WP-Client/forms/messages.php:214
+msgid "Message is deleted."
+msgstr "El Mensaje se ha eliminado."
+
+#: c:\WP-Client/forms/messages.php:232 c:\WP-Client/forms/messages.php:412
+msgid "Sent message to"
+msgstr "Enviar mensaje a"
+
+#: c:\WP-Client/forms/messages.php:234
+msgid "-Select Client-"
+msgstr "-Seleccione Cliente-"
+
+#: c:\WP-Client/forms/messages.php:243 c:\WP-Client/forms/messages.php:427
+#: c:\WP-Client/forms/messages_client.php:129
+msgid "Type your private message here"
+msgstr "Escriba su mensaje privado aquí"
+
+#: c:\WP-Client/forms/messages.php:248 c:\WP-Client/forms/messages.php:429
+#: c:\WP-Client/forms/messages_client.php:131
+msgid "Send private message"
+msgstr "Enviar mensaje privado"
+
+#: c:\WP-Client/forms/messages.php:282 c:\WP-Client/forms/messages.php:291
+msgid "Message"
+msgstr "Mensaje"
+
+#: c:\WP-Client/forms/messages.php:283 c:\WP-Client/forms/messages.php:292
+msgid "From"
+msgstr "De"
+
+#: c:\WP-Client/forms/messages.php:284 c:\WP-Client/forms/messages.php:293
+msgid "To"
+msgstr "Para"
+
+#: c:\WP-Client/forms/messages.php:285 c:\WP-Client/forms/messages.php:294
+msgid "Time"
+msgstr "Hora"
+
+#: c:\WP-Client/forms/messages.php:308
+msgid "NEW!"
+msgstr "¡NUEVO!"
+
+#: c:\WP-Client/forms/messages.php:314
+msgid "Mark as Read"
+msgstr "Marcar como Leído"
+
+#: c:\WP-Client/forms/messages.php:316
+msgid "Read & Reply"
+msgstr "Leer & Responder"
+
+#: c:\WP-Client/forms/messages.php:326 c:\WP-Client/forms/messages.php:339
+msgid "(deleted user)"
+msgstr "(usuario eliminado)"
+
+#: c:\WP-Client/forms/messages.php:365
+msgid "Chain of Messages"
+msgstr "Cadena de Mensajes"
+
+#: c:\WP-Client/forms/messages.php:397
+msgid "No message."
+msgstr "Ningún mensaje."
+
+#: c:\WP-Client/forms/messages.php:414
+msgid "-Select Client / Staff-"
+msgstr "-Seleccione Cliente / Personal-"
+
+#: c:\WP-Client/forms/messages_client.php:172
+msgid "Show more messages"
+msgstr "Mostrar más mensajes"
+
+#: c:\WP-Client/forms/settings.php:37 c:\WP-Client/forms/templates.php:8
+#: c:\WP-Client/forms/templates.php:13 c:\WP-Client/forms/templates.php:24
+#: c:\WP-Client/forms/templates.php:33
+msgid "Settings updated Successfully."
+msgstr "Ajustes actualizados Correctamente."
+
+#: c:\WP-Client/forms/settings.php:104
+#: c:\WP-Client/forms/settings_addons.php:108
+msgid "Addons"
+msgstr "Añadidos"
+
+#: c:\WP-Client/forms/settings.php:145
+msgid "Email Address"
+msgstr "Dirección de Email"
+
+#: c:\WP-Client/forms/settings.php:154
+msgid "Successful Logins"
+msgstr "Conexiones con Éxito"
+
+#: c:\WP-Client/forms/settings.php:158 c:\WP-Client/forms/settings.php:170
+msgid "Off"
+msgstr "Apagar"
+
+#: c:\WP-Client/forms/settings.php:159 c:\WP-Client/forms/settings.php:171
+msgid "On"
+msgstr "Encender"
+
+#: c:\WP-Client/forms/settings.php:166
+msgid "Failed Logins"
+msgstr "Conexiones Fallidas"
+
+#: c:\WP-Client/forms/settings.php:179 c:\WP-Client/forms/settings.php:221
+#: c:\WP-Client/forms/settings.php:543
+msgid "Update Settings"
+msgstr "Actualizar Ajustes"
+
+#: c:\WP-Client/forms/settings.php:203
+msgid "Change Skins | Changes the color of the default images used in Hub Page"
+msgstr ""
+"Cambiar Skins | Cambia el color de las imágenes utilizadas por defecto en el "
+"Muro de Cliente"
+
+#: c:\WP-Client/forms/settings.php:208
+msgid "Select Skin Style"
+msgstr "Seleccionar Estilo de Skin"
+
+#: c:\WP-Client/forms/settings.php:212
+msgid "Dark"
+msgstr "Oscura"
+
+#: c:\WP-Client/forms/settings.php:213
+msgid "Light"
+msgstr "Clara"
+
+#: c:\WP-Client/forms/settings.php:230
+msgid "Notification Settings"
+msgstr "Ajustes de Notificaciones"
+
+#: c:\WP-Client/forms/settings.php:235
+msgid "Receive email notification of private messages from clients"
+msgstr "Recibir notificación por email de mensajes privados de los clientes"
+
+#: c:\WP-Client/forms/settings.php:239 c:\WP-Client/forms/settings.php:251
+#: c:\WP-Client/forms/settings.php:270 c:\WP-Client/forms/settings.php:282
+#: c:\WP-Client/forms/settings.php:295 c:\WP-Client/forms/settings.php:319
+#: c:\WP-Client/forms/settings.php:339 c:\WP-Client/forms/settings.php:351
+#: c:\WP-Client/forms/settings.php:364 c:\WP-Client/forms/settings.php:377
+#: c:\WP-Client/forms/settings.php:390 c:\WP-Client/forms/settings.php:427
+#: c:\WP-Client/forms/settings.php:516
+msgid "Yes"
+msgstr "Sí"
+
+#: c:\WP-Client/forms/settings.php:240 c:\WP-Client/forms/settings.php:252
+#: c:\WP-Client/forms/settings.php:271 c:\WP-Client/forms/settings.php:283
+#: c:\WP-Client/forms/settings.php:296 c:\WP-Client/forms/settings.php:320
+#: c:\WP-Client/forms/settings.php:340 c:\WP-Client/forms/settings.php:352
+#: c:\WP-Client/forms/settings.php:365 c:\WP-Client/forms/settings.php:378
+#: c:\WP-Client/forms/settings.php:391 c:\WP-Client/forms/settings.php:428
+#: c:\WP-Client/forms/settings.php:517
+msgid "No"
+msgstr "No"
+
+#: c:\WP-Client/forms/settings.php:247
+msgid "Receive email notification of private messages from admin"
+msgstr "Recibir notificación por email de mensajes privados del administrador"
+
+#: c:\WP-Client/forms/settings.php:261
+msgid "Create Client/Staff Settings"
+msgstr "Ajustes de Crear Cliente/Personal"
+
+#: c:\WP-Client/forms/settings.php:266
+msgid "Automatically create client page"
+msgstr "Crear automáticamente la página de cliente"
+
+#: c:\WP-Client/forms/settings.php:278
+msgid "Hide dashboard/backend"
+msgstr "Ocultar escritorio/servidor"
+
+#: c:\WP-Client/forms/settings.php:291
+msgid "Open Client Registration"
+msgstr "Abrir Registro de Cliente"
+
+#: c:\WP-Client/forms/settings.php:298
+msgid ""
+"Allow registration client. All clients require approval from the "
+"Administrator."
+msgstr ""
+"Permitir el registro de cliente. Todos los clientes requieren una aprobación "
+"del Administrador."
+
+#: c:\WP-Client/forms/settings.php:308
+msgid "Automatically approve clients who register using form."
+msgstr ""
+"Aprobar automáticamente los clientes que se registren utilizando el "
+"formulario."
+
+#: c:\WP-Client/forms/settings.php:315
+msgid "Open Staff Registration"
+msgstr "Abrir Registro de Personal"
+
+#: c:\WP-Client/forms/settings.php:322
+msgid ""
+"Allow Client to add staff. All staff requires approval from the "
+"Administrator."
+msgstr ""
+"Permitir al Cliente añadir personal. Todo el personal requiere una "
+"aprobación del Administrador."
+
+#: c:\WP-Client/forms/settings.php:330
+msgid "File Display Settings"
+msgstr "Ajustes de Visualización de Archivo"
+
+#: c:\WP-Client/forms/settings.php:335
+msgid "Show sort"
+msgstr "Mostrar orden"
+
+#: c:\WP-Client/forms/settings.php:347
+msgid "Show File Categories"
+msgstr "Mostrar Categorías de Archivo"
+
+#: c:\WP-Client/forms/settings.php:354
+msgid "Display File Categories on Client HUB page."
+msgstr "Mostrar Categorías de Archivo en el Muro de Cliente"
+
+#: c:\WP-Client/forms/settings.php:360
+msgid "Enable category choice for client file upload"
+msgstr ""
+"Activar la elección de categoría para la subida de archivos del cliente"
+
+#: c:\WP-Client/forms/settings.php:367
+msgid "By default, files will be uploaded in \"General\" category."
+msgstr "Por defecto, los archivos serán subidos en la categoría \"General\"."
+
+#: c:\WP-Client/forms/settings.php:373
+msgid "Use Flash uploader in Admin area"
+msgstr "Utilizar el cargador de archivos Flash en el área de Administración"
+
+#: c:\WP-Client/forms/settings.php:380 c:\WP-Client/forms/settings.php:393
+msgid "with progress bar, multiple files uploading."
+msgstr "con barra de progreso, subida de múltiples archivos."
+
+#: c:\WP-Client/forms/settings.php:386
+msgid "Use Flash uploader in Client area"
+msgstr "Utilizar el cargador de archivos Flash en el área de Cliente"
+
+#: c:\WP-Client/forms/settings.php:399
+msgid "Max File Size For Upload (Kb)"
+msgstr "Tamaño Máximo de Subida de Archivos (Kb)"
+
+#: c:\WP-Client/forms/settings.php:403
+msgid "Remember: 1M = 1024Kb"
+msgstr "Recuerde: 1M = 1024Kb"
+
+#: c:\WP-Client/forms/settings.php:405
+msgid ""
+"Leave blank to allow unlimited file size.<br>NOTE: This setting does not "
+"change your server settings. You should change your server settings if you "
+"are have trouble.<br>Your server settings are:"
+msgstr ""
+"Deje en blanco para permitir tamaño de archivo ilimitado.<br />NOTA: Este "
+"ajuste no cambiará la configuración de su servidor. Debería cambiar estos "
+"ajustes si tiene algún problema.<br />Sus ajustes de servidor son:"
+
+#: c:\WP-Client/forms/settings.php:418
+msgid "Custom Navigation Settings"
+msgstr "Ajustes de Navegación Personalizada"
+
+#: c:\WP-Client/forms/settings.php:423
+msgid "Show custom menu on login"
+msgstr "Mostrar menú personalizado al conectar"
+
+#: c:\WP-Client/forms/settings.php:440
+msgid "(logged-in)"
+msgstr "(conectado)"
+
+#: c:\WP-Client/forms/settings.php:463 c:\WP-Client/forms/settings.php:495
+msgid "Please first create menu in Appearance->Menus"
+msgstr "Por favor primero cree un menú en Apariencia->Menús"
+
+#: c:\WP-Client/forms/settings.php:467
+msgid "(Custom menu for logged-in users)"
+msgstr "(Menú personalizado para usuarios conectados)"
+
+#: c:\WP-Client/forms/settings.php:473
+msgid "(not logged-in)"
+msgstr "(sin conectar)"
+
+#: c:\WP-Client/forms/settings.php:499
+msgid "(Custom menu for not logged-in users)"
+msgstr "(Menú personalizado para usuarios sin conectar)"
+
+#: c:\WP-Client/forms/settings.php:512
+msgid "Show HUB page link in menu"
+msgstr "Mostrar enlace de Muro de Cliente en el menú"
+
+#: c:\WP-Client/forms/settings.php:524
+msgid "HUB page link text"
+msgstr "Texto de enlace de Muro de Cliente"
+
+#: c:\WP-Client/forms/settings.php:533
+msgid "Graphic (for shortcode [wpc_client_graphic])"
+msgstr "Gráfico (para el shortcode [wpc_client_graphic])"
+
+#: c:\WP-Client/forms/settings_addons.php:82
+msgid "Addon activated."
+msgstr "Añadido activado."
+
+#: c:\WP-Client/forms/settings_addons.php:85
+msgid "Addon not activated."
+msgstr "Añadido no activado."
+
+#: c:\WP-Client/forms/settings_addons.php:88
+msgid "Addon deactivated."
+msgstr "Añadido desactivado."
+
+#: c:\WP-Client/forms/settings_addons.php:91
+msgid "Addon not deactivated"
+msgstr "Añadido no desactivado"
+
+#: c:\WP-Client/forms/settings_addons.php:120
+#: c:\WP-Client/forms/settings_addons.php:129
+msgid "Addon Name"
+msgstr "Nombre de Añadido"
+
+#: c:\WP-Client/forms/settings_addons.php:122
+#: c:\WP-Client/forms/settings_addons.php:131
+#: c:\WP-Client/forms/settings_addons.php:185
+msgid "Active"
+msgstr "Activo"
+
+#: c:\WP-Client/forms/settings_addons.php:162
+msgid "Deactivate"
+msgstr "Desactivar"
+
+#: c:\WP-Client/forms/settings_addons.php:166
+msgid "Activate"
+msgstr "Activar"
+
+#: c:\WP-Client/forms/settings_addons.php:187
+msgid "Inactive"
+msgstr "Inactivo"
+
+#: c:\WP-Client/forms/settings_addons.php:197
+msgid "No Addons where found for this install."
+msgstr "No se han encontrado Añadidos para esta instalación."
+
+#: c:\WP-Client/forms/staff_directory.php:73
+msgid "Status"
+msgstr "Estado"
+
+#: c:\WP-Client/forms/staff_directory.php:82
+msgid "Waiting for approval"
+msgstr "Esperando aprobación"
+
+#: c:\WP-Client/forms/staff_directory.php:84
+msgid "Approved"
+msgstr "Aprobado"
+
+#: c:\WP-Client/forms/staff_registration_form.php:14
+msgid "Staff registration is disabled!"
+msgstr "¡El registro de personal ha sido desactivado!"
+
+#: c:\WP-Client/forms/staff_registration_form.php:190
+msgid "Send this password to the new Employee by email."
+msgstr "Enviar esta contraseña por email al nuevo Empleado."
+
+#: c:\WP-Client/forms/templates.php:229
+msgid "Hub Page Templates"
+msgstr "Plantillas de Muro de Cliente"
+
+#: c:\WP-Client/forms/templates.php:230
+msgid "Client Page Templates"
+msgstr "Plantillas de Página de Cliente"
+
+#: c:\WP-Client/forms/templates.php:231
+msgid "Email Templates"
+msgstr "Plantillas de Email"
+
+#: c:\WP-Client/forms/templates.php:236
+msgid "Feedback Wizard Templates"
+msgstr "Plantillas de Asistente de Comentarios"
+
+#: c:\WP-Client/forms/templates.php:256
+msgid "Hub Page Template"
+msgstr "Plantilla de Muro de Cliente"
+
+#: c:\WP-Client/forms/templates.php:257
+msgid "From here you can edit the template of the newly created hub pages."
+msgstr ""
+"Desde aquí puede editar la plantilla de los nuevos muros de cliente creados."
+
+#: c:\WP-Client/forms/templates.php:261
+msgid "New hub page template"
+msgstr "Nueva plantilla de muro de cliente"
+
+#: c:\WP-Client/forms/templates.php:280
+msgid "From here you can edit the template of the newly created client pages."
+msgstr ""
+"Desde aquí puede editar la plantilla de las nuevas páginas de cliente "
+"creadas."
+
+#: c:\WP-Client/forms/templates.php:284
+msgid "New client page template"
+msgstr "Nueva plantilla de página de cliente"
+
+#: c:\WP-Client/forms/templates.php:301
+msgid "WP Client Emails Settings"
+msgstr "WP Client Ajustes de Email"
+
+#: c:\WP-Client/forms/templates.php:302
+msgid "From here you can edit the emails templates and settings."
+msgstr "Desde aquí puede editar los ajustes y las plantillas de emails."
+
+#: c:\WP-Client/forms/templates.php:306
+msgid "Sender Information"
+msgstr "Información del Remitente"
+
+#: c:\WP-Client/forms/templates.php:311
+msgid "Sender Name"
+msgstr "Nombre del Remitente"
+
+#: c:\WP-Client/forms/templates.php:320
+msgid "Sender Email"
+msgstr "Email del Remitente"
+
+#: c:\WP-Client/forms/templates.php:332
+msgid "New Client Created by Admin"
+msgstr "Nuevo Cliente Creado por el Administrador"
+
+#: c:\WP-Client/forms/templates.php:333 c:\WP-Client/forms/templates.php:360
+msgid "This email will be sent to Client (if checked \"Send Password\")"
+msgstr "Este email será enviado al Cliente (si se marca \"Enviar Contraseña\")"
+
+#: c:\WP-Client/forms/templates.php:338 c:\WP-Client/forms/templates.php:365
+#: c:\WP-Client/forms/templates.php:392 c:\WP-Client/forms/templates.php:420
+#: c:\WP-Client/forms/templates.php:448 c:\WP-Client/forms/templates.php:476
+#: c:\WP-Client/forms/templates.php:504 c:\WP-Client/forms/templates.php:534
+#: c:\WP-Client/forms/templates.php:562 c:\WP-Client/forms/templates.php:590
+#: c:\WP-Client/forms/templates.php:618 c:\WP-Client/forms/templates.php:667
+msgid "Email Subject"
+msgstr "Asunto de Email"
+
+#: c:\WP-Client/forms/templates.php:347 c:\WP-Client/forms/templates.php:374
+#: c:\WP-Client/forms/templates.php:401 c:\WP-Client/forms/templates.php:429
+#: c:\WP-Client/forms/templates.php:457 c:\WP-Client/forms/templates.php:485
+#: c:\WP-Client/forms/templates.php:515 c:\WP-Client/forms/templates.php:543
+#: c:\WP-Client/forms/templates.php:571 c:\WP-Client/forms/templates.php:599
+#: c:\WP-Client/forms/templates.php:627 c:\WP-Client/forms/templates.php:678
+msgid "Email Body"
+msgstr "Cuerpo de Email"
+
+#: c:\WP-Client/forms/templates.php:359
+msgid "Client Password Updated"
+msgstr "Contraseña de Cliente Actualizada"
+
+#: c:\WP-Client/forms/templates.php:386
+msgid "New Client registers using Self-Registration Form"
+msgstr "Los Nuevos Clientes se registran utilizando el Formulario de Registro"
+
+#: c:\WP-Client/forms/templates.php:387
+msgid ""
+"This email will be sent to Admin after a new Client registers with client "
+"registration form"
+msgstr ""
+"Este email será enviado al Administrador después de que un nuevo Cliente se "
+"registre utilizando el formulario de registro"
+
+#: c:\WP-Client/forms/templates.php:405
+msgid ""
+"{site_title} and {approve_url} will not be change as these placeholders will "
+"be used in the email."
+msgstr ""
+"{site_title} y {approve_url} no serán cambiados ya que estos marcadores "
+"serán utilizados en el correo electrónico."
+
+#: c:\WP-Client/forms/templates.php:414
+msgid "Staff Created by website Admin"
+msgstr "Personal Creado por el Administrador"
+
+#: c:\WP-Client/forms/templates.php:415
+msgid "This email will be sent to Staff (if checked \"Send Password\")"
+msgstr ""
+"Este email será enviado al Personal (si se marca \"Enviar Contraseña\")"
+
+#: c:\WP-Client/forms/templates.php:433 c:\WP-Client/forms/templates.php:461
+#: c:\WP-Client/forms/templates.php:489
+msgid ""
+"{contact_name}, {user_name}, {password} and {admin_url} will not be changed "
+"as these placeholders will be used in the email."
+msgstr ""
+"{contact_name}, {user_name}, {password} y {admin_url} no serán cambiados ya "
+"que estos marcadores serán utilizados en el correo electrónico."
+
+#: c:\WP-Client/forms/templates.php:442
+msgid "Staff Registered by Client"
+msgstr "Personal Registrado por el Cliente"
+
+#: c:\WP-Client/forms/templates.php:443
+msgid ""
+"This email will be sent to Staff after Client registered him (if checked "
+"\"Send Password\")"
+msgstr ""
+"Este email será enviado al Personal después de que el Cliente lo haya "
+"registrado (si se marca \"Enviar Contraseña\")"
+
+#: c:\WP-Client/forms/templates.php:470
+msgid "Manager Created"
+msgstr "Gerente Creado"
+
+#: c:\WP-Client/forms/templates.php:471
+msgid "This email will be sent to Manager (if checked \"Send Password\")"
+msgstr "Este email será enviado al Gerente (si se marca \"Enviar Contraseña\")"
+
+#: c:\WP-Client/forms/templates.php:498
+msgid "Client Page Updated "
+msgstr "Página de Cliente Actualizada"
+
+#: c:\WP-Client/forms/templates.php:499
+msgid ""
+"This email will be sent to Client (if checked \"Send Update to selected "
+"Client(s)\") when Client Page updating"
+msgstr ""
+"Este email será enviado al cliente (si se marca \"Enviar Actualización al / "
+"los Cliente(s) seleccionados\") cuando se actualice la Página de Cliente"
+
+#: c:\WP-Client/forms/templates.php:509
+msgid ""
+"{contact_name}, {user_name}, {password} and {page_id} will not be changed as "
+"these placeholders will be used in the email."
+msgstr ""
+"{contact_name}, {user_name}, {password} y {page_id} no serán cambiados ya "
+"que estos marcadores serán utilizados en el correo electrónico."
+
+#: c:\WP-Client/forms/templates.php:519
+msgid ""
+"{contact_name} and {page_id} will not be change as these placeholders will "
+"be used in the email."
+msgstr ""
+"{contact_name} y {page_id} no serán cambiados ya que estos marcadores serán "
+"utilizados en el correo electrónico."
+
+#: c:\WP-Client/forms/templates.php:528
+msgid "Admin uploads new file for Client"
+msgstr "Subida de nuevo archivo para el Cliente por el Administrador"
+
+#: c:\WP-Client/forms/templates.php:529
+msgid ""
+"This email will be sent to Client and his Staff when Admin or Manager will "
+"upload new file for Client."
+msgstr ""
+"Este email será enviado al Cliente y su Personal cuando el Administrador o "
+"el Gerente suban un nuevo archivo para el Cliente."
+
+#: c:\WP-Client/forms/templates.php:547
+msgid ""
+"{site_title} and {login_url} will not be change as these placeholders will "
+"be used in the email."
+msgstr ""
+"{site_title} y {login_url} no serán cambiados ya que estos marcadores serán "
+"utilizados en el correo electrónico."
+
+#: c:\WP-Client/forms/templates.php:556
+msgid "Client Uploads new file"
+msgstr "Subida de nuevo archivo por el Cliente"
+
+#: c:\WP-Client/forms/templates.php:557
+msgid ""
+"This email will be sent to Admin and Client's Manager when Client will "
+"upload file(s)"
+msgstr ""
+"Este email será enviado al Administrador y al Gerente del Cliente cuando el "
+"Cliente suba nuevos archivos"
+
+#: c:\WP-Client/forms/templates.php:575
+msgid ""
+"{user_name}, {site_title} and {admin_file_url} will not be change as these "
+"placeholders will be used in the email."
+msgstr ""
+"{user_name}, {site_title} y {admin_file_url} no serán cambiados ya que estos "
+"marcadores serán utilizados en el correo electrónico."
+
+#: c:\WP-Client/forms/templates.php:584
+msgid "Private Message: Notify Message To Client"
+msgstr "Mensaje Privado: Mensaje de Notificación al Cliente"
+
+#: c:\WP-Client/forms/templates.php:585
+msgid ""
+"This email will be sent to Client when Admin/Manager sent private message "
+"(if selected option \"Receive email notification of private messages from "
+"admin\" in plugin settings)."
+msgstr ""
+"Este email será enviado al Cliente cuando el Administrador/Gerente envíe un "
+"mensaje privado (si se selecciona la opción \"Recibir email de notificación "
+"de mensajes privados del administrador\" en los ajustes del plugin)."
+
+#: c:\WP-Client/forms/templates.php:603
+msgid ""
+"{user_name}, {site_title} and {login_url} will not be change as these "
+"placeholders will be used in the email."
+msgstr ""
+"{user_name}, {site_title} y {login_url} no serán cambiados ya que estos "
+"marcadores serán utilizados en el correo electrónico."
+
+#: c:\WP-Client/forms/templates.php:612
+msgid "Private Message: Notify Message To Admin/Manager"
+msgstr "Mensajes Privados: Mensaje de Notificación al Administrador/Gerente"
+
+#: c:\WP-Client/forms/templates.php:613
+msgid ""
+"This email will be sent to Admin/Manager when Client sent private message "
+"(if selected option \"Receive email notification of private messages from "
+"clients\" in plugin settings)."
+msgstr ""
+"Este email será enviado al Administrador/Gerente cuando el Cliente envíe un "
+"mesaje privado (si se selecciona la opción \"Recibir email de notificación "
+"de mensajes privados de los clientes\" en los ajustes del plugin)."
+
+#: c:\WP-Client/forms/templates.php:631
+msgid ""
+"{user_name}, {site_title}, {message} and {admin_url} will not be change as "
+"these placeholders will be used in the email."
+msgstr ""
+"{user_name}, {site_title}, {message} y {admin_url} no serán cambiados ya que "
+"estos marcadores serán utilizados en el correo electrónico."
+
+#: c:\WP-Client/forms/templates.php:655
+msgid "Feedback Wizard Template"
+msgstr "Plantilla de Asistente de Comentarios"
+
+#: c:\WP-Client/forms/templates.php:656
+msgid "From here you can edit the template of Feedback Wizard"
+msgstr "Desde aquí puede editar la plantilla del Asistente de Comentarios"
+
+#: c:\WP-Client/forms/templates.php:661
+msgid "Email: Wizard Notify"
+msgstr "Email: Notificación de Asistente"
+
+#: c:\WP-Client/forms/templates.php:662
+msgid ""
+"This email will be sent Clients when Admin click on \"Send Email to Client"
+"(s)\" on Wizards page."
+msgstr ""
+"Este email será enviado a los Clientes cuando el Administrador pulse "
+"\"Enviar Email a Cliente(s)\" en la página del Asistente."
+
+#: c:\WP-Client/forms/templates.php:672
+msgid ""
+"{wizard_name} will not be changed as these placeholders will be used in the "
+"email."
+msgstr ""
+"{wizard_name} no será cambiado ya que este marcador será utilizado en el "
+"correo electrónico."
+
+#: c:\WP-Client/forms/templates.php:682
+msgid ""
+"{user_name} and {wizard_url} will not be change as these placeholders will "
+"be used in the email."
+msgstr ""
+"{user_name} y {wizard_url} no serán cambiados ya que estos marcadores serán "
+"utilizados en el correo electrónico."
+
+#: c:\WP-Client/forms/upload.php:99
+msgid "Select category"
+msgstr "Seleccionar categoría"
+
+#: c:\WP-Client/forms/upload.php:114
+msgid "Cancel Uploads"
+msgstr "Cancelar Subidas"

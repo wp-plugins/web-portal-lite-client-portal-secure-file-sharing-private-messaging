@@ -1,0 +1,50 @@
+html,
+body {
+	height:100%;
+}
+
+#login {
+	-webkit-border-radius:5px;
+	-khtml-border-radius:5px;
+	-moz-border-radius:5px;
+	border-radius:5px;
+	-webkit-box-shadow:rgba(200,200,200,0.7) 0 4px 10px -1px;
+	-khtml-box-shadow:rgba(200,200,200,0.7) 0 4px 10px -1px;
+	-moz-box-shadow:rgba(200,200,200,0.7) 0 4px 10px -1px;
+	box-shadow:rgba(200,200,200,0.7) 0 4px 10px -1px;
+	padding-bottom:20px;
+}
+
+#loginform,
+#lostpasswordform,
+#registerform {
+	-khtml-box-shadow:none;
+	-webkit-box-shadow:none;
+	-moz-box-shadow:none;
+	box-shadow:none;
+	-webkit-border-radius:0;
+	-khtml-border-radius:0;
+	-moz-border-radius:0;
+	border-radius:0;
+	border:none;
+	background:transparent;
+	margin:0;
+}
+
+#login h1 a {
+    background-image: none !important;
+    background-color: transparent !important;
+}
+
+#login h1 a {
+	width:312px;
+	height:67px;
+	margin-left:7px;
+	border-radius:3px;
+	margin-bottom:10px;
+}
+
+.message {
+	color:#000;
+	width:275px;
+}

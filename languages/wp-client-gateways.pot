@@ -1,0 +1,342 @@
+# LANGUAGE (LOCALE) translation for WordPress.
+# Copyright (C) YEAR WordPress contributors.
+# This file is distributed under the same license as the WordPress package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: WP-Client\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-12-13 16:37+0200\n"
+"PO-Revision-Date: 2012-12-13 16:38+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: c:\\WP-Client\n"
+
+#: c:\WP-Client/includes/gateways.php:166
+msgid "Continue Checkout &raquo;"
+msgstr ""
+
+#: c:\WP-Client/includes/payment_gateways/paypal-express.php:51
+#: c:\WP-Client/includes/payment_gateways/paypal-express.php:866
+msgid "PayPal Express Checkout"
+msgstr ""
+
+#: c:\WP-Client/includes/payment_gateways/paypal-express.php:52
+msgid "PayPal"
+msgstr ""
+
+#: c:\WP-Client/includes/payment_gateways/paypal-express.php:89
+msgid "Your PayPal transaction has been canceled."
+msgstr ""
+
+#: c:\WP-Client/includes/payment_gateways/paypal-express.php:125
+msgid "There was a problem connecting to PayPal to setup your purchase. Please try again."
+msgstr ""
+
+#: c:\WP-Client/includes/payment_gateways/paypal-express.php:159
+#, php-format
+msgid "Please confirm your final payment for this order totaling %s. It will be made via your \"%s\" PayPal account."
+msgstr ""
+
+#: c:\WP-Client/includes/payment_gateways/paypal-express.php:169
+#, php-format
+msgid "There was a problem with your PayPal transaction. Please <a href=\"%s\">go back and try again</a>."
+msgstr ""
+
+#: c:\WP-Client/includes/payment_gateways/paypal-express.php:173
+#, php-format
+msgid "Whoops, looks like you skipped a step! Please <a href=\"%s\">go back and try again</a>."
+msgstr ""
+
+#: c:\WP-Client/includes/payment_gateways/paypal-express.php:205
+msgid "eCheck"
+msgstr ""
+
+#: c:\WP-Client/includes/payment_gateways/paypal-express.php:205
+msgid "PayPal balance, Credit Card, or Instant Transfer"
+msgstr ""
+
+#: c:\WP-Client/includes/payment_gateways/paypal-express.php:212
+#: c:\WP-Client/includes/payment_gateways/paypal-express.php:589
+msgid "A reversal has been canceled; for example, when you win a dispute and the funds for the reversal have been returned to you."
+msgstr ""
+
+#: c:\WP-Client/includes/payment_gateways/paypal-express.php:216
+#: c:\WP-Client/includes/payment_gateways/paypal-express.php:594
+msgid "The authorization period for this payment has been reached."
+msgstr ""
+
+#: c:\WP-Client/includes/payment_gateways/paypal-express.php:220
+#: c:\WP-Client/includes/payment_gateways/paypal-express.php:599
+msgid "An authorization for this transaction has been voided."
+msgstr ""
+
+#: c:\WP-Client/includes/payment_gateways/paypal-express.php:224
+#: c:\WP-Client/includes/payment_gateways/paypal-express.php:604
+msgid "The payment has failed. This happens only if the payment was made from your customer's bank account."
+msgstr ""
+
+#: c:\WP-Client/includes/payment_gateways/paypal-express.php:228
+#: c:\WP-Client/includes/payment_gateways/paypal-express.php:609
+msgid "The payment has been partially refunded."
+msgstr ""
+
+#: c:\WP-Client/includes/payment_gateways/paypal-express.php:232
+#: c:\WP-Client/includes/payment_gateways/paypal-express.php:614
+msgid "The transaction has not terminated, e.g. an authorization may be awaiting completion."
+msgstr ""
+
+#: c:\WP-Client/includes/payment_gateways/paypal-express.php:236
+#: c:\WP-Client/includes/payment_gateways/paypal-express.php:619
+msgid "The payment has been completed, and the funds have been added successfully to your account balance."
+msgstr ""
+
+#: c:\WP-Client/includes/payment_gateways/paypal-express.php:240
+#: c:\WP-Client/includes/payment_gateways/paypal-express.php:624
+msgid "A payment has been accepted."
+msgstr ""
+
+#: c:\WP-Client/includes/payment_gateways/paypal-express.php:244
+#: c:\WP-Client/includes/payment_gateways/paypal-express.php:629
+msgid "A payment was reversed due to a chargeback or other type of reversal. The funds have been removed from your account balance and returned to the buyer:"
+msgstr ""
+
+#: c:\WP-Client/includes/payment_gateways/paypal-express.php:247
+#: c:\WP-Client/includes/payment_gateways/paypal-express.php:632
+msgid "A reversal has occurred on this transaction due to a chargeback by your customer."
+msgstr ""
+
+#: c:\WP-Client/includes/payment_gateways/paypal-express.php:248
+#: c:\WP-Client/includes/payment_gateways/paypal-express.php:633
+msgid "A reversal has occurred on this transaction due to your customer triggering a money-back guarantee."
+msgstr ""
+
+#: c:\WP-Client/includes/payment_gateways/paypal-express.php:249
+#: c:\WP-Client/includes/payment_gateways/paypal-express.php:634
+msgid "A reversal has occurred on this transaction due to a complaint about the transaction from your customer."
+msgstr ""
+
+#: c:\WP-Client/includes/payment_gateways/paypal-express.php:250
+#: c:\WP-Client/includes/payment_gateways/paypal-express.php:635
+msgid "A reversal has occurred on this transaction because you have given the customer a refund."
+msgstr ""
+
+#: c:\WP-Client/includes/payment_gateways/paypal-express.php:251
+#: c:\WP-Client/includes/payment_gateways/paypal-express.php:636
+msgid "A reversal has occurred on this transaction due to an unknown reason."
+msgstr ""
+
+#: c:\WP-Client/includes/payment_gateways/paypal-express.php:257
+#: c:\WP-Client/includes/payment_gateways/paypal-express.php:643
+msgid "You refunded the payment."
+msgstr ""
+
+#: c:\WP-Client/includes/payment_gateways/paypal-express.php:261
+#: c:\WP-Client/includes/payment_gateways/paypal-express.php:648
+msgid "You denied the payment when it was marked as pending."
+msgstr ""
+
+#: c:\WP-Client/includes/payment_gateways/paypal-express.php:266
+#: c:\WP-Client/includes/payment_gateways/paypal-express.php:654
+msgid "The payment is pending because your customer did not include a confirmed shipping address and your Payment Receiving Preferences is set such that you want to manually accept or deny each of these payments. To change your preference, go to the Preferences  section of your Profile."
+msgstr ""
+
+#: c:\WP-Client/includes/payment_gateways/paypal-express.php:267
+#: c:\WP-Client/includes/payment_gateways/paypal-express.php:655
+msgid "The payment is pending because it has been authorized but not settled. You must capture the funds first."
+msgstr ""
+
+#: c:\WP-Client/includes/payment_gateways/paypal-express.php:268
+#: c:\WP-Client/includes/payment_gateways/paypal-express.php:656
+msgid "The payment is pending because it was made by an eCheck that has not yet cleared."
+msgstr ""
+
+#: c:\WP-Client/includes/payment_gateways/paypal-express.php:269
+#: c:\WP-Client/includes/payment_gateways/paypal-express.php:657
+msgid "The payment is pending because you hold a non-U.S. account and do not have a withdrawal mechanism. You must manually accept or deny this payment from your Account Overview."
+msgstr ""
+
+#: c:\WP-Client/includes/payment_gateways/paypal-express.php:270
+#: c:\WP-Client/includes/payment_gateways/paypal-express.php:658
+msgid "You do not have a balance in the currency sent, and you do not have your Payment Receiving Preferences set to automatically convert and accept this payment. You must manually accept or deny this payment."
+msgstr ""
+
+#: c:\WP-Client/includes/payment_gateways/paypal-express.php:271
+#: c:\WP-Client/includes/payment_gateways/paypal-express.php:659
+msgid "The payment is pending because it is part of an order that has been authorized but not settled."
+msgstr ""
+
+#: c:\WP-Client/includes/payment_gateways/paypal-express.php:272
+#: c:\WP-Client/includes/payment_gateways/paypal-express.php:660
+msgid "The payment is pending while it is being reviewed by PayPal for risk."
+msgstr ""
+
+#: c:\WP-Client/includes/payment_gateways/paypal-express.php:273
+#: c:\WP-Client/includes/payment_gateways/paypal-express.php:661
+msgid "The payment is pending because it was made to an email address that is not yet registered or confirmed."
+msgstr ""
+
+#: c:\WP-Client/includes/payment_gateways/paypal-express.php:274
+#: c:\WP-Client/includes/payment_gateways/paypal-express.php:662
+msgid "The payment is pending because it was made via credit card and you must upgrade your account to Business or Premier status in order to receive the funds. It can also mean that you have reached the monthly limit for transactions on your account."
+msgstr ""
+
+#: c:\WP-Client/includes/payment_gateways/paypal-express.php:275
+#: c:\WP-Client/includes/payment_gateways/paypal-express.php:663
+msgid "The payment is pending because you are not yet verified. You must verify your account before you can accept this payment."
+msgstr ""
+
+#: c:\WP-Client/includes/payment_gateways/paypal-express.php:276
+#: c:\WP-Client/includes/payment_gateways/paypal-express.php:664
+msgid "The payment is pending for an unknown reason. For more information, contact PayPal customer service."
+msgstr ""
+
+#: c:\WP-Client/includes/payment_gateways/paypal-express.php:279
+#: c:\WP-Client/includes/payment_gateways/paypal-express.php:667
+msgid "The payment is pending."
+msgstr ""
+
+#: c:\WP-Client/includes/payment_gateways/paypal-express.php:315
+#: c:\WP-Client/includes/payment_gateways/paypal-express.php:318
+#, php-format
+msgid "There was a problem finalizing your purchase with PayPal. Please <a href=\"%s\">go back and try again</a>."
+msgstr ""
+
+#: c:\WP-Client/includes/payment_gateways/paypal-express.php:347
+#, php-format
+msgid "Your PayPal payment for this order totaling %s %s is not yet complete. Here is the latest status:"
+msgstr ""
+
+#: c:\WP-Client/includes/payment_gateways/paypal-express.php:354
+#, php-format
+msgid "Your PayPal payment for this order totaling %s %s is complete. The PayPal transaction number is <strong>%s</strong>."
+msgstr ""
+
+#: c:\WP-Client/includes/payment_gateways/paypal-express.php:372
+msgid "PayPal Express Checkout Settings"
+msgstr ""
+
+#: c:\WP-Client/includes/payment_gateways/paypal-express.php:374
+msgid "Express Checkout is PayPal's premier checkout solution, which streamlines the checkout process for buyers and keeps them on your site after making a purchase. Unlike PayPal Pro, there are no additional fees to use Express Checkout, though you may need to do a free upgrade to a business account. <a target=\"_blank\" href=\"https://cms.paypal.com/us/cgi-bin/?&cmd=_render-content&content_ID=developer/e_howto_api_ECGettingStarted\">More Info &raquo;</a>"
+msgstr ""
+
+#: c:\WP-Client/includes/payment_gateways/paypal-express.php:377
+#: c:\WP-Client/includes/payment_gateways/paypal-express.php:943
+msgid "PayPal Site"
+msgstr ""
+
+#: c:\WP-Client/includes/payment_gateways/paypal-express.php:412
+#: c:\WP-Client/includes/payment_gateways/paypal-express.php:977
+msgid "Paypal Currency"
+msgstr ""
+
+#: c:\WP-Client/includes/payment_gateways/paypal-express.php:452
+#: c:\WP-Client/includes/payment_gateways/paypal-express.php:1016
+msgid "PayPal Mode"
+msgstr ""
+
+#: c:\WP-Client/includes/payment_gateways/paypal-express.php:455
+#: c:\WP-Client/includes/payment_gateways/paypal-express.php:1019
+msgid "Sandbox"
+msgstr ""
+
+#: c:\WP-Client/includes/payment_gateways/paypal-express.php:456
+#: c:\WP-Client/includes/payment_gateways/paypal-express.php:1020
+msgid "Live"
+msgstr ""
+
+#: c:\WP-Client/includes/payment_gateways/paypal-express.php:461
+msgid "PayPal Merchant E-mail"
+msgstr ""
+
+#: c:\WP-Client/includes/payment_gateways/paypal-express.php:467
+#: c:\WP-Client/includes/payment_gateways/paypal-express.php:1025
+msgid "PayPal API Credentials"
+msgstr ""
+
+#: c:\WP-Client/includes/payment_gateways/paypal-express.php:469
+#: c:\WP-Client/includes/payment_gateways/paypal-express.php:1027
+msgid "You must login to PayPal and create an API signature to get your credentials. <a target=\"_blank\" href=\"https://cms.paypal.com/us/cgi-bin/?cmd=_render-content&content_ID=developer/e_howto_api_ECAPICredentials\">Instructions &raquo;</a>"
+msgstr ""
+
+#: c:\WP-Client/includes/payment_gateways/paypal-express.php:470
+#: c:\WP-Client/includes/payment_gateways/paypal-express.php:1028
+msgid "API Username"
+msgstr ""
+
+#: c:\WP-Client/includes/payment_gateways/paypal-express.php:473
+#: c:\WP-Client/includes/payment_gateways/paypal-express.php:1031
+msgid "API Password"
+msgstr ""
+
+#: c:\WP-Client/includes/payment_gateways/paypal-express.php:476
+#: c:\WP-Client/includes/payment_gateways/paypal-express.php:1034
+msgid "Signature"
+msgstr ""
+
+#: c:\WP-Client/includes/payment_gateways/paypal-express.php:482
+#: c:\WP-Client/includes/payment_gateways/paypal-express.php:1040
+msgid "PayPal Header Image (optional)"
+msgstr ""
+
+#: c:\WP-Client/includes/payment_gateways/paypal-express.php:484
+#: c:\WP-Client/includes/payment_gateways/paypal-express.php:1042
+msgid "URL for an image you want to appear at the top left of the payment page. The image has a maximum size of 750 pixels wide by 90 pixels high. PayPal recommends that you provide an image that is stored on a secure (https) server. If you do not specify an image, the business name is displayed."
+msgstr ""
+
+#: c:\WP-Client/includes/payment_gateways/paypal-express.php:491
+#: c:\WP-Client/includes/payment_gateways/paypal-express.php:1049
+msgid "PayPal Header Border Color (optional)"
+msgstr ""
+
+#: c:\WP-Client/includes/payment_gateways/paypal-express.php:493
+#: c:\WP-Client/includes/payment_gateways/paypal-express.php:1051
+msgid "Sets the border color around the header of the payment page. The border is a 2-pixel perimeter around the header space, which is 750 pixels wide by 90 pixels high. By default, the color is black."
+msgstr ""
+
+#: c:\WP-Client/includes/payment_gateways/paypal-express.php:500
+#: c:\WP-Client/includes/payment_gateways/paypal-express.php:1058
+msgid "PayPal Header Background Color (optional)"
+msgstr ""
+
+#: c:\WP-Client/includes/payment_gateways/paypal-express.php:502
+#: c:\WP-Client/includes/payment_gateways/paypal-express.php:1060
+msgid "Sets the background color for the header of the payment page. By default, the color is white."
+msgstr ""
+
+#: c:\WP-Client/includes/payment_gateways/paypal-express.php:509
+#: c:\WP-Client/includes/payment_gateways/paypal-express.php:1067
+msgid "PayPal Page Background Color (optional)"
+msgstr ""
+
+#: c:\WP-Client/includes/payment_gateways/paypal-express.php:511
+#: c:\WP-Client/includes/payment_gateways/paypal-express.php:1069
+msgid "Sets the background color for the payment page. By default, the color is white."
+msgstr ""
+
+#: c:\WP-Client/includes/payment_gateways/paypal-express.php:524
+msgid "Save Changes"
+msgstr ""
+
+#: c:\WP-Client/includes/payment_gateways/paypal-express.php:582
+msgid "There was a problem verifying the IPN string with PayPal. Please try again."
+msgstr ""
+
+#: c:\WP-Client/includes/payment_gateways/paypal-express.php:827
+msgid "There was a problem connecting to PayPal. Please try again."
+msgstr ""
+
+#: c:\WP-Client/includes/payment_gateways/paypal-express.php:938
+msgid "PayPal Express Checkout Global Cart Settings"
+msgstr ""
+
+#: c:\WP-Client/includes/payment_gateways/paypal-express.php:940
+msgid "Express Checkout is PayPal's premier checkout solution, which streamlines the checkout process for buyers and keeps them on your site after making a purchase. Unlike PayPal Pro, there are no additional fees to use Express Checkout, though you may need to do a free upgrade to a business account. This gateway allows carts from up to 10 stores to checkout at once using parallel payments. <a target=\"_blank\" href=\"https://cms.paypal.com/us/cgi-bin/?&cmd=_render-content&content_ID=developer/e_howto_api_ECGettingStarted\">More Info &raquo;</a>"
+msgstr ""
+

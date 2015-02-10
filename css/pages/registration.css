@@ -1,0 +1,131 @@
+#registration_form p {
+    clear:both;
+}
+
+#registration_form p label.title {
+    width:30%;
+    float:left;
+    clear:left;
+    padding-right:15px;
+}
+
+#registration_form p label.opt {
+    width:60%;
+    float:left;
+    margin-bottom:5px;
+}
+
+#registration_form p label.checkers {
+    margin-top:10px;
+}
+
+#registration_form input[type=text], #registration_form input[type=password], #registration_form select, #registration_form textarea {
+    margin-bottom: 10px;
+    -moz-box-sizing: border-box;
+    background-color: #FFFFFF;
+    border-color: #DDDDDD;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+    color: #444444;
+    font-size: 13px;
+    max-width: 100%;
+    padding: 7px;
+    width: 60%;
+}
+
+#registration_form input[type="checkbox"], #registration_form input[type="radio"] {
+    vertical-align:middle;
+    margin:5px;
+}
+
+#registration_form p.errorHolder{
+    background-color: #FFDFDF;
+    border: 1px dotted #C89797;
+    margin-bottom: 6px !important;
+    padding: 6px 0px 4px !important;
+}
+
+.description{
+    display:block;
+    font-size:12px;
+    font-weight:normal;
+    font-style:italic;
+    padding-left:15px;
+    margin-left:30%;
+    width: 60%;
+}
+.indicator-hint {
+    display:block;
+    font-size:12px;
+    font-weight:normal;
+    font-style:italic;
+    margin: 5px 33px 15px 0px;
+    width: 100%;
+}
+
+#pass-strength-result {
+    width: inherit;
+    border-style: solid;
+    border-width: 1px;
+    margin: 13px 33px 5px 0px;
+    padding: 3px 5px;
+    text-align: center;
+    background-color: #eee;
+    border-color: #ddd!important;
+    display: block;
+}
+
+#pass-strength-result.bad {
+    background-color: #ffb78c;
+    border-color: #ff853c!important;
+}
+
+#pass-strength-result.strong {
+    background-color: #c3ff88;
+    border-color: #8dff1c!important;
+    font-weight: bold;
+}
+
+#pass-strength-result.good {
+    background-color: #ffec8b;
+    border-color: #fc0!important;
+}
+
+#pass-strength-result.short {
+    background-color: #ffa0a0;
+    border-color: #f04040!important;
+    font-weight: bold;
+}
+
+.wpc_registration_updated {
+    display: block;
+    color: #333;
+    outline: 0;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    border-width: 1px;
+    border-style: solid;
+    padding: 0 .6em;
+    margin: 5px 0 15px;
+    width: 92%;
+    border-color: #e65555;
+    background-color: #ffe0e0;
+}
+
+.required {
+    color:inherit;
+}
+
+.wpc_registration_updated.message_red {
+    border-color: #e65555;
+    background-color: #ffe0e0;
+}
+.wpc_registration_updated.message_green {
+    border-color: #55e65c;
+    background-color: #e1ffe0;
+}
+
+#wpc_block_captcha {
+    margin: 13px 33px 5px 0px;
+}

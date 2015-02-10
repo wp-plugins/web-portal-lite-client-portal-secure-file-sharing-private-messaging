@@ -1,0 +1,103 @@
+
+/*
+LITE STYLE
+*/
+
+.wpc_pro_menu_text {
+    color: #f4e05d;
+    font-weight: bold;
+    font-size: 9px;
+    font-style: italic;
+    line-height: 9px;
+}
+
+.wpc_pro_menu_grey {
+    font-weight: 100;
+    font-size: 10px;
+}
+
+.wpc_pro_features_menu_item {
+    font-weight: bold;
+    color: #f4e05d;
+
+}
+
+.wpc_pro_features_menu_item span {
+
+}
+
+.wpc_pro_tab a {
+    color: #cdcdcd !important;
+
+}
+
+.wpc_pro_tab_text {
+    color: #000000;
+    font-size: 9px;
+    font-style: italic;
+    line-height: 9px;
+}
+
+.wpc_pro_portal_category_link {
+    color: #BBBBBB;
+    font-size: 9px;
+    font-style: italic;
+    line-height: 9px;
+}
+
+.wpc_pro_portal_category_link span {
+    color: #000000;
+    font-size: 9px;
+    font-style: italic;
+    line-height: 9px;
+}
+
+.wpc_pro_settings_link {
+    color: #BBBBBB;
+}
+.wpc_pro_settings_link span {
+    color: #000000;
+    font-size: 9px;
+    font-style: italic;
+    line-height: 9px;
+}
+
+
+.wpc_pro_form,
+.wpc_pro_form .form-table th,
+.wpc_pro_form h3 {
+    color: #BBBBBB !important;
+}
+
+
+.wpc_pro_features_table .wpc_pro_screenshot {
+    border: 1px solid #aaa;
+    height: 75px;
+    margin: 5px 15px 5px 5px;
+    padding: 10px;
+    width: 150px;
+    float: left;
+}
+
+.wpc_pro_features_table .wpc_pro_screenshots_text {
+    font-weight: bold;
+}
+
+.wpc_pro_features_table .wpc_pro_screenshots {
+/*    float: left;*/
+}
+
+.wpc_pro_features_table .postbox,
+.wpc_pro_features_table .inside {
+    float: left;
+}
+
+.wpc_pro_features_table .postbox h3 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.wpc_pro_features_table .description {
+    text-align: justify;
+    float: left;
+}

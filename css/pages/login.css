@@ -1,0 +1,61 @@
+.message {
+    background-color: #FFFFE0;
+    border-color: #E6DB55;
+    padding: 12px;
+    border-radius: 3px 3px 3px 3px;
+    border-style: solid;
+    border-width: 1px;
+    color: #000000;
+    width: 275px;
+    font-family: sans-serif;
+    font-size: 12px;
+    line-height: 1.4em;
+}
+
+.wpc_error {
+    background-color: #FFEBE8 !important;
+    border-color: #F73131 !important;
+}
+
+.indicator-hint {
+    display:block;
+    font-size:12px;
+    font-weight:normal;
+    font-style:italic;
+    margin: 5px 33px 15px 0px;
+    width: 42%;
+}
+
+#pass-strength-result {
+    width: 42%;
+    border-style: solid;
+    border-width: 1px;
+    margin: 13px 33px 5px 0px;
+    padding: 3px 5px;
+    text-align: center;
+    background-color: #eee;
+    border-color: #ddd!important;
+    display: block;
+}
+
+#pass-strength-result.bad {
+    background-color: #ffb78c;
+    border-color: #ff853c!important;
+}
+
+#pass-strength-result.strong {
+    background-color: #c3ff88;
+    border-color: #8dff1c!important;
+    font-weight: bold;
+}
+
+#pass-strength-result.good {
+    background-color: #ffec8b;
+    border-color: #fc0!important;
+}
+
+#pass-strength-result.short {
+    background-color: #ffa0a0;
+    border-color: #f04040!important;
+    font-weight: bold;
+}

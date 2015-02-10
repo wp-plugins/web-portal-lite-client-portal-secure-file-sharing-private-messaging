@@ -1,0 +1,22 @@
+.wp-list-table.categories .column-cat_id {
+    width: 10%;
+}
+
+.wp-list-table.categories .column-circles {
+    width: 10%;
+    text-align: center !important;
+}
+
+.wp-list-table.categories .column-clients {
+    width: 10%;
+    text-align: center !important;
+}
+
+.wp-list-table.categories .column-files {
+    width: 10%;
+    text-align: center !important;
+}
+
+.wp-list-table.categories .column-folder_name {
+    width: 25%;
+}

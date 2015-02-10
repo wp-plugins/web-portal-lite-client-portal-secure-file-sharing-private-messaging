@@ -1,0 +1,6139 @@
+# LANGUAGE (LOCALE) translation for WordPress.
+# Copyright (C) YEAR WordPress contributors.
+# This file is distributed under the same license as the WordPress package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: WP-Client\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-12-17 20:25+0200\n"
+"PO-Revision-Date: 2014-12-17 20:25+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: c:\\WP-Client\n"
+
+#: c:\WP-Client/includes/class.admin.php:364
+msgid "View all categories "
+msgstr ""
+
+#: c:\WP-Client/includes/class.admin.php:808
+msgid "Permalink:"
+msgstr ""
+
+#: c:\WP-Client/includes/class.admin.php:827
+msgid "HUB Title"
+msgstr ""
+
+#: c:\WP-Client/includes/class.admin.php:866
+#: c:\WP-Client/includes/class.admin.php:1110
+msgid "Edit this item"
+msgstr ""
+
+#: c:\WP-Client/includes/class.admin.php:866
+#: c:\WP-Client/includes/class.admin.php:1110
+#: c:\WP-Client/includes/class.admin.php:3490
+msgid "Edit"
+msgstr ""
+
+#: c:\WP-Client/includes/class.admin.php:869
+#: c:\WP-Client/includes/class.admin.php:1113
+msgid "Edit this item inline"
+msgstr ""
+
+#: c:\WP-Client/includes/class.admin.php:869
+#: c:\WP-Client/includes/class.admin.php:1113
+msgid "Quick&nbsp;Edit"
+msgstr ""
+
+#: c:\WP-Client/includes/class.admin.php:874
+#: c:\WP-Client/includes/class.admin.php:1117
+msgid "Restore this item from the Trash"
+msgstr ""
+
+#: c:\WP-Client/includes/class.admin.php:874
+#: c:\WP-Client/includes/class.admin.php:1117
+msgid "Restore"
+msgstr ""
+
+#: c:\WP-Client/includes/class.admin.php:876
+#: c:\WP-Client/includes/class.admin.php:1119
+msgid "Move this item to the Trash"
+msgstr ""
+
+#: c:\WP-Client/includes/class.admin.php:876
+#: c:\WP-Client/includes/class.admin.php:1119
+msgid "Trash"
+msgstr ""
+
+#: c:\WP-Client/includes/class.admin.php:878
+#: c:\WP-Client/includes/class.admin.php:1121
+msgid "Delete this item permanently"
+msgstr ""
+
+#: c:\WP-Client/includes/class.admin.php:878
+#: c:\WP-Client/includes/class.admin.php:1121
+msgid "Delete Permanently"
+msgstr ""
+
+#: c:\WP-Client/includes/class.admin.php:888
+#: c:\WP-Client/includes/class.admin.php:1131
+#, php-format
+msgid "Preview &#8220;%s&#8221;"
+msgstr ""
+
+#: c:\WP-Client/includes/class.admin.php:888
+#: c:\WP-Client/includes/class.admin.php:1131
+msgid "Preview"
+msgstr ""
+
+#: c:\WP-Client/includes/class.admin.php:926
+#: c:\WP-Client/includes/class.admin_common.php:1896
+msgid "Title"
+msgstr ""
+
+#: c:\WP-Client/includes/class.admin.php:929
+#: c:\WP-Client/includes/class.admin_common.php:2126
+#: c:\WP-Client/includes/class.admin_common.php:2503
+#: c:\WP-Client/includes/class.admin_meta_boxes.php:839
+#: c:\WP-Client/includes/class.user.php:1944
+msgid "Category"
+msgstr ""
+
+#: c:\WP-Client/includes/class.admin.php:930
+#: c:\WP-Client/includes/class.admin_meta_boxes.php:867
+msgid "Order"
+msgstr ""
+
+#: c:\WP-Client/includes/class.admin.php:1008
+#: c:\WP-Client/includes/class.admin.php:1026
+#: c:\WP-Client/includes/class.admin.php:1056
+#: c:\WP-Client/includes/class.admin.php:3543
+#: c:\WP-Client/includes/class.admin.php:3560
+#, php-format
+msgid "Assign %s to"
+msgstr ""
+
+#: c:\WP-Client/includes/class.admin.php:1198
+#, php-format
+msgid "<strong>Welcome to %s</strong> - Plugin almost ready to start."
+msgstr ""
+
+#: c:\WP-Client/includes/class.admin.php:1200
+#: c:\WP-Client/includes/class.admin.php:1210
+#, php-format
+msgid "Install %s Pages"
+msgstr ""
+
+#: c:\WP-Client/includes/class.admin.php:1202
+#: c:\WP-Client/includes/class.admin.php:1212
+msgid "Skip Install"
+msgstr ""
+
+#: c:\WP-Client/includes/class.admin.php:1203
+#, php-format
+msgid "When you click 'Install %s Pages', the plugin will automatically create the necessary pages for the plugin's operation & populate those pages with the correct shortcodes. This is the default configuration, but can be changed later. Advanced & experienced admins can also choose to skip this default configuration process & manually build your portal by creating / assigning pages and then adding the appropriate shortcode."
+msgstr ""
+
+#: c:\WP-Client/includes/class.admin.php:1208
+#, php-format
+msgid "<strong>Welcome to %s</strong> -  Extension(s) almost ready to start."
+msgstr ""
+
+#: c:\WP-Client/includes/class.admin.php:1213
+msgid "When you click 'Install Pages', the plugin will automatically create the necessary pages for the plugin's operation & populate those pages with the correct shortcodes. This is the default configuration, but can be changed later. Advanced & experienced admins can also choose to skip this default configuration process & manually build your portal by creating / assigning pages and then adding the appropriate shortcode."
+msgstr ""
+
+#: c:\WP-Client/includes/class.admin.php:1925
+#: c:\WP-Client/includes/class.admin.php:2101
+msgid "Clients are assigned!"
+msgstr ""
+
+#: c:\WP-Client/includes/class.admin.php:2103
+msgid "Client Circles are assigned!"
+msgstr ""
+
+#: c:\WP-Client/includes/class.admin.php:3062
+#, php-format
+msgid "Are you sure? You will lose all Clients, HUB Pages, %s, Private Messages & Files"
+msgstr ""
+
+#: c:\WP-Client/includes/class.admin.php:3169
+#, php-format
+msgid "%s Role:"
+msgstr ""
+
+#: c:\WP-Client/includes/class.admin.php:3173
+#, php-format
+msgid "Remove %s role"
+msgstr ""
+
+#: c:\WP-Client/includes/class.admin.php:3262
+#: c:\WP-Client/includes/class.user_shortcodes.php:989
+msgid " - Cancelled"
+msgstr ""
+
+#: c:\WP-Client/includes/class.admin.php:3263
+#: c:\WP-Client/includes/class.user_shortcodes.php:990
+msgid " - Completed"
+msgstr ""
+
+#: c:\WP-Client/includes/class.admin.php:3264
+#: c:\WP-Client/includes/class.user_shortcodes.php:991
+msgid "404 Error"
+msgstr ""
+
+#: c:\WP-Client/includes/class.admin.php:3265
+#: c:\WP-Client/includes/class.user_shortcodes.php:992
+msgid "403 Forbidden"
+msgstr ""
+
+#: c:\WP-Client/includes/class.admin.php:3266
+#: c:\WP-Client/includes/class.user_shortcodes.php:993
+msgid "Forbidden File Type"
+msgstr ""
+
+#: c:\WP-Client/includes/class.admin.php:3267
+#: c:\WP-Client/includes/class.user_shortcodes.php:994
+msgid "File Too Large"
+msgstr ""
+
+#: c:\WP-Client/includes/class.admin.php:3268
+#: c:\WP-Client/includes/class.user_shortcodes.php:995
+msgid "Unknown Error"
+msgstr ""
+
+#: c:\WP-Client/includes/class.admin.php:3482
+#: c:\WP-Client/includes/class.user.php:2985
+msgid "Close"
+msgstr ""
+
+#: c:\WP-Client/includes/class.admin.php:3484
+msgid "Save"
+msgstr ""
+
+#: c:\WP-Client/includes/class.admin.php:3495
+#: c:\WP-Client/includes/class.user.php:1541
+#: c:\WP-Client/includes/class.user.php:1548
+#: c:\WP-Client/includes/class.user.php:1553
+#: c:\WP-Client/includes/class.user.php:1947
+msgid "Delete"
+msgstr ""
+
+#: c:\WP-Client/includes/class.admin.php:3501
+msgid "Category have Files. What do with Files"
+msgstr ""
+
+#: c:\WP-Client/includes/class.admin.php:3509
+msgid "Reassign Files"
+msgstr ""
+
+#: c:\WP-Client/includes/class.admin.php:3510
+msgid "or"
+msgstr ""
+
+#: c:\WP-Client/includes/class.admin.php:3511
+msgid "Delete Files"
+msgstr ""
+
+#: c:\WP-Client/includes/class.admin.php:3648
+msgid "You have changed plugin's folder name. Please rename plugin's folder name to 'wp-client'."
+msgstr ""
+
+#: c:\WP-Client/includes/class.admin.php:3667
+msgid "You do not have permission to access that page."
+msgstr ""
+
+#: c:\WP-Client/includes/class.admin_common.php:111
+msgid "Send email notification"
+msgstr ""
+
+#: c:\WP-Client/includes/class.admin_common.php:167
+#, php-format
+msgid "%s Display Options"
+msgstr ""
+
+#: c:\WP-Client/includes/class.admin_common.php:169
+msgid "Default"
+msgstr ""
+
+#: c:\WP-Client/includes/class.admin_common.php:170
+msgid "Show on HUB Page"
+msgstr ""
+
+#: c:\WP-Client/includes/class.admin_common.php:171
+#, php-format
+msgid "Show on %s"
+msgstr ""
+
+#: c:\WP-Client/includes/class.admin_common.php:172
+#, php-format
+msgid "Show on both HUB and %s"
+msgstr ""
+
+#: c:\WP-Client/includes/class.admin_common.php:173
+msgid "Don't show on HUB Page"
+msgstr ""
+
+#: c:\WP-Client/includes/class.admin_common.php:174
+#, php-format
+msgid "Don't show on %s"
+msgstr ""
+
+#: c:\WP-Client/includes/class.admin_common.php:175
+#, php-format
+msgid "Don't show on either HUB or %s"
+msgstr ""
+
+#: c:\WP-Client/includes/class.admin_common.php:254
+#: c:\WP-Client/includes/class.admin_common.php:257
+#, php-format
+msgid "Assign %s To %s"
+msgstr ""
+
+#: c:\WP-Client/includes/class.admin_common.php:260
+#: c:\WP-Client/includes/class.admin_common.php:390
+#: c:\WP-Client/includes/class.admin_common.php:510
+#: c:\WP-Client/includes/class.admin_common.php:513
+#, php-format
+msgid "Assign %s To %s:"
+msgstr ""
+
+#: c:\WP-Client/includes/class.admin_common.php:263
+#: c:\WP-Client/includes/class.admin_common.php:396
+#, php-format
+msgid "Assign %s To Gallery:"
+msgstr ""
+
+#: c:\WP-Client/includes/class.admin_common.php:266
+#: c:\WP-Client/includes/class.admin_common.php:399
+#, php-format
+msgid "Assign %s To Gallery Category:"
+msgstr ""
+
+#: c:\WP-Client/includes/class.admin_common.php:269
+#: c:\WP-Client/includes/class.admin_common.php:402
+#: c:\WP-Client/includes/class.admin_common.php:516
+#, php-format
+msgid "Assign %s To File:"
+msgstr ""
+
+#: c:\WP-Client/includes/class.admin_common.php:272
+#: c:\WP-Client/includes/class.admin_common.php:405
+#: c:\WP-Client/includes/class.admin_common.php:519
+#, php-format
+msgid "Assign %s To File Category:"
+msgstr ""
+
+#: c:\WP-Client/includes/class.admin_common.php:275
+#: c:\WP-Client/includes/class.admin_common.php:408
+#: c:\WP-Client/includes/class.admin_common.php:522
+#, php-format
+msgid "Assign %s To %s Category:"
+msgstr ""
+
+#: c:\WP-Client/includes/class.admin_common.php:278
+#: c:\WP-Client/includes/class.admin_common.php:411
+#: c:\WP-Client/includes/class.admin_common.php:525
+#, php-format
+msgid "Assign %s:"
+msgstr ""
+
+#: c:\WP-Client/includes/class.admin_common.php:290
+#: c:\WP-Client/includes/class.admin_common.php:332
+#: c:\WP-Client/includes/class.admin_common.php:423
+#: c:\WP-Client/includes/class.admin_common.php:450
+#: c:\WP-Client/includes/class.admin_common.php:536
+#: c:\WP-Client/includes/class.admin_common.php:562
+msgid "Search"
+msgstr ""
+
+#: c:\WP-Client/includes/class.admin_common.php:308
+#: c:\WP-Client/includes/class.admin_common.php:440
+#: c:\WP-Client/includes/class.admin_common.php:552
+msgid "Select all at this page."
+msgstr ""
+
+#: c:\WP-Client/includes/class.admin_common.php:314
+#: c:\WP-Client/includes/class.admin_common.php:446
+#: c:\WP-Client/includes/class.admin_common.php:558
+msgid "Select All."
+msgstr ""
+
+#: c:\WP-Client/includes/class.admin_common.php:321
+#: c:\WP-Client/includes/class.admin_common.php:571
+msgid "Username"
+msgstr ""
+
+#: c:\WP-Client/includes/class.admin_common.php:322
+#: c:\WP-Client/includes/class.admin_common.php:572
+#: c:\WP-Client/includes/class.ajax.php:1182
+msgid "Contact Name"
+msgstr ""
+
+#: c:\WP-Client/includes/class.admin_common.php:323
+#: c:\WP-Client/includes/class.ajax.php:1176
+msgid "Business Name"
+msgstr ""
+
+#: c:\WP-Client/includes/class.admin_common.php:326
+#: c:\WP-Client/includes/class.admin_common.php:452
+#: c:\WP-Client/includes/class.admin_common.php:564
+msgid "A to Z"
+msgstr ""
+
+#: c:\WP-Client/includes/class.admin_common.php:327
+#: c:\WP-Client/includes/class.admin_common.php:453
+#: c:\WP-Client/includes/class.admin_common.php:565
+msgid "Z to A"
+msgstr ""
+
+#: c:\WP-Client/includes/class.admin_common.php:328
+#: c:\WP-Client/includes/class.admin_common.php:454
+#: c:\WP-Client/includes/class.admin_common.php:566
+msgid "Date Added (Recent to Earlier)"
+msgstr ""
+
+#: c:\WP-Client/includes/class.admin_common.php:329
+#: c:\WP-Client/includes/class.admin_common.php:455
+#: c:\WP-Client/includes/class.admin_common.php:567
+msgid "Date Added (Earlier to Recent)"
+msgstr ""
+
+#: c:\WP-Client/includes/class.admin_common.php:330
+#: c:\WP-Client/includes/class.admin_common.php:456
+#: c:\WP-Client/includes/class.admin_common.php:568
+msgid "Assigned show first"
+msgstr ""
+
+#: c:\WP-Client/includes/class.admin_common.php:360
+#: c:\WP-Client/includes/class.admin_common.php:481
+#: c:\WP-Client/includes/class.admin_common.php:598
+msgid "Ok"
+msgstr ""
+
+#: c:\WP-Client/includes/class.admin_common.php:361
+#: c:\WP-Client/includes/class.admin_common.php:482
+#: c:\WP-Client/includes/class.admin_common.php:599
+msgid "Cancel"
+msgstr ""
+
+#: c:\WP-Client/includes/class.admin_common.php:393
+#, php-format
+msgid "Assign %s To $s:"
+msgstr ""
+
+#: c:\WP-Client/includes/class.admin_common.php:755
+#: c:\WP-Client/includes/class.admin_common.php:836
+#: c:\WP-Client/includes/class.admin_common.php:916
+msgid "Assign"
+msgstr ""
+
+#: c:\WP-Client/includes/class.admin_common.php:1323
+msgid "No Clients For Assign."
+msgstr ""
+
+#: c:\WP-Client/includes/class.admin_common.php:1513
+msgid "No Client Circles For Assign."
+msgstr ""
+
+#: c:\WP-Client/includes/class.admin_common.php:1803
+msgid "No Managers For Assign."
+msgstr ""
+
+#: c:\WP-Client/includes/class.admin_common.php:1850
+#: c:\WP-Client/includes/class.admin_common.php:1865
+msgid "Pages you have access to"
+msgstr ""
+
+#: c:\WP-Client/includes/class.admin_common.php:1862
+msgid "Text: \"Pages you have access to\""
+msgstr ""
+
+#: c:\WP-Client/includes/class.admin_common.php:1871
+#: c:\WP-Client/includes/class.admin_common.php:2041
+#: c:\WP-Client/includes/class.admin_common.php:2420
+#: c:\WP-Client/includes/class.admin_common.php:2806
+#: c:\WP-Client/includes/class.admin_common.php:2964
+#: c:\WP-Client/includes/class.admin_common.php:3058
+msgid "Placeholder"
+msgstr ""
+
+#: c:\WP-Client/includes/class.admin_common.php:1874
+#: c:\WP-Client/includes/class.admin_common.php:2044
+#: c:\WP-Client/includes/class.admin_common.php:2423
+#: c:\WP-Client/includes/class.admin_common.php:2809
+#: c:\WP-Client/includes/class.admin_common.php:2967
+#: c:\WP-Client/includes/class.admin_common.php:3061
+#: c:\WP-Client/includes/class.admin_meta_boxes.php:523
+msgid "Click to copy"
+msgstr ""
+
+#: c:\WP-Client/includes/class.admin_common.php:1874
+#: c:\WP-Client/includes/class.admin_common.php:2044
+#: c:\WP-Client/includes/class.admin_common.php:2423
+#: c:\WP-Client/includes/class.admin_common.php:2809
+#: c:\WP-Client/includes/class.admin_common.php:2967
+#: c:\WP-Client/includes/class.admin_common.php:3061
+#: c:\WP-Client/includes/class.admin_meta_boxes.php:523
+msgid "Placeholder was copied"
+msgstr ""
+
+#: c:\WP-Client/includes/class.admin_common.php:1880
+msgid "Show Current Page"
+msgstr ""
+
+#: c:\WP-Client/includes/class.admin_common.php:1884
+#: c:\WP-Client/includes/class.admin_common.php:1917
+#: c:\WP-Client/includes/class.admin_common.php:1937
+#: c:\WP-Client/includes/class.admin_common.php:2054
+#: c:\WP-Client/includes/class.admin_common.php:2065
+#: c:\WP-Client/includes/class.admin_common.php:2076
+#: c:\WP-Client/includes/class.admin_common.php:2087
+#: c:\WP-Client/includes/class.admin_common.php:2098
+#: c:\WP-Client/includes/class.admin_common.php:2119
+#: c:\WP-Client/includes/class.admin_common.php:2174
+#: c:\WP-Client/includes/class.admin_common.php:2197
+#: c:\WP-Client/includes/class.admin_common.php:2208
+#: c:\WP-Client/includes/class.admin_common.php:2219
+#: c:\WP-Client/includes/class.admin_common.php:2230
+#: c:\WP-Client/includes/class.admin_common.php:2241
+#: c:\WP-Client/includes/class.admin_common.php:2433
+#: c:\WP-Client/includes/class.admin_common.php:2444
+#: c:\WP-Client/includes/class.admin_common.php:2455
+#: c:\WP-Client/includes/class.admin_common.php:2466
+#: c:\WP-Client/includes/class.admin_common.php:2477
+#: c:\WP-Client/includes/class.admin_common.php:2496
+#: c:\WP-Client/includes/class.admin_common.php:2551
+#: c:\WP-Client/includes/class.admin_common.php:2562
+#: c:\WP-Client/includes/class.admin_common.php:2585
+#: c:\WP-Client/includes/class.admin_common.php:2596
+#: c:\WP-Client/includes/class.admin_common.php:2607
+#: c:\WP-Client/includes/class.admin_common.php:2618
+#: c:\WP-Client/includes/class.admin_common.php:2629
+#: c:\WP-Client/includes/class.admin_common.php:2863
+#: c:\WP-Client/includes/class.admin_common.php:2994
+#: c:\WP-Client/includes/class.admin_meta_boxes.php:347
+#: c:\WP-Client/includes/class.admin_meta_boxes.php:357
+msgid "Yes"
+msgstr ""
+
+#: c:\WP-Client/includes/class.admin_common.php:1885
+#: c:\WP-Client/includes/class.admin_common.php:1918
+#: c:\WP-Client/includes/class.admin_common.php:1936
+#: c:\WP-Client/includes/class.admin_common.php:2055
+#: c:\WP-Client/includes/class.admin_common.php:2066
+#: c:\WP-Client/includes/class.admin_common.php:2077
+#: c:\WP-Client/includes/class.admin_common.php:2088
+#: c:\WP-Client/includes/class.admin_common.php:2099
+#: c:\WP-Client/includes/class.admin_common.php:2120
+#: c:\WP-Client/includes/class.admin_common.php:2175
+#: c:\WP-Client/includes/class.admin_common.php:2198
+#: c:\WP-Client/includes/class.admin_common.php:2209
+#: c:\WP-Client/includes/class.admin_common.php:2220
+#: c:\WP-Client/includes/class.admin_common.php:2231
+#: c:\WP-Client/includes/class.admin_common.php:2242
+#: c:\WP-Client/includes/class.admin_common.php:2434
+#: c:\WP-Client/includes/class.admin_common.php:2445
+#: c:\WP-Client/includes/class.admin_common.php:2456
+#: c:\WP-Client/includes/class.admin_common.php:2467
+#: c:\WP-Client/includes/class.admin_common.php:2478
+#: c:\WP-Client/includes/class.admin_common.php:2497
+#: c:\WP-Client/includes/class.admin_common.php:2552
+#: c:\WP-Client/includes/class.admin_common.php:2563
+#: c:\WP-Client/includes/class.admin_common.php:2586
+#: c:\WP-Client/includes/class.admin_common.php:2597
+#: c:\WP-Client/includes/class.admin_common.php:2608
+#: c:\WP-Client/includes/class.admin_common.php:2619
+#: c:\WP-Client/includes/class.admin_common.php:2630
+#: c:\WP-Client/includes/class.admin_common.php:2864
+#: c:\WP-Client/includes/class.admin_common.php:2995
+#: c:\WP-Client/includes/class.admin_meta_boxes.php:348
+#: c:\WP-Client/includes/class.admin_meta_boxes.php:358
+msgid "No"
+msgstr ""
+
+#: c:\WP-Client/includes/class.admin_common.php:1891
+msgid "Sort Type"
+msgstr ""
+
+#: c:\WP-Client/includes/class.admin_common.php:1895
+msgid "Date"
+msgstr ""
+
+#: c:\WP-Client/includes/class.admin_common.php:1902
+msgid "Sort"
+msgstr ""
+
+#: c:\WP-Client/includes/class.admin_common.php:1906
+msgid "ASC"
+msgstr ""
+
+#: c:\WP-Client/includes/class.admin_common.php:1907
+msgid "DESC"
+msgstr ""
+
+#: c:\WP-Client/includes/class.admin_common.php:1913
+#: c:\WP-Client/includes/class.admin_common.php:2115
+#: c:\WP-Client/includes/class.admin_common.php:2492
+msgid "Show Categories Titles"
+msgstr ""
+
+#: c:\WP-Client/includes/class.admin_common.php:1924
+#: c:\WP-Client/includes/class.admin_common.php:2815
+#: c:\WP-Client/includes/class.admin_menu.php:341
+msgid "Categories"
+msgstr ""
+
+#: c:\WP-Client/includes/class.admin_common.php:1932
+#: c:\WP-Client/includes/class.admin_common.php:2050
+#: c:\WP-Client/includes/class.admin_common.php:2429
+msgid "Show Sort"
+msgstr ""
+
+#: c:\WP-Client/includes/class.admin_common.php:2013
+#, php-format
+msgid "Files from %s"
+msgstr ""
+
+#: c:\WP-Client/includes/class.admin_common.php:2024
+#, php-format
+msgid "Text: Files from %s"
+msgstr ""
+
+#: c:\WP-Client/includes/class.admin_common.php:2027
+msgid "Files you have uploaded"
+msgstr ""
+
+#: c:\WP-Client/includes/class.admin_common.php:2032
+#: c:\WP-Client/includes/class.admin_common.php:2411
+msgid "Text: \"You don't have any files\""
+msgstr ""
+
+#: c:\WP-Client/includes/class.admin_common.php:2035
+#: c:\WP-Client/includes/class.admin_common.php:2414
+msgid "You don't have any files"
+msgstr ""
+
+#: c:\WP-Client/includes/class.admin_common.php:2061
+#: c:\WP-Client/includes/class.admin_common.php:2440
+msgid "Show Date"
+msgstr ""
+
+#: c:\WP-Client/includes/class.admin_common.php:2072
+#: c:\WP-Client/includes/class.admin_common.php:2462
+msgid "Show Tags"
+msgstr ""
+
+#: c:\WP-Client/includes/class.admin_common.php:2083
+#: c:\WP-Client/includes/class.admin_common.php:2451
+msgid "Show Size"
+msgstr ""
+
+#: c:\WP-Client/includes/class.admin_common.php:2094
+#: c:\WP-Client/includes/class.admin_common.php:2473
+msgid "Show Last Download Date"
+msgstr ""
+
+#: c:\WP-Client/includes/class.admin_common.php:2170
+#: c:\WP-Client/includes/class.admin_common.php:2547
+msgid "With sub-Categories"
+msgstr ""
+
+#: c:\WP-Client/includes/class.admin_common.php:2181
+#: c:\WP-Client/includes/class.admin_common.php:2569
+msgid "View Type"
+msgstr ""
+
+#: c:\WP-Client/includes/class.admin_common.php:2185
+#: c:\WP-Client/includes/class.admin_common.php:2573
+msgid "List"
+msgstr ""
+
+#: c:\WP-Client/includes/class.admin_common.php:2186
+#: c:\WP-Client/includes/class.admin_common.php:2574
+msgid "Table"
+msgstr ""
+
+#: c:\WP-Client/includes/class.admin_common.php:2187
+#: c:\WP-Client/includes/class.admin_common.php:2575
+msgid "Tree"
+msgstr ""
+
+#: c:\WP-Client/includes/class.admin_common.php:2193
+#: c:\WP-Client/includes/class.admin_common.php:2581
+msgid "Show Actions (For table only)"
+msgstr ""
+
+#: c:\WP-Client/includes/class.admin_common.php:2204
+#: c:\WP-Client/includes/class.admin_common.php:2592
+msgid "Show Thumbnails (For table only)"
+msgstr ""
+
+#: c:\WP-Client/includes/class.admin_common.php:2215
+#: c:\WP-Client/includes/class.admin_common.php:2603
+msgid "Show Search (For table only)"
+msgstr ""
+
+#: c:\WP-Client/includes/class.admin_common.php:2226
+#: c:\WP-Client/includes/class.admin_common.php:2614
+msgid "Show Filters (For table only)"
+msgstr ""
+
+#: c:\WP-Client/includes/class.admin_common.php:2237
+#: c:\WP-Client/includes/class.admin_common.php:2625
+msgid "Show Pagination (For table only)"
+msgstr ""
+
+#: c:\WP-Client/includes/class.admin_common.php:2248
+#: c:\WP-Client/includes/class.admin_common.php:2636
+msgid "Show Pagination By (For table with pagination only)"
+msgstr ""
+
+#: c:\WP-Client/includes/class.admin_common.php:2252
+#: c:\WP-Client/includes/class.admin_common.php:2640
+msgid "5"
+msgstr ""
+
+#: c:\WP-Client/includes/class.admin_common.php:2253
+#: c:\WP-Client/includes/class.admin_common.php:2641
+msgid "10"
+msgstr ""
+
+#: c:\WP-Client/includes/class.admin_common.php:2254
+#: c:\WP-Client/includes/class.admin_common.php:2642
+msgid "15"
+msgstr ""
+
+#: c:\WP-Client/includes/class.admin_common.php:2255
+#: c:\WP-Client/includes/class.admin_common.php:2643
+msgid "20"
+msgstr ""
+
+#: c:\WP-Client/includes/class.admin_common.php:2391
+#, php-format
+msgid "Files to %s"
+msgstr ""
+
+#: c:\WP-Client/includes/class.admin_common.php:2403
+#, php-format
+msgid "Text:Files to %s"
+msgstr ""
+
+#: c:\WP-Client/includes/class.admin_common.php:2406
+msgid "Files you have access to"
+msgstr ""
+
+#: c:\WP-Client/includes/class.admin_common.php:2558
+msgid "Exclude Author"
+msgstr ""
+
+#: c:\WP-Client/includes/class.admin_common.php:2785
+#: c:\WP-Client/includes/class.admin_common.php:2800
+msgid "Upload Files"
+msgstr ""
+
+#: c:\WP-Client/includes/class.admin_common.php:2797
+msgid "Text: \"Upload Files\""
+msgstr ""
+
+#: c:\WP-Client/includes/class.admin_common.php:2819
+msgid "All"
+msgstr ""
+
+#: c:\WP-Client/includes/class.admin_common.php:2859
+msgid "Auto-Upload After Select"
+msgstr ""
+
+#: c:\WP-Client/includes/class.admin_common.php:2870
+msgid "Include Filetypes"
+msgstr ""
+
+#: c:\WP-Client/includes/class.admin_common.php:2878
+msgid "Exclude Filetypes"
+msgstr ""
+
+#: c:\WP-Client/includes/class.admin_common.php:2943
+msgid "Private Messages"
+msgstr ""
+
+#: c:\WP-Client/includes/class.admin_common.php:2955
+msgid "Text: \"Private Messages\""
+msgstr ""
+
+#: c:\WP-Client/includes/class.admin_common.php:2958
+msgid " Private Messages"
+msgstr ""
+
+#: c:\WP-Client/includes/class.admin_common.php:2973
+msgid "Start Show Number of Messages"
+msgstr ""
+
+#: c:\WP-Client/includes/class.admin_common.php:2981
+msgid "Show More Number of Messages"
+msgstr ""
+
+#: c:\WP-Client/includes/class.admin_common.php:2990
+msgid "Show Filters"
+msgstr ""
+
+#: c:\WP-Client/includes/class.admin_common.php:3046
+msgid "Logout Link"
+msgstr ""
+
+#: c:\WP-Client/includes/class.admin_common.php:3189
+msgid "Dismiss"
+msgstr ""
+
+#: c:\WP-Client/includes/class.admin_common.php:3256
+msgid "Customize this?"
+msgstr ""
+
+#: c:\WP-Client/includes/class.admin_menu.php:88
+#: c:\WP-Client/includes/class.admin_menu.php:89
+#: c:\WP-Client/includes/class.admin_menu.php:253
+#: c:\WP-Client/includes/class.admin_menu.php:285
+#: c:\WP-Client/includes/class.admin_menu.php:293
+#: c:\WP-Client/includes/class.admin_menu.php:335
+#: c:\WP-Client/includes/class.admin_menu.php:796
+#: c:\WP-Client/includes/class.user_shortcodes.php:1177
+#, php-format
+msgid "Add %s"
+msgstr ""
+
+#: c:\WP-Client/includes/class.admin_menu.php:98
+#: c:\WP-Client/includes/class.admin_menu.php:99
+msgid "Templates"
+msgstr ""
+
+#: c:\WP-Client/includes/class.admin_menu.php:108
+#: c:\WP-Client/includes/class.admin_menu.php:109
+msgid "Customize"
+msgstr ""
+
+#: c:\WP-Client/includes/class.admin_menu.php:118
+#: c:\WP-Client/includes/class.admin_menu.php:119
+msgid "File Sharing"
+msgstr ""
+
+#: c:\WP-Client/includes/class.admin_menu.php:128
+#: c:\WP-Client/includes/class.admin_menu.php:129
+msgid "Permissions Report"
+msgstr ""
+
+#: c:\WP-Client/includes/class.admin_menu.php:148
+#: c:\WP-Client/includes/class.admin_menu.php:149
+msgid "Extensions"
+msgstr ""
+
+#: c:\WP-Client/includes/class.admin_menu.php:158
+#: c:\WP-Client/includes/class.admin_menu.php:159
+msgid "Settings"
+msgstr ""
+
+#: c:\WP-Client/includes/class.admin_menu.php:168
+#: c:\WP-Client/includes/class.admin_menu.php:705
+#, php-format
+msgid "%s Wordpress Client Management Portal | Documentation & Tips"
+msgstr ""
+
+#: c:\WP-Client/includes/class.admin_menu.php:169
+msgid "Help"
+msgstr ""
+
+#: c:\WP-Client/includes/class.admin_menu.php:178
+#: c:\WP-Client/includes/class.admin_menu.php:179
+msgid "Private Messaging"
+msgstr ""
+
+#: c:\WP-Client/includes/class.admin_menu.php:188
+#: c:\WP-Client/includes/class.admin_menu.php:189
+msgid "HUB Pages"
+msgstr ""
+
+#: c:\WP-Client/includes/class.admin_menu.php:208
+#: c:\WP-Client/includes/class.admin_menu.php:209
+#, php-format
+msgid "%s Categories"
+msgstr ""
+
+#: c:\WP-Client/includes/class.admin_menu.php:259
+#, php-format
+msgid "%s's %s"
+msgstr ""
+
+#: c:\WP-Client/includes/class.admin_menu.php:265
+#, php-format
+msgid "%s Add"
+msgstr ""
+
+#: c:\WP-Client/includes/class.admin_menu.php:271
+#: c:\WP-Client/includes/class.admin_menu.php:819
+msgid "Custom Fields"
+msgstr ""
+
+#: c:\WP-Client/includes/class.admin_menu.php:277
+#: c:\WP-Client/includes/class.admin_menu.php:824
+msgid "Archive"
+msgstr ""
+
+#: c:\WP-Client/includes/class.admin_menu.php:301
+#: c:\WP-Client/includes/class.admin_menu.php:773
+msgid "File Categories"
+msgstr ""
+
+#: c:\WP-Client/includes/class.admin_menu.php:307
+#: c:\WP-Client/includes/class.admin_menu.php:781
+msgid "Download Log"
+msgstr ""
+
+#: c:\WP-Client/includes/class.admin_menu.php:315
+#, php-format
+msgid "%s/%s"
+msgstr ""
+
+#: c:\WP-Client/includes/class.admin_menu.php:321
+msgid "Capabilities"
+msgstr ""
+
+#: c:\WP-Client/includes/class.admin_menu.php:327
+msgid "Custom Login"
+msgstr ""
+
+#: c:\WP-Client/includes/class.admin_menu.php:349
+msgid "HUB Page Templates"
+msgstr ""
+
+#: c:\WP-Client/includes/class.admin_menu.php:355
+#, php-format
+msgid "%s Template"
+msgstr ""
+
+#: c:\WP-Client/includes/class.admin_menu.php:361
+msgid "Emails Templates"
+msgstr ""
+
+#: c:\WP-Client/includes/class.admin_menu.php:367
+msgid "Shortcodes Templates"
+msgstr ""
+
+#: c:\WP-Client/includes/class.admin_menu.php:400
+#: c:\WP-Client/includes/class.install.php:32
+msgid "HUB Page"
+msgstr ""
+
+#: c:\WP-Client/includes/class.admin_menu.php:400
+msgid "My HUB Page"
+msgstr ""
+
+#: c:\WP-Client/includes/class.admin_menu.php:424
+msgid "Dashboard"
+msgstr ""
+
+#: c:\WP-Client/includes/class.admin_menu.php:770
+msgid "Files"
+msgstr ""
+
+#: c:\WP-Client/includes/class.admin_menu.php:777
+msgid "File Tags"
+msgstr ""
+
+#: c:\WP-Client/includes/class.admin_menu.php:800
+#, php-format
+msgid "Approve %s"
+msgstr ""
+
+#: c:\WP-Client/includes/class.admin_menu.php:807
+msgid "Convert Users"
+msgstr ""
+
+#: c:\WP-Client/includes/class.admin_menu.php:813
+msgid "Add"
+msgstr ""
+
+#: c:\WP-Client/includes/class.admin_menu.php:816
+msgid "Approve"
+msgstr ""
+
+#: c:\WP-Client/includes/class.admin_meta_boxes.php:26
+#: c:\WP-Client/includes/class.admin_meta_boxes.php:34
+#, php-format
+msgid "%s Settings"
+msgstr ""
+
+#: c:\WP-Client/includes/class.admin_meta_boxes.php:38
+msgid "HUB Page Settings"
+msgstr ""
+
+#: c:\WP-Client/includes/class.admin_meta_boxes.php:43
+#: c:\WP-Client/includes/class.admin_meta_boxes.php:46
+#: c:\WP-Client/includes/class.admin_meta_boxes.php:49
+msgid "General Settings"
+msgstr ""
+
+#: c:\WP-Client/includes/class.admin_meta_boxes.php:44
+msgid "Bar Elements"
+msgstr ""
+
+#: c:\WP-Client/includes/class.admin_meta_boxes.php:47
+msgid "Advanced HUB Elements"
+msgstr ""
+
+#: c:\WP-Client/includes/class.admin_meta_boxes.php:81
+#: c:\WP-Client/includes/class.admin_meta_boxes.php:490
+msgid "Add New Element"
+msgstr ""
+
+#: c:\WP-Client/includes/class.admin_meta_boxes.php:313
+msgid "Menu Type"
+msgstr ""
+
+#: c:\WP-Client/includes/class.admin_meta_boxes.php:315
+msgid "Horizontal Tabs"
+msgstr ""
+
+#: c:\WP-Client/includes/class.admin_meta_boxes.php:316
+msgid "Vertical Tabs"
+msgstr ""
+
+#: c:\WP-Client/includes/class.admin_meta_boxes.php:324
+#: c:\WP-Client/includes/class.admin_meta_boxes.php:405
+#: c:\WP-Client/includes/class.admin_meta_boxes.php:729
+#: c:\WP-Client/includes/class.admin_meta_boxes.php:853
+#: c:\WP-Client/includes/class.admin_meta_boxes.php:1026
+msgid "Style Scheme"
+msgstr ""
+
+#: c:\WP-Client/includes/class.admin_meta_boxes.php:326
+#: c:\WP-Client/includes/class.admin_meta_boxes.php:407
+#: c:\WP-Client/includes/class.admin_meta_boxes.php:731
+#: c:\WP-Client/includes/class.admin_meta_boxes.php:855
+#: c:\WP-Client/includes/class.admin_meta_boxes.php:1028
+msgid "- None -"
+msgstr ""
+
+#: c:\WP-Client/includes/class.admin_meta_boxes.php:340
+#: c:\WP-Client/includes/class.admin_meta_boxes.php:423
+#: c:\WP-Client/includes/class.admin_meta_boxes.php:745
+#: c:\WP-Client/includes/class.admin_meta_boxes.php:863
+#: c:\WP-Client/includes/class.admin_meta_boxes.php:1036
+msgid "you can update or create your scheme"
+msgstr ""
+
+#: c:\WP-Client/includes/class.admin_meta_boxes.php:340
+#: c:\WP-Client/includes/class.admin_meta_boxes.php:423
+#: c:\WP-Client/includes/class.admin_meta_boxes.php:745
+#: c:\WP-Client/includes/class.admin_meta_boxes.php:863
+#: c:\WP-Client/includes/class.admin_meta_boxes.php:1036
+msgid "here"
+msgstr ""
+
+#: c:\WP-Client/includes/class.admin_meta_boxes.php:345
+msgid "Enable Logout Link on Bar"
+msgstr ""
+
+#: c:\WP-Client/includes/class.admin_meta_boxes.php:355
+msgid "Enable Icons in Bar"
+msgstr ""
+
+#: c:\WP-Client/includes/class.admin_meta_boxes.php:365
+#: c:\WP-Client/includes/class.admin_meta_boxes.php:427
+#: c:\WP-Client/includes/class.admin_meta_boxes.php:749
+msgid "Add Template"
+msgstr ""
+
+#: c:\WP-Client/includes/class.admin_meta_boxes.php:367
+#: c:\WP-Client/includes/class.admin_meta_boxes.php:429
+#: c:\WP-Client/includes/class.admin_meta_boxes.php:751
+msgid "Update Template"
+msgstr ""
+
+#: c:\WP-Client/includes/class.admin_meta_boxes.php:438
+#: c:\WP-Client/includes/class.admin_meta_boxes.php:760
+msgid "Are you sure want to reset the Simple template default "
+msgstr ""
+
+#: c:\WP-Client/includes/class.admin_meta_boxes.php:438
+#: c:\WP-Client/includes/class.admin_meta_boxes.php:760
+msgid "Reset to Default"
+msgstr ""
+
+#: c:\WP-Client/includes/class.admin_meta_boxes.php:470
+#, php-format
+msgid "The various settings below can be used to modify each %s function. For example, you can adjust the sort and display type for the files and %s listed."
+msgstr ""
+
+#: c:\WP-Client/includes/class.admin_meta_boxes.php:781
+#: c:\WP-Client/includes/class.admin_meta_boxes.php:830
+msgid "Template"
+msgstr ""
+
+#: c:\WP-Client/includes/class.admin_meta_boxes.php:783
+msgid "Use same as /hub-page"
+msgstr ""
+
+#: c:\WP-Client/includes/class.admin_meta_boxes.php:784
+#: c:\WP-Client/includes/class.admin_meta_boxes.php:833
+msgid "Default Template"
+msgstr ""
+
+#: c:\WP-Client/includes/class.admin_meta_boxes.php:798
+#: c:\WP-Client/includes/class.admin_meta_boxes.php:954
+msgid "Ignore Theme Link Page options"
+msgstr ""
+
+#: c:\WP-Client/includes/class.admin_meta_boxes.php:801
+#: c:\WP-Client/includes/class.admin_meta_boxes.php:957
+msgid "This will allow you to use options provided by your framework theme on an individual page level."
+msgstr ""
+
+#: c:\WP-Client/includes/class.admin_meta_boxes.php:832
+msgid "Use same as /portal-page"
+msgstr ""
+
+#: c:\WP-Client/includes/class.admin_meta_boxes.php:841
+#: c:\WP-Client/includes/class.ajax.php:1165
+#: c:\WP-Client/includes/class.ajax.php:1171
+#: c:\WP-Client/includes/class.user_shortcodes.php:88
+#: c:\WP-Client/includes/class.user_shortcodes.php:103
+#: c:\WP-Client/includes/class.user_shortcodes.php:119
+#: c:\WP-Client/includes/class.user_shortcodes.php:130
+#: c:\WP-Client/includes/class.user_shortcodes.php:151
+#: c:\WP-Client/includes/class.user_shortcodes.php:162
+#: c:\WP-Client/includes/class.user_shortcodes.php:182
+msgid "None"
+msgstr ""
+
+#: c:\WP-Client/includes/class.admin_meta_boxes.php:874
+#, php-format
+msgid "Assign %s"
+msgstr ""
+
+#: c:\WP-Client/includes/class.admin_meta_boxes.php:875
+#: c:\WP-Client/includes/class.admin_meta_boxes.php:937
+#, php-format
+msgid "Allowed %s"
+msgstr ""
+
+#: c:\WP-Client/includes/class.admin_meta_boxes.php:936
+#, php-format
+msgid "assign %s"
+msgstr ""
+
+#: c:\WP-Client/includes/class.admin_meta_boxes.php:963
+#, php-format
+msgid "Allow the %s to edit this page"
+msgstr ""
+
+#: c:\WP-Client/includes/class.admin_meta_boxes.php:970
+#, php-format
+msgid "Send Update to selected %s"
+msgstr ""
+
+#: c:\WP-Client/includes/class.admin_meta_boxes.php:979
+#: c:\WP-Client/includes/class.admin_meta_boxes.php:1000
+#, php-format
+msgid "Send to %s"
+msgstr ""
+
+#: c:\WP-Client/includes/class.admin_meta_boxes.php:980
+#: c:\WP-Client/includes/class.admin_meta_boxes.php:1001
+#, php-format
+msgid "Send %s"
+msgstr ""
+
+#: c:\WP-Client/includes/class.ajax.php:182
+#: c:\WP-Client/includes/class.ajax.php:206
+msgid "Wrong data"
+msgstr ""
+
+#: c:\WP-Client/includes/class.ajax.php:222
+msgid "Success"
+msgstr ""
+
+#: c:\WP-Client/includes/class.ajax.php:224
+msgid "Hub template does not exists."
+msgstr ""
+
+#: c:\WP-Client/includes/class.ajax.php:227
+msgid "Hub ID does not exists."
+msgstr ""
+
+#: c:\WP-Client/includes/class.ajax.php:285
+msgid "Resize was completed"
+msgstr ""
+
+#: c:\WP-Client/includes/class.ajax.php:287
+msgid "No Files"
+msgstr ""
+
+#: c:\WP-Client/includes/class.ajax.php:306
+#: c:\WP-Client/includes/class.ajax.php:349
+msgid "Title is empty"
+msgstr ""
+
+#: c:\WP-Client/includes/class.ajax.php:311
+#: c:\WP-Client/includes/class.ajax.php:354
+msgid "Alphabetic Currency Code is empty"
+msgstr ""
+
+#: c:\WP-Client/includes/class.ajax.php:316
+#: c:\WP-Client/includes/class.ajax.php:359
+msgid "Currency Symbol is empty"
+msgstr ""
+
+#: c:\WP-Client/includes/class.ajax.php:343
+msgid "Code does not exists."
+msgstr ""
+
+#: c:\WP-Client/includes/class.ajax.php:386
+#: c:\WP-Client/includes/class.ajax.php:410
+#: c:\WP-Client/includes/class.ajax.php:430
+msgid "Key is empty"
+msgstr ""
+
+#: c:\WP-Client/includes/class.ajax.php:391
+msgid "You can't remove currency with default mark"
+msgstr ""
+
+#: c:\WP-Client/includes/class.ajax.php:396
+msgid "Currency already used"
+msgstr ""
+
+#: c:\WP-Client/includes/class.ajax.php:420
+#: c:\WP-Client/includes/class.ajax.php:437
+msgid "Key is wrong"
+msgstr ""
+
+#: c:\WP-Client/includes/class.ajax.php:552
+#: c:\WP-Client/includes/class.ajax.php:745
+msgid "item"
+msgstr ""
+
+#: c:\WP-Client/includes/class.ajax.php:552
+#: c:\WP-Client/includes/class.ajax.php:745
+#: c:\WP-Client/includes/class.user.php:2003
+#: c:\WP-Client/includes/class.user.php:2032
+msgid "items"
+msgstr ""
+
+#: c:\WP-Client/includes/class.ajax.php:552
+#: c:\WP-Client/includes/class.ajax.php:745
+#: c:\WP-Client/includes/class.user.php:2003
+#: c:\WP-Client/includes/class.user.php:2032
+msgid "No items"
+msgstr ""
+
+#: c:\WP-Client/includes/class.ajax.php:852
+#: c:\WP-Client/includes/class.user.php:2135
+#: c:\WP-Client/includes/class.user.php:2406
+#: c:\WP-Client/includes/class.user.php:2508
+msgid "Last Download:"
+msgstr ""
+
+#: c:\WP-Client/includes/class.ajax.php:1035
+msgid "Invalid Data"
+msgstr ""
+
+#: c:\WP-Client/includes/class.ajax.php:1159
+msgid "View Client"
+msgstr ""
+
+#: c:\WP-Client/includes/class.ajax.php:1164
+msgid "Client Managers"
+msgstr ""
+
+#: c:\WP-Client/includes/class.ajax.php:1170
+msgid "Client Circles"
+msgstr ""
+
+#: c:\WP-Client/includes/class.ajax.php:1188
+msgid "Email"
+msgstr ""
+
+#: c:\WP-Client/includes/class.ajax.php:1194
+msgid "Phone"
+msgstr ""
+
+#: c:\WP-Client/includes/class.ajax.php:1298
+#: c:\WP-Client/includes/class.ajax.php:1315
+msgid "Some problem with update."
+msgstr ""
+
+#: c:\WP-Client/includes/class.ajax.php:1311
+msgid "Notes is updated."
+msgstr ""
+
+#: c:\WP-Client/includes/class.ajax.php:1412
+msgid "This folder is already exist in this level"
+msgstr ""
+
+#: c:\WP-Client/includes/class.ajax.php:1567
+msgid "Wrong type"
+msgstr ""
+
+#: c:\WP-Client/includes/class.ajax.php:1646
+#: c:\WP-Client/includes/class.ajax.php:1748
+msgid "You"
+msgstr ""
+
+#: c:\WP-Client/includes/class.ajax.php:1648
+#: c:\WP-Client/includes/class.ajax.php:1750
+msgid "Administrator"
+msgstr ""
+
+#: c:\WP-Client/includes/class.ajax.php:1813
+#: c:\WP-Client/includes/class.user_shortcodes.php:714
+msgid "The file size more than allowed!"
+msgstr ""
+
+#: c:\WP-Client/includes/class.ajax.php:2079
+#: c:\WP-Client/includes/class.ajax.php:2731
+#: c:\WP-Client/includes/class.user_shortcodes.php:976
+msgid "There was an error uploading the file, please try again!"
+msgstr ""
+
+#: c:\WP-Client/includes/class.ajax.php:2082
+#: c:\WP-Client/includes/class.user_shortcodes.php:979
+msgid "Such an extension is not supported!"
+msgstr ""
+
+#: c:\WP-Client/includes/class.ajax.php:2471
+msgid "Message is sent."
+msgstr ""
+
+#: c:\WP-Client/includes/class.ajax.php:2473
+msgid "Something wrong!"
+msgstr ""
+
+#: c:\WP-Client/includes/class.ajax.php:3172
+msgid "Template success updated."
+msgstr ""
+
+#: c:\WP-Client/includes/class.ajax.php:3211
+msgid "Select Author"
+msgstr ""
+
+#: c:\WP-Client/includes/class.ajax.php:3215
+msgid "Syncronization"
+msgstr ""
+
+#: c:\WP-Client/includes/class.ajax.php:3225
+msgid "Select Tag"
+msgstr ""
+
+#: c:\WP-Client/includes/class.ajax.php:3249
+#: c:\WP-Client/includes/class.ajax.php:3274
+#: c:\WP-Client/includes/class.ajax.php:3482
+#: c:\WP-Client/includes/class.ajax.php:3495
+#: c:\WP-Client/includes/class.ajax.php:3520
+#: c:\WP-Client/includes/class.ajax.php:3543
+#: c:\WP-Client/includes/class.ajax.php:3576
+#: c:\WP-Client/includes/class.ajax.php:3878
+#, php-format
+msgid "Select %s"
+msgstr ""
+
+#: c:\WP-Client/includes/class.ajax.php:3333
+#: c:\WP-Client/includes/class.ajax.php:3565
+#: c:\WP-Client/includes/class.ajax.php:3587
+msgid "Select Category"
+msgstr ""
+
+#: c:\WP-Client/includes/class.ajax.php:3376
+#: c:\WP-Client/includes/class.ajax.php:3454
+#: c:\WP-Client/includes/class.ajax.php:3554
+msgid "Select File"
+msgstr ""
+
+#: c:\WP-Client/includes/class.ajax.php:3377
+msgid "All Files"
+msgstr ""
+
+#: c:\WP-Client/includes/class.ajax.php:3400
+#: c:\WP-Client/includes/class.ajax.php:3430
+msgid "Select Client"
+msgstr ""
+
+#: c:\WP-Client/includes/class.ajax.php:3431
+msgid "All Clients"
+msgstr ""
+
+#: c:\WP-Client/includes/class.ajax.php:3607
+msgid "Client"
+msgstr ""
+
+#: c:\WP-Client/includes/class.ajax.php:3608
+msgid "Circle"
+msgstr ""
+
+#: c:\WP-Client/includes/class.ajax.php:3609
+msgid "File"
+msgstr ""
+
+#: c:\WP-Client/includes/class.ajax.php:3610
+msgid "File Category"
+msgstr ""
+
+#: c:\WP-Client/includes/class.ajax.php:3612
+#, php-format
+msgid "%s Category"
+msgstr ""
+
+#: c:\WP-Client/includes/class.ajax.php:3683
+#: c:\WP-Client/includes/class.ajax.php:3777
+#: c:\WP-Client/includes/class.ajax.php:3803
+msgid "circle"
+msgstr ""
+
+#: c:\WP-Client/includes/class.ajax.php:3689
+#: c:\WP-Client/includes/class.ajax.php:3725
+#: c:\WP-Client/includes/class.ajax.php:3758
+#: c:\WP-Client/includes/class.ajax.php:3771
+msgid "category"
+msgstr ""
+
+#: c:\WP-Client/includes/class.ajax.php:3789
+msgid "DIRECT"
+msgstr ""
+
+#: c:\WP-Client/includes/class.ajax.php:3818
+msgid "Access granted via..."
+msgstr ""
+
+#: c:\WP-Client/includes/class.ajax.php:3818
+#: c:\WP-Client/includes/class.user.php:2278
+msgid "Name"
+msgstr ""
+
+#: c:\WP-Client/includes/class.ajax.php:3859
+#: c:\WP-Client/includes/class.common.php:1248
+#: c:\WP-Client/includes/class.common.php:1289
+msgid "Nothing found"
+msgstr ""
+
+#: c:\WP-Client/includes/class.ajax.php:3892
+msgid "Select Function"
+msgstr ""
+
+#: c:\WP-Client/includes/class.ajax.php:3995
+#: c:\WP-Client/includes/class.ajax.php:4032
+#: c:\WP-Client/includes/class.ajax.php:4055
+#: c:\WP-Client/includes/class.ajax.php:4085
+#: c:\WP-Client/includes/class.ajax.php:4106
+#: c:\WP-Client/includes/class.ajax.php:4122
+#: c:\WP-Client/includes/class.ajax.php:4144
+#: c:\WP-Client/includes/class.ajax.php:4167
+#: c:\WP-Client/includes/class.ajax.php:4191
+#: c:\WP-Client/includes/class.ajax.php:4207
+#: c:\WP-Client/includes/class.ajax.php:4229
+#: c:\WP-Client/includes/class.ajax.php:4246
+#: c:\WP-Client/includes/class.ajax.php:4268
+#: c:\WP-Client/includes/class.ajax.php:4332
+#: c:\WP-Client/includes/class.ajax.php:4352
+#: c:\WP-Client/includes/class.ajax.php:4370
+msgid "Completed"
+msgstr ""
+
+#: c:\WP-Client/includes/class.ajax.php:3997
+#: c:\WP-Client/includes/class.ajax.php:4034
+#: c:\WP-Client/includes/class.ajax.php:4057
+#: c:\WP-Client/includes/class.ajax.php:4087
+#: c:\WP-Client/includes/class.ajax.php:4108
+#: c:\WP-Client/includes/class.ajax.php:4124
+#: c:\WP-Client/includes/class.ajax.php:4146
+#: c:\WP-Client/includes/class.ajax.php:4169
+#: c:\WP-Client/includes/class.ajax.php:4193
+#: c:\WP-Client/includes/class.ajax.php:4209
+#: c:\WP-Client/includes/class.ajax.php:4231
+#: c:\WP-Client/includes/class.ajax.php:4248
+#: c:\WP-Client/includes/class.ajax.php:4270
+#: c:\WP-Client/includes/class.ajax.php:4297
+#: c:\WP-Client/includes/class.ajax.php:4354
+#: c:\WP-Client/includes/class.ajax.php:4372
+#: c:\WP-Client/includes/class.ajax.php:4379
+msgid "Wrong update data."
+msgstr ""
+
+#: c:\WP-Client/includes/class.ajax.php:4334
+msgid "Empty ID or data."
+msgstr ""
+
+#: c:\WP-Client/includes/class.ajax.php:4394
+msgid "Saved!"
+msgstr ""
+
+#: c:\WP-Client/includes/class.ajax.php:4413
+#, php-format
+msgid "The test email from %s SMTP"
+msgstr ""
+
+#: c:\WP-Client/includes/class.ajax.php:4415
+#, php-format
+msgid "This is a test email. If you get it, then congratulations, your SMTP settings on %s are correct and should work normally. Save the settings in admin."
+msgstr ""
+
+#: c:\WP-Client/includes/class.ajax.php:4446
+#, php-format
+msgid "This is an email testing the SMTP settings in the %s Core plugin. Congratulations! If you are receiving this email, it means your SMTP settings are correct and functioning properly. Please return to your %s Settings page and click \"Update Settings\"."
+msgstr ""
+
+#: c:\WP-Client/includes/class.ajax.php:4452
+msgid "SMTP tested with error. Please repeat!"
+msgstr ""
+
+#: c:\WP-Client/includes/class.common.php:247
+#, php-format
+msgid "Remaining %d minutes"
+msgstr ""
+
+#: c:\WP-Client/includes/class.common.php:248
+msgid "Return to admin panel"
+msgstr ""
+
+#: c:\WP-Client/includes/class.common.php:457
+msgid "Strength Indicator"
+msgstr ""
+
+#: c:\WP-Client/includes/class.common.php:458
+msgid "Too Short"
+msgstr ""
+
+#: c:\WP-Client/includes/class.common.php:459
+msgid "Bad Password"
+msgstr ""
+
+#: c:\WP-Client/includes/class.common.php:460
+msgid "Good Password"
+msgstr ""
+
+#: c:\WP-Client/includes/class.common.php:461
+msgid "Strong Password"
+msgstr ""
+
+#: c:\WP-Client/includes/class.common.php:462
+msgid "Password Mismatch"
+msgstr ""
+
+#: c:\WP-Client/includes/class.common.php:463
+msgid "Needs Mixed Case"
+msgstr ""
+
+#: c:\WP-Client/includes/class.common.php:464
+msgid "Needs Numbers"
+msgstr ""
+
+#: c:\WP-Client/includes/class.common.php:465
+msgid "Needs Special Chars"
+msgstr ""
+
+#: c:\WP-Client/includes/class.common.php:466
+msgid "Password in Blacklist"
+msgstr ""
+
+#: c:\WP-Client/includes/class.common.php:478
+msgid "Hint - The password"
+msgstr ""
+
+#: c:\WP-Client/includes/class.common.php:480
+#, php-format
+msgid "Should be at least %d characters long."
+msgstr ""
+
+#: c:\WP-Client/includes/class.common.php:486
+#: c:\WP-Client/includes/class.common.php:489
+#: c:\WP-Client/includes/class.common.php:492
+#: c:\WP-Client/includes/class.common.php:495
+#, php-format
+msgid "Must trigger the %s level on the Strength indicator."
+msgstr ""
+
+#: c:\WP-Client/includes/class.common.php:486
+msgid "Weak"
+msgstr ""
+
+#: c:\WP-Client/includes/class.common.php:492
+msgid "Strong"
+msgstr ""
+
+#: c:\WP-Client/includes/class.common.php:495
+msgid "Very weak"
+msgstr ""
+
+#: c:\WP-Client/includes/class.common.php:501
+msgid "Should contain upper and lower case letters."
+msgstr ""
+
+#: c:\WP-Client/includes/class.common.php:506
+msgid "Should contain numbers."
+msgstr ""
+
+#: c:\WP-Client/includes/class.common.php:511
+msgid "Should contain special characters like ! \" ? $ % ^ & )."
+msgstr ""
+
+#: c:\WP-Client/includes/class.common.php:1002
+#: c:\WP-Client/includes/class.common.php:1018
+#: c:\WP-Client/includes/class.common.php:1035
+#: c:\WP-Client/includes/class.common.php:1046
+#: c:\WP-Client/includes/class.common.php:1073
+#: c:\WP-Client/includes/class.common.php:1100
+#: c:\WP-Client/includes/class.common.php:1126
+#: c:\WP-Client/includes/class.user_shortcodes.php:271
+#: c:\WP-Client/includes/class.user_shortcodes.php:294
+#: c:\WP-Client/includes/class.user_shortcodes.php:317
+#: c:\WP-Client/includes/class.user_shortcodes.php:331
+#: c:\WP-Client/includes/class.user_shortcodes.php:364
+#: c:\WP-Client/includes/class.user_shortcodes.php:395
+#: c:\WP-Client/includes/class.user_shortcodes.php:423
+msgid " <font color=\"red\" title=\"This field is marked as required by the administrator.\">*</font>"
+msgstr ""
+
+#: c:\WP-Client/includes/class.common.php:1245
+#, php-format
+msgid "Edit %s Item"
+msgstr ""
+
+#: c:\WP-Client/includes/class.common.php:1246
+#, php-format
+msgid "View %s Item"
+msgstr ""
+
+#: c:\WP-Client/includes/class.common.php:1247
+#, php-format
+msgid "Search %s"
+msgstr ""
+
+#: c:\WP-Client/includes/class.common.php:1249
+#: c:\WP-Client/includes/class.common.php:1290
+msgid "Nothing found in Archive"
+msgstr ""
+
+#: c:\WP-Client/includes/class.common.php:1285
+msgid "Edit HUB Page Item"
+msgstr ""
+
+#: c:\WP-Client/includes/class.common.php:1287
+msgid "View HUB Page Item"
+msgstr ""
+
+#: c:\WP-Client/includes/class.common.php:1288
+msgid "Search HUB Page"
+msgstr ""
+
+#: c:\WP-Client/includes/class.common.php:1556
+msgid "No manager"
+msgstr ""
+
+#: c:\WP-Client/includes/class.common.php:1627
+msgid " without reason"
+msgstr ""
+
+#: c:\WP-Client/includes/class.common.php:1759
+msgid "Note: Some problem with template."
+msgstr ""
+
+#: c:\WP-Client/includes/class.common.php:3951
+msgid "FTP Synchronization"
+msgstr ""
+
+#: c:\WP-Client/includes/class.customize.php:92
+#, php-format
+msgid "%s Links"
+msgstr ""
+
+#: c:\WP-Client/includes/class.customize.php:226
+msgid "Section"
+msgstr ""
+
+#: c:\WP-Client/includes/class.customize.php:233
+msgid "Add Section"
+msgstr ""
+
+#: c:\WP-Client/includes/class.customize.php:234
+msgid "Save Section"
+msgstr ""
+
+#: c:\WP-Client/includes/class.customize.php:235
+#: c:\WP-Client/includes/class.customize.php:416
+msgid "Cancel Edit"
+msgstr ""
+
+#: c:\WP-Client/includes/class.customize.php:236
+msgid "Edit Section"
+msgstr ""
+
+#: c:\WP-Client/includes/class.customize.php:237
+msgid "Delete Section"
+msgstr ""
+
+#: c:\WP-Client/includes/class.customize.php:325
+#: c:\WP-Client/includes/class.customize.php:368
+msgid "Delete Element"
+msgstr ""
+
+#: c:\WP-Client/includes/class.customize.php:412
+msgid "Element"
+msgstr ""
+
+#: c:\WP-Client/includes/class.customize.php:415
+msgid "Save Title"
+msgstr ""
+
+#: c:\WP-Client/includes/class.customize.php:417
+msgid "Edit Element Title"
+msgstr ""
+
+#: c:\WP-Client/includes/class.customize.php:421
+msgid "Element CSS ID"
+msgstr ""
+
+#: c:\WP-Client/includes/class.customize.php:428
+msgid "Background:"
+msgstr ""
+
+#: c:\WP-Client/includes/class.customize.php:431
+msgid "Transparent"
+msgstr ""
+
+#: c:\WP-Client/includes/class.customize.php:436
+msgid "Font:"
+msgstr ""
+
+#: c:\WP-Client/includes/class.customize.php:442
+msgid "Font Family:"
+msgstr ""
+
+#: c:\WP-Client/includes/class.customize.php:457
+msgid "Font Size:"
+msgstr ""
+
+#: c:\WP-Client/includes/class.customize.php:474
+msgid "Line Height:"
+msgstr ""
+
+#: c:\WP-Client/includes/class.customize.php:493
+msgid "Block:"
+msgstr ""
+
+#: c:\WP-Client/includes/class.customize.php:495
+msgid "Display:"
+msgstr ""
+
+#: c:\WP-Client/includes/class.customize.php:510
+msgid "Float:"
+msgstr ""
+
+#: c:\WP-Client/includes/class.customize.php:525
+msgid "Width:"
+msgstr ""
+
+#: c:\WP-Client/includes/class.customize.php:542
+msgid "Height:"
+msgstr ""
+
+#: c:\WP-Client/includes/class.customize.php:561
+msgid "Margin:"
+msgstr ""
+
+#: c:\WP-Client/includes/class.customize.php:578
+msgid "Padding:"
+msgstr ""
+
+#: c:\WP-Client/includes/class.customize.php:595
+msgid "Border:"
+msgstr ""
+
+#: c:\WP-Client/includes/class.install.php:23
+msgid "Login Page"
+msgstr ""
+
+#: c:\WP-Client/includes/class.install.php:25
+msgid "Page content: [wpc_client_loginf]"
+msgstr ""
+
+#: c:\WP-Client/includes/class.install.php:34
+msgid "Page content: [wpc_client_hub_page]"
+msgstr ""
+
+#: c:\WP-Client/includes/class.install.php:43
+msgid "Page content: [wpc_client_portal_page]"
+msgstr ""
+
+#: c:\WP-Client/includes/class.install.php:50
+#: c:\WP-Client/includes/class.install.php:51
+#, php-format
+msgid "Edit %s"
+msgstr ""
+
+#: c:\WP-Client/includes/class.install.php:52
+msgid "Page content: [wpc_client_edit_portal_page]"
+msgstr ""
+
+#: c:\WP-Client/includes/class.install.php:59
+msgid "Staff Directory"
+msgstr ""
+
+#: c:\WP-Client/includes/class.install.php:61
+msgid "Page content: [wpc_client_staff_directory]"
+msgstr ""
+
+#: c:\WP-Client/includes/class.install.php:68
+msgid "Add Staff"
+msgstr ""
+
+#: c:\WP-Client/includes/class.install.php:70
+msgid "Page content: [wpc_client_add_staff_form]"
+msgstr ""
+
+#: c:\WP-Client/includes/class.install.php:77
+msgid "Edit Staff"
+msgstr ""
+
+#: c:\WP-Client/includes/class.install.php:79
+msgid "Page content: [wpc_client_edit_staff_form]"
+msgstr ""
+
+#: c:\WP-Client/includes/class.install.php:86
+msgid "Client Registration"
+msgstr ""
+
+#: c:\WP-Client/includes/class.install.php:88
+msgid "Page content: [wpc_client_registration_form]"
+msgstr ""
+
+#: c:\WP-Client/includes/class.install.php:95
+msgid "Successful Client Registration"
+msgstr ""
+
+#: c:\WP-Client/includes/class.install.php:97
+msgid "Page content: [wpc_client_registration_successful]"
+msgstr ""
+
+#: c:\WP-Client/includes/class.install.php:104
+msgid "Error"
+msgstr ""
+
+#: c:\WP-Client/includes/class.install.php:106
+msgid "Page content: [wpc_client_error_image] or any text"
+msgstr ""
+
+#: c:\WP-Client/includes/class.install.php:113
+msgid "Client Profile"
+msgstr ""
+
+#: c:\WP-Client/includes/class.install.php:115
+msgid "Page content: [wpc_client_profile]"
+msgstr ""
+
+#: c:\WP-Client/includes/class.install.php:122
+msgid "Payment Process"
+msgstr ""
+
+#: c:\WP-Client/includes/class.install.php:124
+msgid "Page content: [wpc_client_payment_process]"
+msgstr ""
+
+#: c:\WP-Client/includes/class.install.php:536
+#, php-format
+msgid "Your %s has been updated"
+msgstr ""
+
+#: c:\WP-Client/includes/class.install.php:537
+#, php-format
+msgid ""
+"<p>Hello {contact_name},</p>\n"
+"                            <p>Your %s, {page_title} has been updated | <a href=\"{page_id}\">Click HERE to visit</a></p>\n"
+"                            <p>Thanks, and please contact us if you experience any difficulties,</p>\n"
+"                            <p>{business_name}</p>"
+msgstr ""
+
+#: c:\WP-Client/includes/class.user.php:1175
+#: c:\WP-Client/includes/class.user.php:1224
+msgid "Please enter your username!"
+msgstr ""
+
+#: c:\WP-Client/includes/class.user.php:1180
+#: c:\WP-Client/includes/class.user.php:1229
+msgid "Please enter your password!"
+msgstr ""
+
+#: c:\WP-Client/includes/class.user.php:1187
+#: c:\WP-Client/includes/class.user.php:1236
+msgid "Invalid IP address!"
+msgstr ""
+
+#: c:\WP-Client/includes/class.user.php:1201
+#: c:\WP-Client/includes/class.user.php:1205
+#: c:\WP-Client/includes/class.user.php:1250
+#: c:\WP-Client/includes/class.user.php:1254
+msgid "Invalid Login or Password!"
+msgstr ""
+
+#: c:\WP-Client/includes/class.user.php:1388
+msgid "Folder"
+msgstr ""
+
+#: c:\WP-Client/includes/class.user.php:1534
+#: c:\WP-Client/includes/class.user.php:1948
+msgid "View"
+msgstr ""
+
+#: c:\WP-Client/includes/class.user.php:1568
+#: c:\WP-Client/includes/class.user.php:1946
+msgid "Download"
+msgstr ""
+
+#: c:\WP-Client/includes/class.user.php:1939
+#: c:\WP-Client/includes/class.user.php:2243
+#: c:\WP-Client/includes/class.user.php:2988
+msgid "Filename"
+msgstr ""
+
+#: c:\WP-Client/includes/class.user.php:1940
+#: c:\WP-Client/includes/class.user.php:2244
+#: c:\WP-Client/includes/class.user.php:2984
+msgid "Size"
+msgstr ""
+
+#: c:\WP-Client/includes/class.user.php:1941
+#: c:\WP-Client/includes/class.user.php:2245
+#: c:\WP-Client/includes/class.user.php:2281
+msgid "Tags"
+msgstr ""
+
+#: c:\WP-Client/includes/class.user.php:1942
+#: c:\WP-Client/includes/class.user.php:2246
+msgid "Added"
+msgstr ""
+
+#: c:\WP-Client/includes/class.user.php:1943
+#: c:\WP-Client/includes/class.user.php:2247
+msgid "Last Download"
+msgstr ""
+
+#: c:\WP-Client/includes/class.user.php:1945
+#: c:\WP-Client/includes/class.user.php:2248
+msgid "Actions"
+msgstr ""
+
+#: c:\WP-Client/includes/class.user.php:2276
+msgid "Sort by"
+msgstr ""
+
+#: c:\WP-Client/includes/class.user.php:2277
+msgid "Time Added"
+msgstr ""
+
+#: c:\WP-Client/includes/class.user.php:2279
+#: c:\WP-Client/includes/class.user_shortcodes.php:1211
+msgid "Asc"
+msgstr ""
+
+#: c:\WP-Client/includes/class.user.php:2280
+#: c:\WP-Client/includes/class.user_shortcodes.php:1212
+msgid "Desc"
+msgstr ""
+
+#: c:\WP-Client/includes/class.user.php:2877
+msgid "SELECT FILES"
+msgstr ""
+
+#: c:\WP-Client/includes/class.user.php:2981
+msgid "Stop Upload"
+msgstr ""
+
+#: c:\WP-Client/includes/class.user.php:2982
+msgid "Upload URL might be wrong or doesn't exist."
+msgstr ""
+
+#: c:\WP-Client/includes/class.user.php:2983
+msgid "tb"
+msgstr ""
+
+#: c:\WP-Client/includes/class.user.php:2986
+msgid "Init error."
+msgstr ""
+
+#: c:\WP-Client/includes/class.user.php:2987
+msgid "Add files to the upload queue and click the start button."
+msgstr ""
+
+#: c:\WP-Client/includes/class.user.php:2989
+msgid "Image format either wrong or not supported."
+msgstr ""
+
+#: c:\WP-Client/includes/class.user.php:2990
+msgid "Status"
+msgstr ""
+
+#: c:\WP-Client/includes/class.user.php:2991
+msgid "HTTP Error."
+msgstr ""
+
+#: c:\WP-Client/includes/class.user.php:2992
+msgid "Start Upload"
+msgstr ""
+
+#: c:\WP-Client/includes/class.user.php:2993
+msgid "mb"
+msgstr ""
+
+#: c:\WP-Client/includes/class.user.php:2994
+msgid "kb"
+msgstr ""
+
+#: c:\WP-Client/includes/class.user.php:2995
+msgid "Duplicate file error."
+msgstr ""
+
+#: c:\WP-Client/includes/class.user.php:2996
+msgid "File size error."
+msgstr ""
+
+#: c:\WP-Client/includes/class.user.php:2997
+msgid "N/A"
+msgstr ""
+
+#: c:\WP-Client/includes/class.user.php:2998
+msgid "gb"
+msgstr ""
+
+#: c:\WP-Client/includes/class.user.php:2999
+msgid "Error: Invalid file extension:"
+msgstr ""
+
+#: c:\WP-Client/includes/class.user.php:3000
+msgid "Select files"
+msgstr ""
+
+#: c:\WP-Client/includes/class.user.php:3001
+#, php-format
+msgid "%s already present in the queue."
+msgstr ""
+
+#: c:\WP-Client/includes/class.user.php:3002
+#, php-format
+msgid "File: %s"
+msgstr ""
+
+#: c:\WP-Client/includes/class.user.php:3003
+msgid "b"
+msgstr ""
+
+#: c:\WP-Client/includes/class.user.php:3004
+#, php-format
+msgid "Uploaded %d/%d files"
+msgstr ""
+
+#: c:\WP-Client/includes/class.user.php:3005
+#, php-format
+msgid "Upload element accepts only %d file(s) at a time. Extra files were stripped."
+msgstr ""
+
+#: c:\WP-Client/includes/class.user.php:3006
+#, php-format
+msgid "%d files queued"
+msgstr ""
+
+#: c:\WP-Client/includes/class.user.php:3007
+#, php-format
+msgid "File: %s, size: %d, max file size: %d"
+msgstr ""
+
+#: c:\WP-Client/includes/class.user.php:3008
+msgid "Drag files here."
+msgstr ""
+
+#: c:\WP-Client/includes/class.user.php:3009
+msgid "Runtime ran out of available memory."
+msgstr ""
+
+#: c:\WP-Client/includes/class.user.php:3010
+msgid "File count error."
+msgstr ""
+
+#: c:\WP-Client/includes/class.user.php:3011
+msgid "File extension error."
+msgstr ""
+
+#: c:\WP-Client/includes/class.user.php:3012
+msgid "Error: File too large:"
+msgstr ""
+
+#: c:\WP-Client/includes/class.user.php:3013
+msgid "Add Files"
+msgstr ""
+
+#: c:\WP-Client/includes/class.user.php:3047
+msgid "Please select file to upload."
+msgstr ""
+
+#: c:\WP-Client/includes/class.user.php:3270
+#, php-format
+msgid "Select %s for preview his %s: "
+msgstr ""
+
+#: c:\WP-Client/includes/class.user_shortcodes.php:1161
+#, php-format
+msgid "%s <strong>Added</strong> Successfully."
+msgstr ""
+
+#: c:\WP-Client/includes/class.user_shortcodes.php:1164
+#, php-format
+msgid "%s <strong>Deleted</strong> Successfully."
+msgstr ""
+
+#: c:\WP-Client/includes/class.user_shortcodes.php:1167
+#, php-format
+msgid "%s <strong>Changed</strong> Successfully."
+msgstr ""
+
+#: c:\WP-Client/includes/class.user_shortcodes.php:1192
+#, php-format
+msgid "%s Directory"
+msgstr ""
+
+#: c:\WP-Client/includes/class.user_shortcodes.php:1209
+msgid "Sort by:"
+msgstr ""
+
+#: c:\WP-Client/includes/class.user_shortcodes.php:1210
+msgid "Time Added:"
+msgstr ""
+
+#: c:\WP-Client/includes/class.user_shortcodes.php:1213
+msgid "Title:"
+msgstr ""
+
+#: c:\WP-Client/includes/class.user_shortcodes.php:1355
+msgid "No Category"
+msgstr ""
+
+#: c:\WP-Client/includes/class.user_shortcodes.php:1595
+msgid "No last messages"
+msgstr ""
+
+#: c:\WP-Client/includes/class.user_shortcodes.php:1645
+msgid "Sorry, you must agree to the Terms/Conditions to continue"
+msgstr ""
+
+#: c:\WP-Client/includes/class.user_shortcodes.php:1670
+msgid "<p>You have successfully registered.</p><p>After approval from the administrator, you will have full access to your account.</p>"
+msgstr ""
+
+#: c:\WP-Client/includes/class.user_shortcodes.php:1692
+msgid "Sorry, you do not have permission to see this page!"
+msgstr ""
+
+#: c:\WP-Client/includes/class.user_shortcodes.php:1696
+msgid "Staff registration is disabled!"
+msgstr ""
+
+#: c:\WP-Client/includes/class.user_shortcodes.php:1710
+msgid "A username is required.<br/>"
+msgstr ""
+
+#: c:\WP-Client/includes/class.user_shortcodes.php:1715
+msgid "Sorry, that username already exists!<br/>"
+msgstr ""
+
+#: c:\WP-Client/includes/class.user_shortcodes.php:1722
+msgid "Email address already uses.<br/>"
+msgstr ""
+
+#: c:\WP-Client/includes/class.user_shortcodes.php:1746
+msgid " is required! Please fill in the field and try again!<br/>"
+msgstr ""
+
+#: c:\WP-Client/includes/class.user_shortcodes.php:1855
+msgid "Current user is not a staff!"
+msgstr ""
+
+#: c:\WP-Client/includes/class.user_shortcodes.php:1927
+msgid "Your e-mail address is verified."
+msgstr ""
+
+#: c:\WP-Client/includes/class.user_shortcodes.php:2028
+#: c:\WP-Client/includes/class.user_shortcodes.php:2072
+msgid "Email sent successfully"
+msgstr ""
+
+#: c:\WP-Client/includes/class.user_shortcodes.php:2030
+#: c:\WP-Client/includes/class.user_shortcodes.php:2074
+msgid "Please verify email address"
+msgstr ""
+
+#: c:\WP-Client/includes/class.user_shortcodes.php:2031
+#: c:\WP-Client/includes/class.user_shortcodes.php:2075
+msgid "Resend email for verification"
+msgstr ""
+
+#: c:\WP-Client/includes/downloader.php:44
+#: c:\WP-Client/includes/downloader.php:55
+msgid "Invalid file. Please try downloading again!"
+msgstr ""
+
+#: c:\WP-Client/includes/downloader.php:84
+#: c:\WP-Client/includes/downloader.php:325
+msgid "You do not have access to this file!"
+msgstr ""
+
+#: c:\WP-Client/includes/downloader.php:133
+msgid "File does not exist"
+msgstr ""
+
+#: c:\WP-Client/includes/payments_core.php:55
+#: c:\WP-Client/includes/payments_core.php:56
+msgid "Payments"
+msgstr ""
+
+#: c:\WP-Client/includes/payments_core.php:73
+msgid "Payment Gateways"
+msgstr ""
+
+#: c:\WP-Client/includes/payments_core.php:466
+msgid "You need to finish your payment process"
+msgstr ""
+
+#: c:\WP-Client/includes/payments_core.php:474
+msgid "Choose a Payment Method:"
+msgstr ""
+
+#: c:\WP-Client/includes/payments_core.php:493
+msgid "No payment method is configured:: Please contact to the site administrator."
+msgstr ""
+
+#: c:\WP-Client/includes/widget.php:10
+#, php-format
+msgid "Allow %s to login/Logout."
+msgstr ""
+
+#: c:\WP-Client/includes/widget.php:11
+msgid ": Login/Logout"
+msgstr ""
+
+#: c:\WP-Client/includes/widget.php:20
+#: c:\WP-Client/includes/widget.php:168
+msgid "Remember Me"
+msgstr ""
+
+#: c:\WP-Client/includes/widget.php:21
+#: c:\WP-Client/includes/widget.php:173
+msgid "Lost Your Password?"
+msgstr ""
+
+#: c:\WP-Client/includes/widget.php:138
+msgid "Login:"
+msgstr ""
+
+#: c:\WP-Client/includes/widget.php:143
+msgid "Password:"
+msgstr ""
+
+#: c:\WP-Client/includes/widget.php:148
+msgid "Login"
+msgstr ""
+
+#: c:\WP-Client/includes/widget.php:158
+msgid "Logout"
+msgstr ""
+
+#: c:\WP-Client/includes/widget.php:192
+msgid "Text for Login field:"
+msgstr ""
+
+#: c:\WP-Client/includes/widget.php:196
+msgid "Text for Password field:"
+msgstr ""
+
+#: c:\WP-Client/includes/widget.php:200
+msgid "Text for Login Button:"
+msgstr ""
+
+#: c:\WP-Client/includes/widget.php:204
+msgid "Text for Remember Me:"
+msgstr ""
+
+#: c:\WP-Client/includes/widget.php:208
+msgid "Enable Forgot Password:"
+msgstr ""
+
+#: c:\WP-Client/includes/widget.php:212
+msgid "Text for Forgot Password:"
+msgstr ""
+
+#: c:\WP-Client/includes/widget.php:216
+msgid "Disable redirect on HUB Page:"
+msgstr ""
+
+#: c:\WP-Client/includes/widget.php:220
+msgid "Welcome text:"
+msgstr ""
+
+#: c:\WP-Client/includes/widget.php:226
+msgid "Display Business Name"
+msgstr ""
+
+#: c:\WP-Client/includes/widget.php:230
+msgid "Display Contact Name"
+msgstr ""
+
+#: c:\WP-Client/includes/widget.php:234
+msgid "Text for Logout link:"
+msgstr ""
+
+#: c:\WP-Client/includes/widget.php:238
+msgid "Logout redirect link:"
+msgstr ""
+
+#: c:\WP-Client/includes/widget_pp.php:10
+#, php-format
+msgid "Display %s %s list."
+msgstr ""
+
+#: c:\WP-Client/includes/widget_pp.php:11
+#, php-format
+msgid ": %s list"
+msgstr ""
+
+#: c:\WP-Client/includes/widget_pp.php:98
+#, php-format
+msgid "%s list"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/addclient.php:20
+msgid "A Contact Name is required.<br/>"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/addclient.php:26
+msgid "A email is required.<br/>"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/addclient.php:32
+msgid "Email address is already in use another user. Please use a unique email address.<br/>"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/addclient.php:36
+#: c:\WP-Client/includes/admin/admin_edit.php:30
+msgid "Sorry, password is required.<br/>"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/addclient.php:38
+#: c:\WP-Client/includes/admin/admin_edit.php:32
+msgid "Sorry, confirm password is required.<br/>"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/addclient.php:40
+#: c:\WP-Client/includes/admin/admin_edit.php:34
+msgid "Sorry, Passwords are not matched! .<br/>"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/addclient.php:156
+#, php-format
+msgid "Business or %s Name"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/addclient.php:156
+#, php-format
+msgid "This value is used in the {client_business_name} placeholder that is used in HUB Templates, %s Templates &amp; Emails"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/addclient.php:162
+#, php-format
+msgid "This value is used in the {contact_name} placeholder that is used in HUB Templates, %s Templates &amp; Emails"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/addclient.php:233
+#, php-format
+msgid "This value is used in the {user_name} placeholder that is used in HUB Templates, %s Templates &amp; Emails"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/addclient.php:268
+#: c:\WP-Client/includes/admin/addclient.php:305
+#: c:\WP-Client/includes/admin/clients.php:844
+#: c:\WP-Client/includes/admin/clients.php:845
+#: c:\WP-Client/includes/admin/clientspage_categories.php:363
+#: c:\WP-Client/includes/admin/clientspage_categories.php:385
+#: c:\WP-Client/includes/admin/clients_approve.php:344
+#: c:\WP-Client/includes/admin/clients_approve.php:372
+#: c:\WP-Client/includes/admin/clients_convert.php:732
+#, php-format
+msgid "Assign To %s"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/addclient.php:269
+#: c:\WP-Client/includes/admin/addclient.php:306
+#: c:\WP-Client/includes/admin/clients_convert.php:733
+msgid "Select"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/addclient.php:324
+#: c:\WP-Client/includes/admin/admin_edit.php:224
+msgid "Password"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/addclient.php:324
+#, php-format
+msgid "This value is used in the {user_password} placeholder that is used in HUB Templates, %s Templates &amp; Emails"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/addclient.php:330
+msgid "Confirm Password"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/addclient.php:336
+#: c:\WP-Client/includes/admin/admin_edit.php:231
+msgid "Strength indicator"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/addclient.php:337
+msgid "Hint: The password should be at least seven characters long. To make it stronger, use upper and lower case letters, numbers and symbols like ! \" ? $ % ^ & )."
+msgstr ""
+
+#: c:\WP-Client/includes/admin/addclient.php:342
+#: c:\WP-Client/includes/admin/admin_edit.php:207
+msgid "Send this password to the new user by email."
+msgstr ""
+
+#: c:\WP-Client/includes/admin/addclient.php:349
+msgid "Reset Form"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/addclient.php:374
+msgid "Business Name required."
+msgstr ""
+
+#: c:\WP-Client/includes/admin/addclient.php:378
+msgid "Contact Name required."
+msgstr ""
+
+#: c:\WP-Client/includes/admin/addclient.php:382
+msgid "Contact Email required."
+msgstr ""
+
+#: c:\WP-Client/includes/admin/addclient.php:384
+msgid "Invalid Contact Email."
+msgstr ""
+
+#: c:\WP-Client/includes/admin/addclient.php:388
+#: c:\WP-Client/includes/admin/admin_edit.php:271
+msgid "Password required."
+msgstr ""
+
+#: c:\WP-Client/includes/admin/addclient.php:390
+#: c:\WP-Client/includes/admin/admin_edit.php:273
+msgid "Confirm Password required."
+msgstr ""
+
+#: c:\WP-Client/includes/admin/addclient.php:392
+#: c:\WP-Client/includes/admin/admin_edit.php:275
+msgid "Passwords are not matched."
+msgstr ""
+
+#: c:\WP-Client/includes/admin/addclientpage.php:118
+#, php-format
+msgid "You must enter %s Title.<br/>"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/addclientpage.php:140
+#, php-format
+msgid "%s is added."
+msgstr ""
+
+#: c:\WP-Client/includes/admin/addclientpage.php:157
+#, php-format
+msgid "%s Title"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/addclientpage.php:163
+msgid "Select Page"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/addclientpage.php:168
+msgid "Page"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/addclientpage.php:176
+msgid "Page Content"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/addclientpage.php:178
+#: c:\WP-Client/includes/admin/addclientpage.php:195
+#, php-format
+msgid "Default %s Template"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/addclientpage.php:193
+#, php-format
+msgid "%s Content"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/addclientpage.php:218
+msgid "Didn't find any page templates"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/addclientpage.php:227
+msgid "This will allow you to use options provided by your framework theme on an individual page level"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/addclientpage.php:251
+#: c:\WP-Client/includes/admin/addclientpage.php:272
+#, php-format
+msgid "Select %s who will have permissions for this %s"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/addclientpage.php:253
+#: c:\WP-Client/includes/admin/addclientpage.php:274
+#, php-format
+msgid "This can be changed later in the editing interface for the appropriate %s"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/addclientpage.php:258
+#, php-format
+msgid "Assign %s "
+msgstr ""
+
+#: c:\WP-Client/includes/admin/addclientpage.php:306
+#, php-format
+msgid "Create New %s"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/addclientpage.php:336
+msgid "No results matched"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/admins.php:96
+#: c:\WP-Client/includes/admin/clients.php:303
+#: c:\WP-Client/includes/admin/clientspage_categories.php:53
+#: c:\WP-Client/includes/admin/clients_approve.php:104
+#: c:\WP-Client/includes/admin/clients_archive.php:34
+#: c:\WP-Client/includes/admin/clients_convert.php:321
+#: c:\WP-Client/includes/admin/clients_custom_fields.php:84
+#: c:\WP-Client/includes/admin/clients_staff.php:102
+#: c:\WP-Client/includes/admin/clients_staff_approve.php:124
+msgid "not found."
+msgstr ""
+
+#: c:\WP-Client/includes/admin/admins.php:188
+#: c:\WP-Client/includes/admin/clients_approve.php:201
+#: c:\WP-Client/includes/admin/clients_staff.php:209
+#: c:\WP-Client/includes/admin/clients_staff_approve.php:228
+#, php-format
+msgid "Are you sure to delete this %s?"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/admins.php:219
+msgid "Nickname"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/admins.php:220
+#: c:\WP-Client/includes/admin/admin_edit.php:179
+#: c:\WP-Client/includes/admin/clients.php:600
+#: c:\WP-Client/includes/admin/clients_approve.php:236
+#: c:\WP-Client/includes/admin/clients_archive.php:277
+#: c:\WP-Client/includes/admin/clients_convert.php:458
+#: c:\WP-Client/includes/admin/clients_staff.php:241
+#: c:\WP-Client/includes/admin/clients_staff_approve.php:261
+msgid "E-mail"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/admins.php:264
+#: c:\WP-Client/includes/admin/clients.php:796
+#: c:\WP-Client/includes/admin/clients_staff.php:292
+#, php-format
+msgid "%s <strong>Updated</strong> Successfully."
+msgstr ""
+
+#: c:\WP-Client/includes/admin/admin_edit.php:106
+#, php-format
+msgid "Add new %s"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/admin_edit.php:108
+#, php-format
+msgid "Update %s"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/admin_edit.php:167
+#: c:\WP-Client/includes/admin/admin_edit.php:179
+msgid "(required)"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/admin_edit.php:187
+#: c:\WP-Client/includes/admin/clients_staff.php:240
+#: c:\WP-Client/includes/admin/clients_staff_approve.php:260
+msgid "First Name"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/admin_edit.php:195
+msgid "Last Name"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/admin_edit.php:204
+msgid "Send Password?"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/admin_edit.php:213
+msgid "Update Password?"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/admin_edit.php:216
+msgid "Checking this box will change the password."
+msgstr ""
+
+#: c:\WP-Client/includes/admin/admin_edit.php:224
+msgid "(twice, required)"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/admin_edit.php:232
+msgid "Hint: The password should be at least seven characters long. To make it stronger, use upper and lower case letters, numbers and symbols like ! \" ? $ % ^ &amp; )."
+msgstr ""
+
+#: c:\WP-Client/includes/admin/admin_edit.php:259
+msgid "A username is required."
+msgstr ""
+
+#: c:\WP-Client/includes/admin/admin_edit.php:263
+msgid "Email required."
+msgstr ""
+
+#: c:\WP-Client/includes/admin/admin_edit.php:265
+msgid "Invalid Email."
+msgstr ""
+
+#: c:\WP-Client/includes/admin/clients.php:443
+msgid "Quick Action"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/clients.php:444
+#: c:\WP-Client/includes/admin/clients.php:904
+msgid "Send Message"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/clients.php:473
+#, php-format
+msgid "Are you sure move to archive this %s?"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/clients.php:477
+#: c:\WP-Client/includes/admin/clients_staff.php:205
+msgid "Messages"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/clients.php:480
+msgid "Internal Notes"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/clients.php:484
+#, php-format
+msgid "Login to %s account"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/clients.php:489
+msgid "Are you sure you want to Re-Send Welcome Email?"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/clients.php:489
+#: c:\WP-Client/includes/admin/clients.php:491
+msgid "Re-Send Welcome Email"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/clients.php:491
+#, php-format
+msgid "Wait around %s hours for re-send it."
+msgstr ""
+
+#: c:\WP-Client/includes/admin/clients.php:550
+msgid "Filter"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/clients.php:551
+msgid "Remove Filter"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/clients.php:583
+msgid "Move to Archive"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/clients.php:601
+msgid "Creation Date"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/clients.php:604
+msgid "Quick Actions"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/clients.php:787
+#, php-format
+msgid "Re-Sent Email for %s."
+msgstr ""
+
+#: c:\WP-Client/includes/admin/clients.php:799
+#, php-format
+msgid "%s <strong>Moved to the Archive</strong>."
+msgstr ""
+
+#: c:\WP-Client/includes/admin/clients.php:802
+#, php-format
+msgid "%s are <strong>Imported</strong>."
+msgstr ""
+
+#: c:\WP-Client/includes/admin/clients.php:808
+#, php-format
+msgid "Wrong %s ID."
+msgstr ""
+
+#: c:\WP-Client/includes/admin/clients.php:834
+#, php-format
+msgid "Import %s from CSV File:"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/clients.php:887
+msgid "Send Message To:"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/clients.php:893
+msgid "Type your private message here"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/clients.php:922
+msgid "Internal Notes:"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/clients.php:929
+msgid "Notes:"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/clients.php:945
+msgid "Save Notes"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/clients.php:965
+#, php-format
+msgid "Do you really want to delete permanently this %s?"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/clients.php:1224
+msgid "Please select a valid csv file to import."
+msgstr ""
+
+#: c:\WP-Client/includes/admin/clientspage_categories.php:168
+#, php-format
+msgid "Category have %s. What do with %s"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/clientspage_categories.php:177
+#, php-format
+msgid "Reassign %s"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/clientspage_categories.php:179
+#, php-format
+msgid "Delete %s"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/clientspage_categories.php:279
+msgid "Category ID"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/clientspage_categories.php:280
+msgid "Category Name"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/clientspage_categories.php:281
+msgid "Pages"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/clientspage_categories.php:314
+msgid "Category name is null!!!"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/clientspage_categories.php:317
+msgid "The Category already exists!!!"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/clientspage_categories.php:320
+msgid "Category is created!"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/clientspage_categories.php:323
+msgid "The changes of the Category are saved!"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/clientspage_categories.php:326
+msgid "Category is deleted!"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/clientspage_categories.php:338
+msgid "Add New"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/clientspage_categories.php:349
+msgid "New Category"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/clientspage_categories.php:362
+#, php-format
+msgid "Assign %s to $s Category"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/clientspage_categories.php:384
+#, php-format
+msgid "Assign %s to %s Category"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/clientspage_categories.php:401
+msgid "Create Category"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/clientspage_categories.php:420
+#, php-format
+msgid "Reassign %s Category"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/clientspage_categories.php:426
+msgid "Category From"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/clientspage_categories.php:437
+msgid "Category To"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/clientspage_categories.php:447
+msgid "Reassign"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/clients_approve.php:283
+#: c:\WP-Client/includes/admin/clients_staff_approve.php:309
+#, php-format
+msgid "%s is approved."
+msgstr ""
+
+#: c:\WP-Client/includes/admin/clients_approve.php:345
+#: c:\WP-Client/includes/admin/clients_approve.php:373
+#, php-format
+msgid "Assign To %s %s"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/clients_approve.php:448
+#, php-format
+msgid "Approve the %s"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/clients_approve.php:452
+#, php-format
+msgid "Approve selected %s"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/clients_archive.php:125
+#, php-format
+msgid "'Are you sure to delete this %s?'"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/clients_archive.php:290
+#: c:\WP-Client/includes/admin/clients_archive.php:293
+#, php-format
+msgid "%s <strong>Restored</strong> Successfully."
+msgstr ""
+
+#: c:\WP-Client/includes/admin/clients_archive.php:312
+#, php-format
+msgid "Archive %s"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/clients_archive.php:322
+msgid "Search Users"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/clients_convert.php:459
+msgid "Role"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/clients_convert.php:567
+msgid "User(s) <strong>Converted</strong> to Client(s) Successfully."
+msgstr ""
+
+#: c:\WP-Client/includes/admin/clients_convert.php:570
+msgid "User(s) <strong>Converted</strong> to Staff(s) Successfully."
+msgstr ""
+
+#: c:\WP-Client/includes/admin/clients_convert.php:573
+msgid "User(s) <strong>Converted</strong> to Manager(s) Successfully."
+msgstr ""
+
+#: c:\WP-Client/includes/admin/clients_convert.php:576
+msgid "User(s) <strong>Converted</strong> to Admin(s) Successfully."
+msgstr ""
+
+#: c:\WP-Client/includes/admin/clients_convert.php:595
+msgid "Note: Please test this first before converting a large number of users to be sure your intended result is achieved"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/clients_convert.php:661
+msgid "Convert to:"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/clients_convert.php:663
+msgid "Select Role"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/clients_convert.php:677
+#, php-format
+msgid ">>Select Options for %s"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/clients_convert.php:686
+msgid "Which User Meta Field Use For Business Name"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/clients_convert.php:689
+msgid "by default \"first_name\", or \"user_login\" if meta values and \"first_name\" is empty."
+msgstr ""
+
+#: c:\WP-Client/includes/admin/clients_convert.php:711
+#: c:\WP-Client/includes/admin/clients_convert.php:712
+#, php-format
+msgid "Select %s %s"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/clients_convert.php:765
+#, php-format
+msgid "Create %s"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/clients_convert.php:770
+#: c:\WP-Client/includes/admin/clients_convert.php:818
+#: c:\WP-Client/includes/admin/clients_convert.php:866
+#: c:\WP-Client/includes/admin/clients_convert.php:895
+msgid "Save Current User Role"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/clients_convert.php:772
+#: c:\WP-Client/includes/admin/clients_convert.php:820
+#: c:\WP-Client/includes/admin/clients_convert.php:868
+#: c:\WP-Client/includes/admin/clients_convert.php:897
+#, php-format
+msgid "If checked, the user's current role will be saved, but user will also take on characteristics of the %s role."
+msgstr ""
+
+#: c:\WP-Client/includes/admin/clients_convert.php:777
+#: c:\WP-Client/includes/admin/clients_convert.php:825
+#: c:\WP-Client/includes/admin/clients_convert.php:873
+#: c:\WP-Client/includes/admin/clients_convert.php:902
+#, php-format
+msgid "Convert to %s"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/clients_convert.php:790
+#: c:\WP-Client/includes/admin/clients_convert.php:838
+#: c:\WP-Client/includes/admin/clients_convert.php:886
+#, php-format
+msgid ">> Select Options for %s"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/clients_custom_fields.php:35
+#: c:\WP-Client/includes/admin/clients_custom_fields.php:260
+msgid "Fields"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/clients_custom_fields.php:172
+#: c:\WP-Client/includes/admin/clients_custom_field_edit.php:255
+msgid "Text Box"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/clients_custom_fields.php:175
+#: c:\WP-Client/includes/admin/clients_custom_field_edit.php:256
+msgid "Datepicker"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/clients_custom_fields.php:178
+#: c:\WP-Client/includes/admin/clients_custom_field_edit.php:257
+msgid "Multi-line Text Box"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/clients_custom_fields.php:181
+#: c:\WP-Client/includes/admin/clients_custom_field_edit.php:258
+msgid "Radio Buttons"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/clients_custom_fields.php:184
+#: c:\WP-Client/includes/admin/clients_custom_field_edit.php:259
+msgid "Checkboxes"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/clients_custom_fields.php:187
+#: c:\WP-Client/includes/admin/clients_custom_field_edit.php:260
+msgid "Select Box"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/clients_custom_fields.php:190
+#: c:\WP-Client/includes/admin/clients_custom_field_edit.php:261
+msgid "Multi Select Box"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/clients_custom_fields.php:193
+#: c:\WP-Client/includes/admin/clients_custom_field_edit.php:262
+msgid "Hidden Field"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/clients_custom_fields.php:227
+msgid "Display on Admin"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/clients_custom_fields.php:230
+msgid "Display on Registration"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/clients_custom_fields.php:233
+msgid "Display on Profile"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/clients_custom_fields.php:236
+msgid "Required"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/clients_custom_fields.php:239
+msgid "Readonly"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/clients_custom_fields.php:251
+msgid "Are you sure to delete this Custom Filed?"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/clients_custom_fields.php:259
+msgid "Field"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/clients_custom_fields.php:277
+msgid "Field Slug (ID)"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/clients_custom_fields.php:280
+msgid "For"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/clients_custom_fields.php:281
+msgid "Description"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/clients_custom_fields.php:282
+msgid "Type"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/clients_custom_fields.php:283
+msgid "Options"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/clients_custom_fields.php:303
+msgid "Custom Field <strong>Added</strong> Successfully."
+msgstr ""
+
+#: c:\WP-Client/includes/admin/clients_custom_fields.php:306
+msgid "Custom Field <strong>Updated</strong> Successfully."
+msgstr ""
+
+#: c:\WP-Client/includes/admin/clients_custom_fields.php:309
+msgid "Custom Field <strong>Deleted</strong> Successfully."
+msgstr ""
+
+#: c:\WP-Client/includes/admin/clients_custom_fields.php:325
+msgid "Add New Custom Field"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/clients_custom_fields.php:335
+msgid "Drag&Drop to change the order in which these fields appear on the registration form."
+msgstr ""
+
+#: c:\WP-Client/includes/admin/clients_custom_field_edit.php:21
+msgid "A Custom Field Name is required.<br/>"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/clients_custom_field_edit.php:27
+#, php-format
+msgid "A Custom Field with this name \"%s\" already exist already.<br/>"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/clients_custom_field_edit.php:33
+msgid "A Custom Field Type is required.<br/>"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/clients_custom_field_edit.php:74
+msgid "Add Custom Field"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/clients_custom_field_edit.php:76
+msgid "Update Custom Field"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/clients_custom_field_edit.php:150
+#: c:\WP-Client/includes/admin/clients_custom_field_edit.php:280
+#: c:\WP-Client/includes/admin/clients_custom_field_edit.php:290
+msgid "Option"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/clients_custom_field_edit.php:153
+#: c:\WP-Client/includes/admin/clients_custom_field_edit.php:283
+#: c:\WP-Client/includes/admin/clients_custom_field_edit.php:293
+msgid "Default Value"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/clients_custom_field_edit.php:190
+msgid ""
+"These fields will show on the self registration form ( by default, found at /client-registration )\n"
+"You can also use the data entered in these fields in your HUBs, Portal Pages & Emails using placeholders.\n"
+"The default format for these placeholders will be {wpc_cf_xxxxx} with xxxxx being replaced with the slug you enter in the \"Field Slug\" field "
+msgstr ""
+
+#: c:\WP-Client/includes/admin/clients_custom_field_edit.php:202
+msgid "Field Slug"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/clients_custom_field_edit.php:202
+#: c:\WP-Client/includes/admin/clients_custom_field_edit.php:251
+msgid "required"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/clients_custom_field_edit.php:208
+msgid "Can't be changed."
+msgstr ""
+
+#: c:\WP-Client/includes/admin/clients_custom_field_edit.php:212
+msgid "The name used to identify the custom field. Should consist only of these characters \"a-z\" and the underscore symbol \"_\" <br> - (not displayed on the form)."
+msgstr ""
+
+#: c:\WP-Client/includes/admin/clients_custom_field_edit.php:218
+msgid "Field Title"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/clients_custom_field_edit.php:223
+msgid "The title of the custom field (displayed on the form)."
+msgstr ""
+
+#: c:\WP-Client/includes/admin/clients_custom_field_edit.php:228
+msgid "Field Description"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/clients_custom_field_edit.php:233
+msgid "Description for the custom field (displayed on the form)."
+msgstr ""
+
+#: c:\WP-Client/includes/admin/clients_custom_field_edit.php:238
+msgid "Field For"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/clients_custom_field_edit.php:246
+msgid "Select users of the custom field."
+msgstr ""
+
+#: c:\WP-Client/includes/admin/clients_custom_field_edit.php:251
+msgid "Field Type"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/clients_custom_field_edit.php:265
+msgid "Select type of the custom field."
+msgstr ""
+
+#: c:\WP-Client/includes/admin/clients_custom_field_edit.php:268
+msgid "Fill in the options for this field"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/clients_custom_field_edit.php:269
+msgid "Order By"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/clients_custom_field_edit.php:271
+msgid "Order Entered"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/clients_custom_field_edit.php:272
+msgid "Name - Ascending"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/clients_custom_field_edit.php:273
+msgid "Name - Descending"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/clients_custom_field_edit.php:299
+msgid "Add another option"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/clients_custom_field_edit.php:305
+msgid "Fill in the value for this field"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/clients_custom_field_edit.php:314
+#, php-format
+msgid "Display Field on Admin Add %s Form"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/clients_custom_field_edit.php:323
+#, php-format
+msgid "Display Field on %s Registration Form"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/clients_custom_field_edit.php:332
+#, php-format
+msgid "Display Field on %s Edit Profile Form"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/clients_custom_field_edit.php:341
+msgid "Required Field"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/clients_custom_field_edit.php:350
+msgid "Readonly Field"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/clients_custom_field_edit.php:359
+msgid "Save Custom Field"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/clients_staff.php:242
+#: c:\WP-Client/includes/admin/clients_staff_approve.php:262
+#, php-format
+msgid "Assigned to %s"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/clients_staff_edit.php:148
+#, php-format
+msgid "Add new %s %s"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/clients_staff_edit.php:150
+#, php-format
+msgid "Update %s %s"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/clients_staff_edit.php:214
+#, php-format
+msgid "%s Login"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/clients_staff_edit.php:330
+#: c:\WP-Client/includes/admin/clients_staff_edit.php:331
+#, php-format
+msgid "Assign to %s"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/customize.php:73
+msgid "Launching Customizer..."
+msgstr ""
+
+#: c:\WP-Client/includes/admin/customize.php:87
+msgid "Are you sure to reset Custom Styles?"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/customize.php:87
+msgid "Reset"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/customize.php:97
+msgid "You are customizing style scheme:"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/customize.php:100
+msgid "Scheme"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/customize.php:144
+msgid "New Element Title"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/customize.php:148
+msgid "New Element CSS ID"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/customize.php:154
+msgid "Add Element"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/dashboard.php:16
+msgid "System Status"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/dashboard_dashboard.php:16
+#: c:\WP-Client/includes/admin/dashboard_managers.php:16
+msgid "General Information"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/dashboard_dashboard.php:29
+#: c:\WP-Client/includes/admin/dashboard_dashboard.php:47
+#: c:\WP-Client/includes/admin/dashboard_dashboard.php:71
+#: c:\WP-Client/includes/admin/dashboard_dashboard.php:80
+#: c:\WP-Client/includes/admin/dashboard_dashboard.php:86
+#, php-format
+msgid "No. of %s"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/dashboard_dashboard.php:38
+#: c:\WP-Client/includes/admin/dashboard_dashboard.php:56
+#, php-format
+msgid "No. of %s waiting for Approval"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/dashboard_dashboard.php:65
+msgid "No. of Unread Private Messages"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/dashboard_dashboard.php:92
+msgid "No. of Files"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/dashboard_dashboard.php:101
+msgid "Total Size of all Files"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/dashboard_dashboard.php:111
+msgid "Avg. File Size"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/dashboard_dashboard.php:124
+msgid "Settings Summary"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/dashboard_dashboard.php:130
+msgid "Client Self-Registration Enabled?"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/dashboard_dashboard.php:136
+msgid "Client Staff Registration Enabled?"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/dashboard_dashboard.php:142
+msgid "Custom Menus Enabled?"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/dashboard_dashboard.php:148
+msgid "Custom Login at /wp-admin Enabled?"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/dashboard_system_status.php:20
+msgid "Environment"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/dashboard_system_status.php:26
+msgid "Home URL"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/dashboard_system_status.php:30
+msgid "Site URL"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/dashboard_system_status.php:34
+msgid "WP Version"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/dashboard_system_status.php:38
+msgid "WPC Version"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/dashboard_system_status.php:42
+msgid "Web Server Info"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/dashboard_system_status.php:46
+msgid "PHP Version"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/dashboard_system_status.php:50
+msgid "MySQL Version"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/dashboard_system_status.php:54
+msgid "WP Memory Limit"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/dashboard_system_status.php:60
+#, php-format
+msgid "%s - We recommend setting memory to at least 64 MB. See: <a href=\"%s\" target=\"_blank\">Increasing memory allocated to PHP</a>"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/dashboard_system_status.php:68
+msgid "WP Debug Mode"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/dashboard_system_status.php:72
+msgid "WP Max Upload Size"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/dashboard_system_status.php:77
+msgid "WP Multisite"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/dashboard_system_status.php:78
+#: c:\WP-Client/includes/admin/dashboard_system_status.php:90
+msgid "Enabled"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/dashboard_system_status.php:78
+msgid "Disabled"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/dashboard_system_status.php:81
+msgid "PHP Post Max Size"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/dashboard_system_status.php:85
+msgid "PHP Time Limit"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/dashboard_system_status.php:89
+msgid "cURL"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/dashboard_system_status.php:90
+msgid "Disabled (cURL must be enabled)"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/dashboard_system_status.php:97
+msgid "Plugins"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/dashboard_system_status.php:103
+msgid "Installed Plugins"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/dashboard_system_status.php:124
+#: c:\WP-Client/includes/admin/dashboard_system_status.php:126
+msgid "version"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/dashboard_system_status.php:126
+msgid "by"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/dashboard_system_status.php:149
+msgid "Force SSL"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/dashboard_system_status.php:153
+msgid "Permalinks"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/dashboard_system_status.php:160
+#, php-format
+msgid "Default <a href=\"%s\">(Change to Post Name)</a>"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/editclient.php:229
+msgid "(can't be changed)"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/editclient.php:303
+msgid "Send this updated password to the user by email"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/extensions.php:231
+msgid "Import was successful"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/extensions.php:233
+msgid "Invalid *.xml file"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/extensions.php:240
+#, php-format
+msgid "%s Extensions"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/extensions.php:242
+#, php-format
+msgid "%s uses Extensions to expand the functionality of the plugin. These can be installed/activated as you have the need for them."
+msgstr ""
+
+#: c:\WP-Client/includes/admin/extensions.php:243
+msgid "To begin the installation, click Install. You will then need to Activate the Extension, and enter the Extension's unique API Key."
+msgstr ""
+
+#: c:\WP-Client/includes/admin/extensions.php:248
+msgid "The Extension generated unexpected output:"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/extensions.php:258
+msgid "Extension activated."
+msgstr ""
+
+#: c:\WP-Client/includes/admin/extensions.php:261
+msgid "Extension not activated."
+msgstr ""
+
+#: c:\WP-Client/includes/admin/extensions.php:264
+msgid "Extension deactivated."
+msgstr ""
+
+#: c:\WP-Client/includes/admin/extensions.php:267
+msgid "Extension not deactivated"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/extensions.php:280
+#: c:\WP-Client/includes/admin/extensions.php:289
+msgid "Extension Name"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/extensions.php:282
+#: c:\WP-Client/includes/admin/extensions.php:291
+#: c:\WP-Client/includes/admin/extensions.php:363
+msgid "Active"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/extensions.php:320
+msgid "Install"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/extensions.php:326
+msgid "Deactivate"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/extensions.php:330
+msgid "Activate"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/extensions.php:336
+msgid "Update"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/extensions.php:353
+msgid "API Key:"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/extensions.php:365
+msgid "Inactive"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/extensions.php:375
+msgid "No Extensions were found for this install."
+msgstr ""
+
+#: c:\WP-Client/includes/admin/files.php:18
+#: c:\WP-Client/includes/admin/files.php:59
+#: c:\WP-Client/includes/admin/files.php:685
+#: c:\WP-Client/includes/admin/files_download_log.php:457
+msgid "files"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/files.php:465
+#: c:\WP-Client/includes/admin/files_download_log.php:271
+#: c:\WP-Client/includes/admin/files_download_log.php:273
+msgid "view"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/files.php:468
+#: c:\WP-Client/includes/admin/files_download_log.php:278
+#: c:\WP-Client/includes/admin/files_download_log.php:280
+msgid "download"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/files.php:472
+#: c:\WP-Client/includes/admin/files_download_log.php:285
+msgid "Are you sure to delete this file?"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/files.php:478
+#: c:\WP-Client/includes/admin/files.php:480
+#: c:\WP-Client/includes/admin/files_download_log.php:291
+#: c:\WP-Client/includes/admin/files_download_log.php:293
+msgid "Are you sure move to delete this file?"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/files.php:534
+#, php-format
+msgid "Assign to %s \"%s\""
+msgstr ""
+
+#: c:\WP-Client/includes/admin/files.php:564
+#, php-format
+msgid "Assign %s to \"%s\""
+msgstr ""
+
+#: c:\WP-Client/includes/admin/files.php:613
+msgid "Bulk Actions"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/files.php:643
+msgid "Apply"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/files.php:651
+msgid "Tag"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/files.php:651
+#: c:\WP-Client/includes/admin/files.php:710
+msgid "Author"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/files.php:656
+#: c:\WP-Client/includes/admin/files_download_log.php:323
+#: c:\WP-Client/includes/admin/managers.php:240
+msgid "Select Filter"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/files.php:684
+#: c:\WP-Client/includes/admin/files_download_log.php:456
+msgid "file"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/files.php:701
+msgid "Reassign Category"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/files.php:708
+#: c:\WP-Client/includes/admin/files.php:1383
+#: c:\WP-Client/includes/admin/files.php:1562
+#: c:\WP-Client/includes/admin/files.php:1704
+#: c:\WP-Client/includes/admin/files_download_log.php:474
+msgid "File Title"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/files.php:836
+#: c:\WP-Client/includes/admin/files_download_log.php:548
+msgid "Files assigned to another category!"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/files.php:839
+#: c:\WP-Client/includes/admin/files_download_log.php:551
+msgid "File(s) are Deleted."
+msgstr ""
+
+#: c:\WP-Client/includes/admin/files.php:842
+#: c:\WP-Client/includes/admin/files_download_log.php:554
+msgid "The file has been added"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/files.php:845
+#: c:\WP-Client/includes/admin/files.php:848
+#: c:\WP-Client/includes/admin/files_download_log.php:557
+#: c:\WP-Client/includes/admin/files_download_log.php:560
+msgid "The file has been uploaded!"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/files.php:851
+msgid "Synchronize was successfully!"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/files.php:860
+#: c:\WP-Client/includes/admin/files_download_log.php:569
+msgid "There was an error assign the file, please try again!"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/files.php:863
+#: c:\WP-Client/includes/admin/files_download_log.php:572
+msgid "Some error with assigning permission for file."
+msgstr ""
+
+#: c:\WP-Client/includes/admin/files.php:866
+#: c:\WP-Client/includes/admin/files_download_log.php:575
+msgid "Error: File not exist!"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/files.php:869
+msgid "Error: Category name is wrong!"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/files.php:881
+msgid "Upload New File"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/files.php:882
+msgid "Assign File From FTP"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/files.php:883
+#: c:\WP-Client/includes/admin/files.php:1671
+msgid "Add External File"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/files.php:884
+msgid "Synchronize with FTP"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/files.php:897
+msgid "Sorry, you have used all of your storage quota."
+msgstr ""
+
+#: c:\WP-Client/includes/admin/files.php:920
+#: c:\WP-Client/includes/admin/files.php:1121
+msgid "Upload File(s)"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/files.php:965
+#: c:\WP-Client/includes/admin/files.php:1166
+#: c:\WP-Client/includes/admin/files.php:1440
+msgid "Note: Press Enter for add tag."
+msgstr ""
+
+#: c:\WP-Client/includes/admin/files.php:976
+#: c:\WP-Client/includes/admin/files.php:999
+#: c:\WP-Client/includes/admin/files.php:1177
+#: c:\WP-Client/includes/admin/files.php:1200
+#: c:\WP-Client/includes/admin/files.php:1452
+#: c:\WP-Client/includes/admin/files.php:1476
+#: c:\WP-Client/includes/admin/files.php:1618
+#: c:\WP-Client/includes/admin/files.php:1643
+#: c:\WP-Client/includes/admin/files.php:1760
+#: c:\WP-Client/includes/admin/files.php:1785
+#, php-format
+msgid "Assign %s to file"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/files.php:1019
+#: c:\WP-Client/includes/admin/files.php:1220
+#: c:\WP-Client/includes/admin/files.php:1497
+#: c:\WP-Client/includes/admin/files.php:1665
+#: c:\WP-Client/includes/admin/files.php:1807
+#, php-format
+msgid "Send notification to the assigned %s and associated %s"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/files.php:1027
+#: c:\WP-Client/includes/admin/files.php:1228
+#: c:\WP-Client/includes/admin/files.php:1506
+#: c:\WP-Client/includes/admin/files.php:1816
+#, php-format
+msgid "Attach uploaded file(s) to the email notification sent to %s and associated %s"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/files.php:1028
+#: c:\WP-Client/includes/admin/files.php:1229
+#: c:\WP-Client/includes/admin/files.php:1507
+#: c:\WP-Client/includes/admin/files.php:1817
+msgid "(size may be limited by email providers)"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/files.php:1034
+#: c:\WP-Client/includes/admin/files.php:1235
+msgid "File(s)"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/files.php:1240
+msgid "Your browser doesn't have Flash, Silverlight or HTML5 support."
+msgstr ""
+
+#: c:\WP-Client/includes/admin/files.php:1370
+#: c:\WP-Client/includes/admin/files.php:1514
+msgid "Upload File"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/files.php:1391
+#: c:\WP-Client/includes/admin/files.php:1570
+#: c:\WP-Client/includes/admin/files.php:1712
+msgid "File Description"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/files.php:1530
+msgid "Add an external file | From onsite or offsite server location"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/files.php:1534
+msgid "File Name"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/files.php:1538
+msgid "ex. file.zip"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/files.php:1543
+msgid "File URL"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/files.php:1547
+msgid "ex. http://www.site.com/file.zip"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/files.php:1555
+#: c:\WP-Client/includes/admin/files.php:1919
+msgid "Protect URL"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/files.php:1557
+msgid "May not work with some URLs"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/files.php:1682
+#, php-format
+msgid "Assign File From FTP (%s protects the files in this directory)"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/files.php:1683
+#, php-format
+msgid "To assign files, you should upload it by FTP into folder %s"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/files.php:1691
+msgid "Select Files"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/files.php:1698
+msgid "- No Files For Select -"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/files.php:1823
+msgid "Assign File"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/files.php:1834
+#, php-format
+msgid "Synchronize files with FTP (%s protects the files in this directory)"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/files.php:1835
+msgid "Click \"Synchronize now\" for synchronize database Files and File Categories with files and folders on your FTP"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/files.php:1836
+msgid "Synchronize now"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/files.php:1848
+#: c:\WP-Client/includes/admin/files.php:1852
+msgid "Your files"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/files.php:1850
+msgid "Admin files"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/files.php:1851
+msgid "Files for Admin"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/files.php:1863
+#: c:\WP-Client/includes/admin/files_cat_old.php:552
+#: c:\WP-Client/includes/admin/files_download_log.php:592
+#: c:\WP-Client/includes/admin/file_tags.php:296
+msgid "Search Files"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/files.php:1872
+msgid "Edit File:"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/files.php:1879
+msgid "File Title:"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/files.php:1888
+msgid "File Tags:"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/files.php:1896
+msgid "File Description:"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/files.php:1909
+msgid "File URL:"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/files.php:1926
+msgid "Update File Data"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/files.php:1978
+msgid "Please write file url."
+msgstr ""
+
+#: c:\WP-Client/includes/admin/files.php:1983
+msgid "Please select file to assign."
+msgstr ""
+
+#: c:\WP-Client/includes/admin/files_cat.php:94
+msgid "The Category with this name already exists!!!"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/files_cat.php:97
+msgid "The Category with this folder already exists!!!"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/files_cat.php:100
+msgid "The Category Folder already exists on FTP!!!"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/files_cat.php:106
+#: c:\WP-Client/includes/admin/files_cat_old.php:353
+msgid "Category is reassigned!"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/files_cat.php:140
+#: c:\WP-Client/includes/admin/files_cat_old.php:387
+msgid "New view"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/files_cat.php:141
+#: c:\WP-Client/includes/admin/files_cat_old.php:388
+msgid "Old view"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/files_cat.php:164
+#: c:\WP-Client/includes/admin/files_cat_old.php:411
+msgid "Folder name"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/files_cat.php:172
+#: c:\WP-Client/includes/admin/files_cat_old.php:419
+msgid "Parent"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/files_cat.php:176
+#: c:\WP-Client/includes/admin/files_cat_old.php:423
+msgid "(no parent)"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/files_cat.php:200
+#: c:\WP-Client/includes/admin/files_cat.php:223
+#: c:\WP-Client/includes/admin/files_cat_old.php:447
+#: c:\WP-Client/includes/admin/files_cat_old.php:470
+#, php-format
+msgid "Assign %s to File Category"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/files_cat.php:248
+#: c:\WP-Client/includes/admin/files_cat_old.php:495
+msgid "Reassign Files Category"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/files_cat.php:304
+msgid "Drag&Drop items for change category order."
+msgstr ""
+
+#: c:\WP-Client/includes/admin/files_cat.php:318
+msgid "Category Name (#ID)"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/files_cat.php:319
+#: c:\WP-Client/includes/admin/files_cat_old.php:280
+msgid "Folder Name"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/files_cat.php:555
+#: c:\WP-Client/includes/admin/files_cat.php:558
+#: c:\WP-Client/includes/admin/files_cat_old.php:658
+#: c:\WP-Client/includes/admin/files_cat_old.php:661
+msgid "Cancel Delete"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/files_cat.php:562
+#: c:\WP-Client/includes/admin/files_cat_old.php:664
+msgid "Are you sure want to delete permanently this category and reassign all files and parent categories to another category? "
+msgstr ""
+
+#: c:\WP-Client/includes/admin/files_cat.php:569
+#: c:\WP-Client/includes/admin/files_cat_old.php:671
+msgid "Are you sure want to delete permanently this category with all files and parent categories? "
+msgstr ""
+
+#: c:\WP-Client/includes/admin/files_download_log.php:319
+#: c:\WP-Client/includes/admin/files_download_log.php:476
+msgid "Downloaded By"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/files_download_log.php:586
+msgid "Files Download Log"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/file_tags.php:196
+msgid "Are you sure to delete this file tag?"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/file_tags.php:206
+msgid "tag"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/file_tags.php:207
+msgid "tags"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/file_tags.php:229
+msgid "Tag Name"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/file_tags.php:230
+msgid "Count"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/file_tags.php:279
+msgid "File Tag(s) are Deleted."
+msgstr ""
+
+#: c:\WP-Client/includes/admin/groups.php:243
+#, php-format
+msgid "Assign %s to "
+msgstr ""
+
+#: c:\WP-Client/includes/admin/groups.php:284
+msgid "ID"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/groups.php:285
+#, php-format
+msgid "%s %s Name"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/groups.php:286
+msgid "Auto-Select"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/groups.php:287
+msgid "Auto-Add Files"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/groups.php:288
+#: c:\WP-Client/includes/admin/managers.php:321
+#, php-format
+msgid "Auto-Add %s"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/groups.php:289
+#, php-format
+msgid "Auto-Add Manual %s"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/groups.php:290
+#, php-format
+msgid "Auto-Add Self-Registered %s"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/groups.php:329
+msgid "The Group already exists!!!"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/groups.php:332
+msgid "The changes of the group are saved!"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/groups.php:335
+#, php-format
+msgid "%s %s is created!"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/groups.php:338
+#, php-format
+msgid "%s %s is deleted!"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/groups.php:361
+#, php-format
+msgid "%s Name"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/groups.php:368
+#, php-format
+msgid "Auto-Select this %s on the Assign Popups"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/groups.php:375
+#, php-format
+msgid "Automatically assign new Files to this %s"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/groups.php:382
+#, php-format
+msgid "Automatically assign new %s to this %s"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/groups.php:389
+#, php-format
+msgid "Automatically assign new manual %s to this %s"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/groups.php:396
+#, php-format
+msgid "Automatically assign new self-registered %s to this %s"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/groups.php:404
+#, php-format
+msgid "Assign %s to %s"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/groups.php:430
+#, php-format
+msgid "List of %s"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/manager_edit.php:289
+msgid "Address"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/manager_edit.php:313
+msgid "Auto Assign New Clients?"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/manager_edit.php:316
+msgid "Auto assign client which was auto approved."
+msgstr ""
+
+#: c:\WP-Client/includes/admin/messages.php:277
+#: c:\WP-Client/includes/admin/messages_chain.php:66
+msgid "You do not have access to these messages!"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/messages.php:474
+msgid "Mark as Read"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/messages.php:477
+msgid "Read & Reply"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/messages.php:479
+#: c:\WP-Client/includes/admin/messages_chain.php:123
+msgid "Are you sure to delete this message?"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/messages.php:482
+msgid "NEW! "
+msgstr ""
+
+#: c:\WP-Client/includes/admin/messages.php:495
+#, php-format
+msgid "All %s"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/messages.php:520
+#: c:\WP-Client/includes/admin/messages.php:542
+msgid "Message"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/messages.php:543
+msgid "From"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/messages.php:544
+msgid "To"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/messages.php:545
+msgid "Time"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/messages.php:584
+msgid "Count clients is 0."
+msgstr ""
+
+#: c:\WP-Client/includes/admin/messages.php:587
+msgid "Message marked as read."
+msgstr ""
+
+#: c:\WP-Client/includes/admin/messages.php:590
+msgid " message(s) is sent."
+msgstr ""
+
+#: c:\WP-Client/includes/admin/messages.php:593
+#: c:\WP-Client/includes/admin/messages_chain.php:100
+msgid "Message is deleted."
+msgstr ""
+
+#: c:\WP-Client/includes/admin/messages.php:635
+#: c:\WP-Client/includes/admin/messages_chain.php:150
+msgid "Sent message to"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/messages.php:690
+#: c:\WP-Client/includes/admin/messages_chain.php:167
+msgid "Send private message"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/messages.php:750
+msgid "View messages"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/messages.php:752
+msgid "New"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/messages.php:753
+msgid "Yesterday"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/messages.php:754
+msgid "7 days"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/messages.php:755
+msgid "30 days"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/messages.php:756
+msgid "3 month"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/messages.php:757
+msgid "6 month"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/messages.php:758
+msgid "1 year"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/messages_chain.php:94
+msgid "Chain of Messages"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/messages_chain.php:135
+msgid "No message."
+msgstr ""
+
+#: c:\WP-Client/includes/admin/messages_chain.php:152
+#, php-format
+msgid "-Select %s / %s-"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/payments_history.php:227
+msgid "Payment"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/payments_history.php:248
+msgid "Order ID"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/payments_history.php:251
+msgid "Payment Method"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/payments_history.php:252
+msgid "Transaction ID"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/payments_history.php:253
+msgid "Amount"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/payments_history.php:302
+msgid "Payment History"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/payments_history.php:303
+msgid "From here, you can see all payment operations."
+msgstr ""
+
+#: c:\WP-Client/includes/admin/permissions.php:45
+#: c:\WP-Client/includes/admin/permissions.php:53
+msgid "Show All"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/permissions.php:59
+msgid "Report"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/settings.php:42
+msgid "Settings Updated."
+msgstr ""
+
+#: c:\WP-Client/includes/admin/settings.php:45
+msgid "Login URL used default names of Wordpress. Settings are not updated."
+msgstr ""
+
+#: c:\WP-Client/includes/admin/settings.php:48
+msgid "Pages Updated Successfully."
+msgstr ""
+
+#: c:\WP-Client/includes/admin/settings.php:51
+msgid "Pages Created Successfully"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/settings.php:54
+msgid "You are skipped auto-install pages - please do it manually."
+msgstr ""
+
+#: c:\WP-Client/includes/admin/settings.php:63
+msgid "Note: The registration will not work until you select \"Payment Gateways\". Clients will see a message that \"Registration temporarily unavailable\"."
+msgstr ""
+
+#: c:\WP-Client/includes/admin/settings.php:66
+msgid "Invalid settings"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/settings.php:69
+msgid "Not all registration levels was saved"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/settings.php:80
+#, php-format
+msgid "From here you can manage a variety of options for the %s plugin."
+msgstr ""
+
+#: c:\WP-Client/includes/admin/settings.php:86
+msgid "General"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/settings.php:89
+msgid "Business Info"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/settings.php:90
+msgid "Theme Link Pages"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/settings.php:91
+#: c:\WP-Client/includes/admin/settings_custom_titles.php:30
+msgid "Custom Titles"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/settings.php:94
+msgid "Custom Redirects"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/settings.php:95
+msgid "Skins"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/settings.php:96
+#: c:\WP-Client/includes/admin/settings_login_alerts.php:22
+msgid "Login Alerts"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/settings.php:97
+msgid "SMTP"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/settings.php:98
+msgid "Import/Export Settings"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/settings.php:99
+msgid "IP Adresses Access"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/settings.php:108
+msgid "About"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/settings_business_info.php:24
+msgid "General Business Information"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/settings_business_info.php:29
+msgid "Logo URL"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/settings_business_info.php:39
+msgid "Official Business Name"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/settings_business_info.php:49
+msgid "Business Address"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/settings_business_info.php:59
+msgid "Mailing Address"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/settings_business_info.php:69
+msgid "Website"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/settings_business_info.php:99
+msgid "Fax"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/settings_business_info.php:112
+#: c:\WP-Client/includes/admin/settings_capabilities.php:78
+#: c:\WP-Client/includes/admin/settings_clients_staff.php:599
+#: c:\WP-Client/includes/admin/settings_custom_login.php:161
+#: c:\WP-Client/includes/admin/settings_custom_titles.php:65
+#: c:\WP-Client/includes/admin/settings_file_sharing.php:295
+#: c:\WP-Client/includes/admin/settings_general.php:499
+#: c:\WP-Client/includes/admin/settings_limit_ips.php:122
+#: c:\WP-Client/includes/admin/settings_login_alerts.php:62
+msgid "Update Settings"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/settings_capabilities.php:53
+#, php-format
+msgid "Use this section to select which capabilities will be granted to each role within %s"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/settings_capabilities.php:59
+msgid "Assign Capabilities"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/settings_capabilities.php:68
+msgid "Select role to which you want to assign capabilities"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/settings_clients_staff.php:193
+#, php-format
+msgid "%s/%s Settings"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/settings_clients_staff.php:198
+#, php-format
+msgid "Automatically create %s"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/settings_clients_staff.php:209
+#, php-format
+msgid "Ignore Theme Link Page Options for Automatically created %s"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/settings_clients_staff.php:221
+msgid "Hide dashboard/backend"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/settings_clients_staff.php:228
+#, php-format
+msgid "Hide dashboard/backend from %s and %s."
+msgstr ""
+
+#: c:\WP-Client/includes/admin/settings_clients_staff.php:234
+msgid "Hide Admin Bar"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/settings_clients_staff.php:241
+#, php-format
+msgid "Hide Admin Bar from %s and %s."
+msgstr ""
+
+#: c:\WP-Client/includes/admin/settings_clients_staff.php:247
+msgid "Allow \"Lost your password\""
+msgstr ""
+
+#: c:\WP-Client/includes/admin/settings_clients_staff.php:254
+msgid "Displays \"Lost your password\" link on login form."
+msgstr ""
+
+#: c:\WP-Client/includes/admin/settings_clients_staff.php:260
+#: c:\WP-Client/includes/admin/settings_clients_staff.php:317
+#, php-format
+msgid "Open %s Registration"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/settings_clients_staff.php:267
+#, php-format
+msgid "Allow registration %s. All %s require approval from the Administrator."
+msgstr ""
+
+#: c:\WP-Client/includes/admin/settings_clients_staff.php:277
+msgid "Notify Admin about new registrations."
+msgstr ""
+
+#: c:\WP-Client/includes/admin/settings_clients_staff.php:288
+#, php-format
+msgid "Automatically approve %s who register using form."
+msgstr ""
+
+#: c:\WP-Client/includes/admin/settings_clients_staff.php:299
+#, php-format
+msgid "Verify email %s."
+msgstr ""
+
+#: c:\WP-Client/includes/admin/settings_clients_staff.php:310
+msgid "Send approval email"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/settings_clients_staff.php:324
+#, php-format
+msgid "Allow %s to add %s. All %s requires approval from the Administrator."
+msgstr ""
+
+#: c:\WP-Client/includes/admin/settings_clients_staff.php:330
+msgid "Add CC Email for Private Messaging"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/settings_clients_staff.php:345
+msgid "Password Requirements"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/settings_clients_staff.php:350
+msgid "Password Minimum Length"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/settings_clients_staff.php:358
+msgid "Password Strength"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/settings_clients_staff.php:362
+msgid "Very Weak"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/settings_clients_staff.php:364
+msgid "Medium"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/settings_clients_staff.php:365
+msgid "High"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/settings_clients_staff.php:371
+msgid "Password Black List"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/settings_clients_staff.php:376
+msgid "Enter values here to prevent a user from choosing them. One per line."
+msgstr ""
+
+#: c:\WP-Client/includes/admin/settings_clients_staff.php:381
+msgid "Password Mixed Case"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/settings_clients_staff.php:385
+msgid "Password must contain a mix of uppercase and lowercase characters."
+msgstr ""
+
+#: c:\WP-Client/includes/admin/settings_clients_staff.php:390
+msgid "Password Numeric Digits"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/settings_clients_staff.php:394
+msgid "Password must contain numeric digits (0-9)."
+msgstr ""
+
+#: c:\WP-Client/includes/admin/settings_clients_staff.php:399
+msgid "Password Special Characters"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/settings_clients_staff.php:403
+msgid "Password must contain special characters (eg: .,!#$%_+)."
+msgstr ""
+
+#: c:\WP-Client/includes/admin/settings_clients_staff.php:411
+msgid "Terms/Conditions"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/settings_clients_staff.php:416
+msgid "Using Terms/Conditions"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/settings_clients_staff.php:423
+#, php-format
+msgid "Using Terms/Conditions on %s Registration form."
+msgstr ""
+
+#: c:\WP-Client/includes/admin/settings_clients_staff.php:430
+msgid "Checked by default"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/settings_clients_staff.php:443
+msgid "Terms Hyperlink"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/settings_clients_staff.php:453
+msgid "Terms Error Text"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/settings_clients_staff.php:465
+msgid "Captcha"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/settings_clients_staff.php:470
+msgid "Using Captcha"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/settings_clients_staff.php:477
+#, php-format
+msgid "Using captcha on %s Registration form."
+msgstr ""
+
+#: c:\WP-Client/includes/admin/settings_clients_staff.php:484
+msgid "Captcha Public Key"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/settings_clients_staff.php:490
+msgid "leave blank for use default key or Get your Public Key - "
+msgstr ""
+
+#: c:\WP-Client/includes/admin/settings_clients_staff.php:491
+#: c:\WP-Client/includes/admin/settings_clients_staff.php:505
+msgid "Here"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/settings_clients_staff.php:498
+msgid "Captcha Private Key"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/settings_clients_staff.php:504
+msgid "leave blank for use default key or Get your Private Key - "
+msgstr ""
+
+#: c:\WP-Client/includes/admin/settings_clients_staff.php:512
+msgid "Both fields must be filled!"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/settings_clients_staff.php:517
+msgid "Captcha Theme"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/settings_clients_staff.php:521
+msgid "Red"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/settings_clients_staff.php:522
+msgid "White"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/settings_clients_staff.php:523
+msgid "Blackglass"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/settings_clients_staff.php:524
+msgid "Clean"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/settings_clients_staff.php:543
+#, php-format
+msgid "Auto-Convert to %s Role"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/settings_clients_staff.php:548
+msgid "Enable/Disable Auto-Convert"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/settings_clients_staff.php:566
+msgid "For:"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/settings_custom_login.php:57
+msgid "Use Custom Login Settings"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/settings_custom_login.php:69
+msgid "Hide WP Admin"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/settings_custom_login.php:77
+msgid "Non-logged in users will receive a 404 when they try to access /wp-admin"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/settings_custom_login.php:84
+msgid "Custom Login URL"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/settings_custom_login.php:92
+msgid "This will change it from "
+msgstr ""
+
+#: c:\WP-Client/includes/admin/settings_custom_login.php:93
+msgid " to whatever you put in this box "
+msgstr ""
+
+#: c:\WP-Client/includes/admin/settings_custom_login.php:94
+msgid "Say if you put \"login\" into the box, your new login URL will be "
+msgstr ""
+
+#: c:\WP-Client/includes/admin/settings_custom_login.php:102
+msgid "Logo Link (when clicked)"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/settings_custom_login.php:110
+msgid "Logo Title (tooltip)"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/settings_custom_login.php:118
+msgid "Background Image Url"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/settings_custom_login.php:123
+msgid "URL path to image to use for background (sized 312px wide, and around 600px tall so that it can be cropped). <br /> You can upload your image with the media uploader"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/settings_custom_login.php:128
+msgid "Page Background Color"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/settings_custom_login.php:133
+#: c:\WP-Client/includes/admin/settings_custom_login.php:143
+#: c:\WP-Client/includes/admin/settings_custom_login.php:153
+msgid "6 digit hex color code"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/settings_custom_login.php:138
+msgid "Text Color"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/settings_custom_login.php:148
+msgid "Text Link Color"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/settings_custom_titles.php:32
+#, php-format
+msgid "The core %s Custom Titles"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/settings_custom_titles.php:46
+msgid "Singular:"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/settings_custom_titles.php:55
+msgid "Plural:"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/settings_file_sharing.php:82
+msgid "File Display Settings"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/settings_file_sharing.php:87
+msgid "Show sort"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/settings_file_sharing.php:99
+msgid "jQuery sort"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/settings_file_sharing.php:111
+msgid "Show File Tags"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/settings_file_sharing.php:118
+#, php-format
+msgid "Display File Tags on %s HUB page."
+msgstr ""
+
+#: c:\WP-Client/includes/admin/settings_file_sharing.php:124
+msgid "Show File Categories"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/settings_file_sharing.php:131
+#, php-format
+msgid "Display File Categories on %s HUB page."
+msgstr ""
+
+#: c:\WP-Client/includes/admin/settings_file_sharing.php:137
+msgid "Show File Description in Uploader"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/settings_file_sharing.php:144
+#, php-format
+msgid "Display File Description in Uploader on %s HUB page."
+msgstr ""
+
+#: c:\WP-Client/includes/admin/settings_file_sharing.php:150
+#, php-format
+msgid "Enable category choice for %s file upload"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/settings_file_sharing.php:157
+msgid "By default, files will be uploaded in \"General\" category."
+msgstr ""
+
+#: c:\WP-Client/includes/admin/settings_file_sharing.php:163
+msgid "Uploader in Admin area"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/settings_file_sharing.php:167
+#: c:\WP-Client/includes/admin/settings_file_sharing.php:180
+msgid "Regular"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/settings_file_sharing.php:168
+#: c:\WP-Client/includes/admin/settings_file_sharing.php:181
+msgid "HTML5 (with progress bar, multiple files uploading)"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/settings_file_sharing.php:169
+#: c:\WP-Client/includes/admin/settings_file_sharing.php:182
+msgid "uberLOADER (with progress bar, multiple files uploading, chunking upload for big files)"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/settings_file_sharing.php:176
+#, php-format
+msgid "Uploader in %s area"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/settings_file_sharing.php:189
+msgid "Max File Size For Upload (Kb)"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/settings_file_sharing.php:193
+msgid "Remember: 1M = 1024Kb"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/settings_file_sharing.php:195
+msgid "Leave blank to allow unlimited file size.<br>NOTE: This setting does not change your server settings. You should change your server settings if you are have trouble.<br>Your server settings are:"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/settings_file_sharing.php:205
+msgid "Value must be numeric!"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/settings_file_sharing.php:211
+#, php-format
+msgid "Attach uploaded files to the notification email sent to Admin/%s"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/settings_file_sharing.php:223
+msgid "Auto Synchronize Files and File Categories with FTP"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/settings_file_sharing.php:234
+msgid "Synchronization period every"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/settings_file_sharing.php:238
+msgid "minutes"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/settings_file_sharing.php:243
+msgid "Remote Synchronization Link"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/settings_file_sharing.php:246
+msgid "You can use this link for remote syncronization"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/settings_file_sharing.php:254
+msgid "Thumbnails Settings"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/settings_file_sharing.php:260
+msgid "Use Media Settings Thumbnail size?"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/settings_file_sharing.php:272
+msgid "Thumbnail size"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/settings_file_sharing.php:275
+msgid "Width"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/settings_file_sharing.php:275
+#: c:\WP-Client/includes/admin/settings_file_sharing.php:276
+msgid "px"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/settings_file_sharing.php:276
+msgid "Height"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/settings_file_sharing.php:277
+msgid "Crop thumbnail to exact dimensions (normally thumbnails are proportional)"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/settings_file_sharing.php:283
+msgid "Resize all thumbnails now?"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/settings_file_sharing.php:286
+msgid "Resize"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/settings_general.php:43
+#: c:\WP-Client/includes/admin/settings_general.php:269
+msgid "Left"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/settings_general.php:44
+#: c:\WP-Client/includes/admin/settings_general.php:270
+msgid "Right"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/settings_general.php:309
+msgid "Portal Display Settings"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/settings_general.php:314
+msgid "Show HUB Title on HUB page"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/settings_general.php:326
+msgid "Graphic (for shortcode [wpc_client_graphic])"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/settings_general.php:338
+msgid "Custom Navigation Settings"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/settings_general.php:343
+msgid "Show custom menu on login"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/settings_general.php:360
+msgid "(logged-in)"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/settings_general.php:383
+#: c:\WP-Client/includes/admin/settings_general.php:415
+msgid "Please first create menu in Appearance->Menus"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/settings_general.php:387
+msgid "(Custom menu for logged-in users)"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/settings_general.php:393
+msgid "(not logged-in)"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/settings_general.php:419
+msgid "(Custom menu for not logged-in users)"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/settings_general.php:430
+msgid "Show HUB page link in menu"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/settings_general.php:442
+msgid "HUB page link text"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/settings_general.php:456
+msgid "Currency Settings"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/settings_general.php:457
+msgid "Add Currency"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/settings_general.php:464
+msgid "Alphabetic Code"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/settings_general.php:465
+msgid "Symbol"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/settings_general.php:466
+msgid "Align"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/settings_import_export.php:237
+msgid "Import Settings"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/settings_import_export.php:239
+#: c:\WP-Client/includes/admin/settings_import_export.php:323
+msgid "Please select checkboxes and try again!"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/settings_import_export.php:243
+msgid "XML settings-file"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/settings_import_export.php:266
+#: c:\WP-Client/includes/admin/settings_import_export.php:328
+msgid "Select All"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/settings_import_export.php:268
+#: c:\WP-Client/includes/admin/settings_import_export.php:330
+msgid "Deselect All"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/settings_import_export.php:277
+#: c:\WP-Client/includes/admin/settings_import_export.php:338
+msgid "Login/Logout Redirects Users"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/settings_import_export.php:300
+#: c:\WP-Client/includes/admin/settings_import_export.php:310
+msgid "Import"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/settings_import_export.php:319
+msgid "Export Settings"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/settings_import_export.php:359
+msgid "Export"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/settings_limit_ips.php:79
+msgid "Limited IP's Quantity Settings"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/settings_limit_ips.php:84
+msgid "Restrict access to the site by IP"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/settings_limit_ips.php:96
+msgid "IP addresses"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/settings_limit_ips.php:114
+msgid "Add new IP"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/settings_login_alerts.php:27
+msgid "Email Address"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/settings_login_alerts.php:36
+msgid "Successful Logins"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/settings_login_alerts.php:40
+#: c:\WP-Client/includes/admin/settings_login_alerts.php:52
+msgid "Off"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/settings_login_alerts.php:41
+#: c:\WP-Client/includes/admin/settings_login_alerts.php:53
+msgid "On"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/settings_login_alerts.php:48
+msgid "Failed Logins"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/settings_login_logout.php:107
+msgid "ERROR: Non-local or invalid URL submitted for role "
+msgstr ""
+
+#: c:\WP-Client/includes/admin/settings_login_logout.php:115
+msgid "ERROR: Unknown error updating role-specific URL for role "
+msgstr ""
+
+#: c:\WP-Client/includes/admin/settings_login_logout.php:123
+msgid "ERROR: Non-existent role submitted "
+msgstr ""
+
+#: c:\WP-Client/includes/admin/settings_login_logout.php:200
+msgid "ERROR: Non-local or invalid URL submitted for circle "
+msgstr ""
+
+#: c:\WP-Client/includes/admin/settings_login_logout.php:208
+msgid "ERROR: Unknown error updating circle-specific URL for circle "
+msgstr ""
+
+#: c:\WP-Client/includes/admin/settings_login_logout.php:216
+msgid "ERROR: Non-existent circle submitted "
+msgstr ""
+
+#: c:\WP-Client/includes/admin/settings_login_logout.php:267
+msgid "ERROR: Non-local or invalid URL submitted for user "
+msgstr ""
+
+#: c:\WP-Client/includes/admin/settings_login_logout.php:275
+msgid "ERROR: Unknown error updating user-specific URL for user "
+msgstr ""
+
+#: c:\WP-Client/includes/admin/settings_login_logout.php:283
+msgid "ERROR: Non-existent username submitted "
+msgstr ""
+
+#: c:\WP-Client/includes/admin/settings_login_logout.php:388
+msgid "Enable custom redirects"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/settings_login_logout.php:402
+msgid "Login/Logout For All"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/settings_login_logout.php:402
+msgid "(low priority)"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/settings_login_logout.php:403
+msgid "Login/Logout For Roles"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/settings_login_logout.php:403
+msgid "(medium priority)"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/settings_login_logout.php:404
+#, php-format
+msgid "Login/Logout For %s"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/settings_login_logout.php:404
+msgid "(high priority)"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/settings_login_logout.php:405
+msgid "Login/Logout For Users"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/settings_login_logout.php:405
+msgid "(highest priority)"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/settings_login_logout.php:406
+msgid "For Non-logged-in"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/settings_login_logout.php:414
+msgid "Manage Default Login/Logout Redirect rules"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/settings_login_logout.php:418
+msgid "Low Priority - Will work for any Users who do not have specific Login/Logout Redirect rules."
+msgstr ""
+
+#: c:\WP-Client/includes/admin/settings_login_logout.php:421
+msgid "Login Redirect"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/settings_login_logout.php:424
+msgid "default login redirect for all users."
+msgstr ""
+
+#: c:\WP-Client/includes/admin/settings_login_logout.php:428
+msgid "Logout Redirect"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/settings_login_logout.php:431
+msgid "default logout redirect for all users."
+msgstr ""
+
+#: c:\WP-Client/includes/admin/settings_login_logout.php:447
+msgid "Manage Login/Logout Redirect rules for any role"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/settings_login_logout.php:452
+msgid "Specific roles"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/settings_login_logout.php:455
+msgid "Medium Priority - Will work for Users who have these roles and do not have specific Login/Logout Redirect rules."
+msgstr ""
+
+#: c:\WP-Client/includes/admin/settings_login_logout.php:460
+#: c:\WP-Client/includes/admin/settings_login_logout.php:534
+msgid "Add:"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/settings_login_logout.php:463
+msgid "Select a role"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/settings_login_logout.php:485
+#: c:\WP-Client/includes/admin/settings_login_logout.php:554
+#: c:\WP-Client/includes/admin/settings_login_logout.php:625
+msgid "Login URL:"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/settings_login_logout.php:491
+#: c:\WP-Client/includes/admin/settings_login_logout.php:560
+#: c:\WP-Client/includes/admin/settings_login_logout.php:631
+msgid "Logout URL:"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/settings_login_logout.php:501
+#: c:\WP-Client/includes/admin/settings_login_logout.php:570
+#: c:\WP-Client/includes/admin/settings_login_logout.php:647
+msgid "Login URL"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/settings_login_logout.php:502
+#: c:\WP-Client/includes/admin/settings_login_logout.php:571
+#: c:\WP-Client/includes/admin/settings_login_logout.php:648
+msgid "Logout URL"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/settings_login_logout.php:522
+msgid "Manage Login/Logout Redirect rules for any user"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/settings_login_logout.php:527
+msgid "Specific users"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/settings_login_logout.php:529
+msgid "Highest Priority - Will always work - Does not matter if user has any other Login/Logout Redirect rules."
+msgstr ""
+
+#: c:\WP-Client/includes/admin/settings_login_logout.php:537
+msgid "Select a username"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/settings_login_logout.php:591
+#, php-format
+msgid "Manage Login/Logout Redirect rules for any %s"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/settings_login_logout.php:596
+#, php-format
+msgid "Specific %s"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/settings_login_logout.php:598
+#, php-format
+msgid "High Priority - Will work for Users who have these %s and do not have specific Login/Logout Redirect rules."
+msgstr ""
+
+#: c:\WP-Client/includes/admin/settings_login_logout.php:637
+msgid "Order:"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/settings_login_logout.php:669
+msgid "Default for Non-logged-in Redirects"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/settings_login_logout.php:676
+msgid "Redirect to:"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/settings_pages.php:98
+#, php-format
+msgid "%s uses Theme Link Pages to allow integration with a wide range of themes. This connection will allow you to use meta options provided by your theme to customize %s components. These pages should have been created upon installation of the plugin. If not, you will need to create & assign them."
+msgstr ""
+
+#: c:\WP-Client/includes/admin/settings_pages.php:109
+#, php-format
+msgid "If you have reconsidered, and would now like %s to create the pages for you, click here to reset that option"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/settings_pages.php:112
+msgid "Reset Skip Install Pages"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/settings_pages.php:185
+msgid "Add shortcode to start of page"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/settings_pages.php:255
+msgid "Warning! This page does not contain the necessary shortcode. To add a shortcode do it manually or check the box when you save!"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/settings_pages.php:258
+msgid "Warning! You must select a page in which you have placed the content."
+msgstr ""
+
+#: c:\WP-Client/includes/admin/settings_payment_gateways.php:18
+msgid "Settings saved."
+msgstr ""
+
+#: c:\WP-Client/includes/admin/settings_payment_gateways.php:62
+msgid "Payment Settings"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/settings_payment_gateways.php:63
+msgid "From here, you can manage payment gateways."
+msgstr ""
+
+#: c:\WP-Client/includes/admin/settings_payment_gateways.php:192
+msgid "Get More Gateways >>"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/settings_skins.php:24
+msgid "Change Skins | Changes the color of the default images used in HUB Page"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/settings_skins.php:29
+msgid "Select Skin Style"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/settings_skins.php:33
+msgid "Light"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/settings_skins.php:34
+msgid "Dark"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/settings_smtp.php:177
+msgid "SMTP Settings"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/settings_smtp.php:179
+#, php-format
+msgid "Use these settings to send %s email notifications using custom SMTP settings."
+msgstr ""
+
+#: c:\WP-Client/includes/admin/settings_smtp.php:185
+msgid "Use SMTP:"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/settings_smtp.php:191
+msgid "Host"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/settings_smtp.php:193
+msgid "Port"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/settings_smtp.php:195
+msgid "Protocol"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/settings_smtp.php:213
+#: c:\WP-Client/includes/admin/templates_emails.php:303
+msgid "Sender Email"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/settings_smtp.php:220
+msgid "Test Email"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/settings_smtp.php:223
+msgid "Test"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/templates.php:13
+msgid "Template Updated."
+msgstr ""
+
+#: c:\WP-Client/includes/admin/templates.php:16
+msgid "Template and all HUB pages are Updated."
+msgstr ""
+
+#: c:\WP-Client/includes/admin/templates.php:203
+#: c:\WP-Client/includes/admin/templates_hub_page_advanced.php:462
+#: c:\WP-Client/includes/admin/templates_hub_page_ez.php:268
+#: c:\WP-Client/includes/admin/templates_hub_page_simple.php:95
+#: c:\WP-Client/includes/admin/templates_hub_preset.php:56
+msgid "HUB Content"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/templates_emails.php:22
+#, php-format
+msgid "New %s Created"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/templates_emails.php:23
+#, php-format
+msgid "New %s Created by Admin"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/templates_emails.php:24
+#: c:\WP-Client/includes/admin/templates_emails.php:33
+#: c:\WP-Client/includes/admin/templates_emails.php:51
+#: c:\WP-Client/includes/admin/templates_emails.php:78
+#: c:\WP-Client/includes/admin/templates_emails.php:96
+#, php-format
+msgid "  >> This email will be sent to %s (if \"Send Password\" is checked)"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/templates_emails.php:31
+#, php-format
+msgid "Self %s Registration"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/templates_emails.php:32
+#, php-format
+msgid "New %s Registration"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/templates_emails.php:40
+msgid "Verify Email"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/templates_emails.php:41
+msgid "Client's Email verification"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/templates_emails.php:42
+#, php-format
+msgid "  >> This email will be sent to %s for verify email address"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/templates_emails.php:49
+#: c:\WP-Client/includes/admin/templates_emails.php:50
+#, php-format
+msgid "%s Password Updated"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/templates_emails.php:58
+#, php-format
+msgid "New %s Registers"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/templates_emails.php:59
+#, php-format
+msgid "New %s registers using Self-Registration Form"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/templates_emails.php:60
+#, php-format
+msgid "  >> This email will be sent to Admin after a new %s registers with client registration form"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/templates_emails.php:62
+msgid "{site_title}, {contact_name}, {user_name} and {approve_url} will not be change as these placeholders will be used in the email."
+msgstr ""
+
+#: c:\WP-Client/includes/admin/templates_emails.php:67
+#: c:\WP-Client/includes/admin/templates_emails.php:68
+#, php-format
+msgid "%s Account is approved"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/templates_emails.php:69
+#, php-format
+msgid "  >> This email will be sent to %s after their account will approved (if \"Send approval email\" is checked)."
+msgstr ""
+
+#: c:\WP-Client/includes/admin/templates_emails.php:70
+msgid "{site_title} and {contact_name} will not be changed as these placeholders will be used in the email."
+msgstr ""
+
+#: c:\WP-Client/includes/admin/templates_emails.php:71
+msgid "{site_title}, {contact_name}, {user_name} and {login_url} will not be change as these placeholders will be used in the email."
+msgstr ""
+
+#: c:\WP-Client/includes/admin/templates_emails.php:76
+#: c:\WP-Client/includes/admin/templates_emails.php:94
+#: c:\WP-Client/includes/admin/templates_emails.php:95
+#, php-format
+msgid "%s Created"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/templates_emails.php:77
+#, php-format
+msgid "%s Created by website Admin"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/templates_emails.php:80
+#: c:\WP-Client/includes/admin/templates_emails.php:89
+#: c:\WP-Client/includes/admin/templates_emails.php:98
+msgid "{contact_name}, {user_name}, {password} and {admin_url} will not be changed as these placeholders will be used in the email."
+msgstr ""
+
+#: c:\WP-Client/includes/admin/templates_emails.php:85
+#, php-format
+msgid "%s Registered"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/templates_emails.php:86
+#, php-format
+msgid "%s Registered by %s"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/templates_emails.php:87
+#, php-format
+msgid "  >> This email will be sent to %s after %s registered him (if \"Send Password\" is checked)"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/templates_emails.php:103
+#: c:\WP-Client/includes/admin/templates_emails.php:104
+#, php-format
+msgid "%s Updated"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/templates_emails.php:105
+#, php-format
+msgid "  >> This email will be sent to %s (if \"Send Update to selected %s is checked\") when %s updating"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/templates_emails.php:106
+msgid "{contact_name}, {user_name}, {page_title} and {page_id} will not be changed as these placeholders will be used in the email."
+msgstr ""
+
+#: c:\WP-Client/includes/admin/templates_emails.php:107
+msgid "{contact_name}, {page_title} and {page_id} will not be change as these placeholders will be used in the email."
+msgstr ""
+
+#: c:\WP-Client/includes/admin/templates_emails.php:112
+msgid "Admin uploads new file"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/templates_emails.php:113
+#, php-format
+msgid "Admin uploads new file for %s"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/templates_emails.php:114
+#, php-format
+msgid "  >> This email will be sent to %s and his %s when Admin or %s will upload new file for %s."
+msgstr ""
+
+#: c:\WP-Client/includes/admin/templates_emails.php:116
+msgid "{site_title}, {file_name}, {file_category} and {login_url} will not be change as these placeholders will be used in the email."
+msgstr ""
+
+#: c:\WP-Client/includes/admin/templates_emails.php:121
+#: c:\WP-Client/includes/admin/templates_emails.php:122
+#, php-format
+msgid "%s Uploads new file"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/templates_emails.php:123
+#, php-format
+msgid "  >> This email will be sent to Admin and %s when %s will upload file(s)"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/templates_emails.php:125
+msgid "{user_name}, {site_title}, {file_name}, {file_category} and {admin_file_url} will not be change as these placeholders will be used in the email."
+msgstr ""
+
+#: c:\WP-Client/includes/admin/templates_emails.php:130
+#: c:\WP-Client/includes/admin/templates_emails.php:131
+#, php-format
+msgid "%s Downloaded File"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/templates_emails.php:132
+#, php-format
+msgid "  >> This email will be sent to Admin and %s when %s Download file"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/templates_emails.php:134
+msgid "{user_name}, {site_title}, {file_name} will not be change as these placeholders will be used in the email."
+msgstr ""
+
+#: c:\WP-Client/includes/admin/templates_emails.php:140
+#, php-format
+msgid "PM: Notify To %s"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/templates_emails.php:141
+#, php-format
+msgid "Private Message: Notify Message To %s"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/templates_emails.php:142
+#, php-format
+msgid "  >> This email will be sent to %s when Admin/%s sent private message (if \"Receive email notification of private messages from admin\" in selected in plugin settings)."
+msgstr ""
+
+#: c:\WP-Client/includes/admin/templates_emails.php:144
+msgid "{user_name}, {site_title}, {message} and {login_url} will not be change as these placeholders will be used in the email."
+msgstr ""
+
+#: c:\WP-Client/includes/admin/templates_emails.php:149
+msgid "PM: Notify To CC Email"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/templates_emails.php:150
+msgid "Private Message: Notify Message To CC Email"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/templates_emails.php:151
+#, php-format
+msgid "  >> This email will be sent to CC Email when %s sent private message (if \"Add CC Email for Private Messaging\" is selected in plugin settings and %s added CC Email)."
+msgstr ""
+
+#: c:\WP-Client/includes/admin/templates_emails.php:153
+msgid "{user_name}, {site_title} and {message} will not be change as these placeholders will be used in the email."
+msgstr ""
+
+#: c:\WP-Client/includes/admin/templates_emails.php:158
+#, php-format
+msgid "PM: Notify To %s/%s"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/templates_emails.php:159
+#, php-format
+msgid "Private Message: Notify Message To %s/%s"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/templates_emails.php:160
+#, php-format
+msgid "  >> This email will be sent to %s/%s when %s sent private message (if \"Receive email notification of private messages from %s\" is selected in plugin settings)."
+msgstr ""
+
+#: c:\WP-Client/includes/admin/templates_emails.php:162
+msgid "{user_name}, {site_title}, {message} and {admin_url} will not be change as these placeholders will be used in the email."
+msgstr ""
+
+#: c:\WP-Client/includes/admin/templates_emails.php:167
+#: c:\WP-Client/includes/admin/templates_emails.php:168
+#, php-format
+msgid "Reset %s Password"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/templates_emails.php:169
+#, php-format
+msgid "  >> This email will be sent to %s when %s forgot it`s password and try to reset it."
+msgstr ""
+
+#: c:\WP-Client/includes/admin/templates_emails.php:171
+msgid "{site_title}, {user_name} and {reset_address} will not be change as these placeholders will be used in the email."
+msgstr ""
+
+#: c:\WP-Client/includes/admin/templates_emails.php:283
+#, php-format
+msgid "%s Emails Settings"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/templates_emails.php:284
+msgid "From here you can edit the emails templates and settings."
+msgstr ""
+
+#: c:\WP-Client/includes/admin/templates_emails.php:289
+msgid "Sender Information"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/templates_emails.php:294
+msgid "Sender Name"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/templates_emails.php:312
+msgid "Reply to Email"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/templates_emails.php:329
+msgid "Disable\\Enable Notification"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/templates_emails.php:349
+msgid "Email Subject"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/templates_emails.php:359
+msgid "Email Body"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/templates_hub_page.php:88
+msgid "Template <strong>Added</strong> Successfully."
+msgstr ""
+
+#: c:\WP-Client/includes/admin/templates_hub_page.php:91
+msgid "Template <strong>Deleted</strong> Successfully."
+msgstr ""
+
+#: c:\WP-Client/includes/admin/templates_hub_page.php:103
+#, php-format
+msgid "<b>NOTE:</b> To use the HUB templates below, be sure to use the following shortcode in the HUB Content field: %s"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/templates_hub_page.php:108
+#, php-format
+msgid "You can create custom EZ HUB and Advanced HUB templates, and assign them to specific %s/Members and/or %s."
+msgstr ""
+
+#: c:\WP-Client/includes/admin/templates_hub_page.php:110
+#, php-format
+msgid "%s/Members will see the default HUB template if no custom template is assigned to them."
+msgstr ""
+
+#: c:\WP-Client/includes/admin/templates_hub_page.php:115
+msgid "Create EZ HUB Template"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/templates_hub_page.php:116
+msgid "Create Advanced HUB Template"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/templates_hub_page.php:117
+msgid "Create Simple HUB Template"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/templates_hub_page.php:125
+#, php-format
+msgid "Default template users for %s who are not assigned to any HUB template."
+msgstr ""
+
+#: c:\WP-Client/includes/admin/templates_hub_page.php:133
+#: c:\WP-Client/includes/admin/templates_hub_page.php:142
+#: c:\WP-Client/includes/admin/templates_hub_page_advanced.php:455
+#: c:\WP-Client/includes/admin/templates_hub_page_ez.php:262
+#: c:\WP-Client/includes/admin/templates_hub_page_simple.php:88
+msgid "Template Name"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/templates_hub_page.php:134
+#: c:\WP-Client/includes/admin/templates_hub_page.php:143
+msgid "Template Type"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/templates_hub_page.php:135
+#: c:\WP-Client/includes/admin/templates_hub_page.php:144
+msgid "Clients"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/templates_hub_page.php:136
+#: c:\WP-Client/includes/admin/templates_hub_page.php:145
+msgid "Circles"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/templates_hub_page.php:181
+msgid "Are you sure to delete this Template"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/templates_hub_page.php:213
+#, php-format
+msgid "Assign clients to %s"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/templates_hub_page_advanced.php:301
+#: c:\WP-Client/includes/admin/templates_hub_page_ez.php:10
+#: c:\WP-Client/includes/admin/templates_hub_page_simple.php:9
+msgid "A Template Name is required.<br/>"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/templates_hub_page_advanced.php:379
+msgid "Add Advanced HUB Template"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/templates_hub_page_advanced.php:381
+msgid "Update Advanced HUB Template"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/templates_hub_page_advanced.php:466
+msgid "<b>NOTE:</b> Just click the \"Copy\" button next to each placeholder, then paste it in the Visual Editor to insert the corresponding element."
+msgstr ""
+
+#: c:\WP-Client/includes/admin/templates_hub_page_advanced.php:472
+#, php-format
+msgid "Use the space below to design a HUB Template in the same manner you would design a standard WordPress page, and then add/place %s components by placing the appropriate placeholders below in your desired location. You can use the Visual Editor, or write HTML in the Text Editor. Use the appropriate placeholder for each element below to insert that functionality into the page."
+msgstr ""
+
+#: c:\WP-Client/includes/admin/templates_hub_page_ez.php:192
+msgid "Add EZ HUB Template"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/templates_hub_page_ez.php:194
+msgid "Update EZ HUB Template"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/templates_hub_page_ez.php:274
+#, php-format
+msgid "<b>NOTE:</b> You can use the following placeholder to display the EZ HUB Nav Bar wherever you choose: %s"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/templates_hub_page_simple.php:52
+msgid "Add Simple HUB Template"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/templates_hub_page_simple.php:54
+msgid "Update Simple HUB Template"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/templates_hub_page_simple.php:99
+#, php-format
+msgid "<b>NOTE:</b> You can use the Visual Editor, or write HTML in the Text Editor. When finished, simply assign the newly created HUB Template to the desired %s, and place the shortcode [wpc_client_hub_page_template /] in the HUB Content tab in the Templates Menu."
+msgstr ""
+
+#: c:\WP-Client/includes/admin/templates_hub_page_simple.php:104
+#, php-format
+msgid "Use the space below to design a HUB Template in the same manner you would design a standard WordPress page. You can implement %s functionality by inserting the corresponding shortcodes and placeholders into the Template. All available %s placeholders and shortcodes can be found by clicking the shortcode/placeholder browser button in the Visual Editor menu."
+msgstr ""
+
+#: c:\WP-Client/includes/admin/templates_hub_preset.php:46
+msgid "Are you sure to Update content for all HUB pages?"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/templates_hub_preset.php:61
+#, php-format
+msgid "<b>NOTE:</b> To use the HUB templates, be sure to use the following shortcode in the HUB Content field: %s"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/templates_hub_preset.php:66
+msgid "All newly created HUB pages will be populated with the content in the HUB Content tab. You can use custom HTML here, or you can use the shortcode for EZ HUB and Advanced HUB templates."
+msgstr ""
+
+#: c:\WP-Client/includes/admin/templates_hub_preset.php:68
+#, php-format
+msgid "If you use the HUB template shortcode, each %s/Member will see the custom template that is assigned to them. They will see the default HUB template if no custom template is assigned to them."
+msgstr ""
+
+#: c:\WP-Client/includes/admin/templates_hub_preset.php:74
+msgid "New hub page template"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/templates_hub_preset.php:85
+msgid "Update all existing HUB pages"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/templates_hub_preset.php:87
+msgid "(check this box to instantly update all HUB pages to the content above)"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/templates_portal_page.php:32
+#, php-format
+msgid "From here you can edit the template of the newly created %s."
+msgstr ""
+
+#: c:\WP-Client/includes/admin/templates_portal_page.php:37
+#, php-format
+msgid "New %s template"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/templates_shortcodes.php:36
+msgid "Your Template"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/templates_shortcodes.php:46
+msgid "Compare"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/templates_shortcodes.php:74
+#: c:\WP-Client/includes/admin/templates_shortcodes.php:75
+#, php-format
+msgid "List of %s Portals"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/templates_shortcodes.php:76
+msgid "  >> This template for [wpc_client_pagel] shortcode"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/templates_shortcodes.php:84
+msgid "  >> This template for [wpc_client_fileslu] shortcode"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/templates_shortcodes.php:90
+#: c:\WP-Client/includes/admin/templates_shortcodes.php:91
+#, php-format
+msgid "Files from %s (Table)"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/templates_shortcodes.php:92
+msgid "  >> This template for [wpc_client_fileslu view_type=\"table\"] shortcode"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/templates_shortcodes.php:98
+#: c:\WP-Client/includes/admin/templates_shortcodes.php:99
+#, php-format
+msgid "Files from %s (Tree)"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/templates_shortcodes.php:100
+msgid "  >> This template for [wpc_client_fileslu view_type=\"tree\"] shortcode"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/templates_shortcodes.php:108
+msgid "  >> This template for [wpc_client_filesla] shortcode"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/templates_shortcodes.php:114
+#: c:\WP-Client/includes/admin/templates_shortcodes.php:115
+#, php-format
+msgid "Files to %s (Table)"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/templates_shortcodes.php:116
+msgid "  >> This template for [wpc_client_filesla view_type=\"table\"] shortcode"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/templates_shortcodes.php:122
+#: c:\WP-Client/includes/admin/templates_shortcodes.php:123
+#, php-format
+msgid "Files to %s (Tree)"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/templates_shortcodes.php:124
+msgid "  >> This template for [wpc_client_filesla view_type=\"tree\"] shortcode"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/templates_shortcodes.php:132
+msgid "  >> This template for [wpc_client_com] shortcode"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/templates_shortcodes.php:138
+#: c:\WP-Client/includes/admin/templates_shortcodes.php:139
+#, php-format
+msgid "%s Registration"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/templates_shortcodes.php:140
+msgid "  >> This template for [wpc_client_registration_form] shortcode"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/templates_shortcodes.php:146
+#: c:\WP-Client/includes/admin/templates_shortcodes.php:147
+msgid "Registration Successful"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/templates_shortcodes.php:148
+msgid "  >> This template for [wpc_client_registration_successful] shortcode"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/templates_shortcodes.php:154
+#: c:\WP-Client/includes/admin/templates_shortcodes.php:155
+msgid "Login Form"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/templates_shortcodes.php:156
+msgid "  >> This template for [wpc_client_loginf] shortcode"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/templates_shortcodes.php:164
+msgid "  >> This template for [wpc_client_logoutb] shortcode"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/templates_shortcodes.php:172
+msgid "  >> This template for [wpc_client_profile] shortcode if user role is WP-Client"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/templates_shortcodes.php:178
+#: c:\WP-Client/includes/admin/templates_shortcodes.php:179
+msgid "Staff Profile"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/templates_shortcodes.php:180
+msgid "  >> This template for [wpc_client_profile] shortcode if user role is WP-Client Staff"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/templates_shortcodes.php:186
+#: c:\WP-Client/includes/admin/templates_shortcodes.php:187
+#, php-format
+msgid "%s %s"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/templates_shortcodes.php:188
+msgid "  >> This template for [wpc_client_client_managers] shortcode"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/templates_shortcodes.php:450
+msgid "Advanced users only should attempt changes here. Please only edit html, and don't change anything inside curly brackets {}"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/templates_shortcodes.php:452
+msgid "-- If you run into a problem, then please click \"Reset to default\" button at bottom right"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/templates_shortcodes.php:475
+msgid "Allow {php} tags"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/templates_shortcodes.php:484
+msgid "Differences"
+msgstr ""
+
+#: c:\WP-Client/includes/admin/templates_shortcodes.php:488
+msgid "Reset to default"
+msgstr ""
+
+#: c:\WP-Client/includes/user/client_registration_form.php:33
+msgid "Registration is disabled!"
+msgstr ""
+
+#: c:\WP-Client/includes/user/client_registration_form.php:52
+msgid "I agree."
+msgstr ""
+
+#: c:\WP-Client/includes/user/client_registration_form.php:76
+msgid "Email address is already in use by another user. Please use a unique email address.<br/>"
+msgstr ""
+
+#: c:\WP-Client/includes/user/client_registration_form.php:91
+msgid "Incorrect Captcha! <br />"
+msgstr ""
+
+#: c:\WP-Client/includes/user/client_registration_form.php:94
+msgid "Captcha required! .<br/>"
+msgstr ""
+
+#: c:\WP-Client/includes/user/client_registration_form.php:173
+msgid "Business or Client Name"
+msgstr ""
+
+#: c:\WP-Client/includes/user/client_registration_form.php:181
+msgid ">> <strong>HINT:</strong> The password should be at least seven characters long. To make it stronger, use upper and lower case letters, numbers and symbols like <strong>! \" ? $ % ^ & )</strong>."
+msgstr ""
+
+#: c:\WP-Client/includes/user/client_registration_form.php:182
+msgid "Send this password to email?"
+msgstr ""
+
+#: c:\WP-Client/includes/user/client_registration_form.php:183
+msgid "Check to Enable"
+msgstr ""
+
+#: c:\WP-Client/includes/user/client_registration_form.php:184
+msgid "Submit Registration"
+msgstr ""
+
+#: c:\WP-Client/includes/user/client_registration_form.php:214
+#, php-format
+msgid "<p>%s already registered.</p>"
+msgstr ""
+
+#: c:\WP-Client/includes/user/edit_clientpage.php:53
+#, php-format
+msgid "Wrong %s."
+msgstr ""
+
+#: c:\WP-Client/includes/user/login_form.php:8
+msgid "Username:"
+msgstr ""
+
+#: c:\WP-Client/includes/user/login_form.php:11
+msgid "Username or E-mail:"
+msgstr ""
+
+#: c:\WP-Client/includes/user/login_form.php:12
+msgid "New password:"
+msgstr ""
+
+#: c:\WP-Client/includes/user/login_form.php:13
+msgid "Confirm new password:"
+msgstr ""
+
+#: c:\WP-Client/includes/user/login_form.php:14
+msgid "Reset Password"
+msgstr ""
+
+#: c:\WP-Client/includes/user/login_form.php:15
+msgid "Get New Password"
+msgstr ""
+
+#: c:\WP-Client/includes/user/login_form.php:16
+msgid "<strong>Hint</strong>: The password should be at least seven characters long. To make it stronger, use upper and lower case letters, numbers and symbols like <strong>! \" ? $ % ^ &amp; ).</strong>"
+msgstr ""
+
+#: c:\WP-Client/includes/user/login_form.php:21
+#: c:\WP-Client/includes/user/login_form.php:129
+#: c:\WP-Client/includes/user/login_form.php:132
+#: c:\WP-Client/includes/user/login_form.php:137
+msgid "<strong>ERROR</strong>: Invalid key. <a href=\""
+msgstr ""
+
+#: c:\WP-Client/includes/user/login_form.php:21
+#: c:\WP-Client/includes/user/login_form.php:214
+msgid "Your password has been reset. <a href=\""
+msgstr ""
+
+#: c:\WP-Client/includes/user/login_form.php:51
+msgid "<strong>ERROR</strong>: Enter a username or e-mail address."
+msgstr ""
+
+#: c:\WP-Client/includes/user/login_form.php:55
+msgid "<strong>ERROR</strong>: Invalid E-mail."
+msgstr ""
+
+#: c:\WP-Client/includes/user/login_form.php:58
+msgid "<strong>ERROR</strong>: There is no user registered with that E-mail address."
+msgstr ""
+
+#: c:\WP-Client/includes/user/login_form.php:68
+msgid "<strong>ERROR</strong>: There is no user registered with that Username."
+msgstr ""
+
+#: c:\WP-Client/includes/user/login_form.php:76
+msgid "<strong>ERROR</strong>:  You do not have permission to reset your password."
+msgstr ""
+
+#: c:\WP-Client/includes/user/login_form.php:108
+msgid "The e-mail could not be sent."
+msgstr ""
+
+#: c:\WP-Client/includes/user/login_form.php:108
+msgid "Possible reason: your host may have disabled the mail() function..."
+msgstr ""
+
+#: c:\WP-Client/includes/user/login_form.php:179
+msgid "Please enter your username or email address. You will receive a link to create a new password via email."
+msgstr ""
+
+#: c:\WP-Client/includes/user/login_form.php:206
+msgid "Enter your new password below."
+msgstr ""
+
+#: c:\WP-Client/includes/user/login_form.php:210
+msgid "The passwords do not match."
+msgstr ""
+
+#: c:\WP-Client/includes/user/login_form.php:223
+msgid "Check your e-mail for the confirmation link."
+msgstr ""
+
+#: c:\WP-Client/includes/user/login_form.php:232
+#, php-format
+msgid "<p>%s already logged in.</p>"
+msgstr ""
+
+#: c:\WP-Client/includes/user/logout.php:4
+msgid "LOGOUT"
+msgstr ""
+
+#: c:\WP-Client/includes/user/messages_client.php:194
+msgid "(deleted user)"
+msgstr ""
+
+#: c:\WP-Client/includes/user/messages_client.php:218
+msgid "Show more messages"
+msgstr ""
+
+#: c:\WP-Client/includes/user/messages_client.php:219
+msgid "Private Message History"
+msgstr ""
+
+#: c:\WP-Client/includes/user/messages_client.php:223
+msgid "Add CC Email"
+msgstr ""
+
+#: c:\WP-Client/includes/user/messages_client.php:224
+msgid "CC Email:"
+msgstr ""
+
+#: c:\WP-Client/includes/user/profile.php:63
+msgid "The changes have been successfully saved.<br/>"
+msgstr ""
+
+#: c:\WP-Client/includes/user/profile.php:83
+msgid "New Password"
+msgstr ""
+
+#: c:\WP-Client/includes/user/profile.php:85
+msgid "Confirm New Password"
+msgstr ""
+
+#: c:\WP-Client/includes/user/profile.php:88
+msgid "<strong>Hint:</strong> The password should be at least seven characters long. To make it stronger, use upper and lower case letters, numbers and symbols like <strong>! \" ? $ % ^ & )</strong>."
+msgstr ""
+
+#: c:\WP-Client/includes/user/profile.php:136
+msgid "Business Names cannot be changed."
+msgstr ""
+
+#: c:\WP-Client/includes/user/profile.php:137
+msgid "Username cannot be changed."
+msgstr ""
+
+#: c:\WP-Client/includes/user/profile_staff.php:17
+msgid "A Email is required.<br/>"
+msgstr ""
+
+#: c:\WP-Client/includes/user/profile_staff.php:142
+msgid "This field is required"
+msgstr ""
+
+#: c:\WP-Client/includes/user/profile_staff.php:147
+msgid "Login cannot be changed."
+msgstr ""
+
+#: c:\WP-Client/includes/user/staff_directory.php:72
+#, php-format
+msgid "%s"
+msgstr ""
+
+#: c:\WP-Client/includes/user/staff_directory.php:76
+msgid "Action"
+msgstr ""
+
+#: c:\WP-Client/includes/user/staff_directory.php:84
+msgid "Waiting for approval"
+msgstr ""
+
+#: c:\WP-Client/includes/user/staff_directory.php:86
+msgid "Approved"
+msgstr ""
+
+#: c:\WP-Client/includes/user/staff_edit_form.php:15
+#: c:\WP-Client/includes/user/staff_edit_form.php:20
+#: c:\WP-Client/includes/user/staff_edit_form.php:87
+#: c:\WP-Client/includes/user/staff_edit_form.php:91
+msgid "This field is marked as required by the administrator"
+msgstr ""
+
+#: c:\WP-Client/includes/user/staff_edit_form.php:82
+#, php-format
+msgid "Update password for %s."
+msgstr ""
+
+#: c:\WP-Client/includes/user/staff_edit_form.php:103
+#, php-format
+msgid "Send this password to the %s by email."
+msgstr ""
+
+#: c:\WP-Client/includes/user/staff_edit_form.php:108
+#, php-format
+msgid "Save %s"
+msgstr ""
+
+#: c:\WP-Client/includes/user/upload.php:43
+#: c:\WP-Client/includes/user/upload.php:111
+#: c:\WP-Client/includes/user/upload.php:196
+msgid "File was uploaded succesfully!"
+msgstr ""
+
+#: c:\WP-Client/includes/user/upload.php:56
+#: c:\WP-Client/includes/user/upload.php:78
+#: c:\WP-Client/includes/user/upload.php:139
+#: c:\WP-Client/includes/user/upload.php:162
+#: c:\WP-Client/includes/user/upload.php:217
+#: c:\WP-Client/includes/user/upload.php:239
+msgid "Select category"
+msgstr ""
+
+#: c:\WP-Client/includes/user/upload.php:122
+msgid "All files, exclude "
+msgstr ""
+
+#: c:\WP-Client/includes/user/upload.php:126
+msgid " files will be not uploaded"
+msgstr ""
+
+#: c:\WP-Client/includes/user/upload.php:201
+msgid "File will be not uploaded"
+msgstr ""
+

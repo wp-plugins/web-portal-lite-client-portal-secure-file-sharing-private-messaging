@@ -1,0 +1,114 @@
+span.arrow {
+    display: inline-block;
+    background: url( ../images/arrows-dark.png ) no-repeat -3px -2px;
+    height: 10px;
+    width: 10px;
+    position:inherit;
+    margin-left: 0px;
+    bottom: 0;
+}
+
+.wpc_form_link.active {
+    color: #D54E21;
+}
+.wrap .add-new-h2:hover {
+    background: #2ea2cc;
+    color: #fff !important;
+}
+
+#tab-headers li a:hover {
+    border-color: #eee #ddd #eee #eee;
+    text-decoration: none;
+    background-color: #fff;
+    color: #000;
+}
+
+
+#tab-headers li.active a,
+#tab-headers li.active a:hover {
+    border: 1px solid #ddd;
+    border-color: #ddd transparent #ddd #ddd;
+    color: #1a78d4;
+    background-color: #FFF;
+    cursor: default;
+}
+
+#wrong_export,
+#wrong_import {
+    margin: 5px 0 15px;
+    background-color: #fff;
+    border: 0;
+    border-left: 4px solid #7ad03a;
+    -webkit-box-shadow: 0 1px 1px 0 rgba(0,0,0,.1);
+    box-shadow: 0 1px 1px 0 rgba(0,0,0,.1);
+    padding: 1px 12px;
+    outline: 0;
+    color: #444;
+    font-family: "Open Sans",sans-serif;
+    font-size: 13px;
+    line-height: 1.4em;
+    border-radius: 0px;
+}
+
+.validate_page_icon_ok,
+.validate_page_icon_warning,
+.validate_page_icon_attention {
+    margin-top: -23px;
+}
+
+.wpc_pages_checkbox_block {
+    margin-top: -21px;
+}
+
+#redirects_tabs {
+    background-color: #f1f1f1;
+    background: none;
+}
+.ui-widget-content {
+    border-radius: 0px;
+    background: transparent;
+    background-color: #f1f1f1;
+    border: none;
+}
+.ui-tabs-nav {
+background: #ccc;
+}
+#wpc-gateways-form .wpc_allowed_gateways {
+    float: left;
+    margin: 5px 5px 0px 0px !important;
+}
+#wpc-gateways-form .ui-tabs-anchor {
+    float:left;
+    display: inline;
+    white-space:normal;
+    padding: 0;
+    width: 75%;
+}
+
+
+/* Customizer  */
+
+#wpc_customize_controls .wpc_customize_eye {
+    background: transparent url(../images/customizer_eye_38.png) no-repeat;
+    margin-right: 14px;
+    margin-top: 3px;
+}
+
+.wpc_element_button_delete {
+    margin-right: -12px;
+    margin-top: 3px;
+}
+
+#customize-info .accordion-section-title,
+#customize-info .accordion-section-content {
+    background-color: #EEEEEE !important;
+}
+
+#wpc_edit_scheme_name,
+#wpc_edit_section_name {
+    width: 153px !important;
+}
+
+#wpc_field_element_title {
+    width: 133px !important;
+}

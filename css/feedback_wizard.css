@@ -1,0 +1,31 @@
+/*
+* Style for Feedback Wizard
+*/
+
+.feedback_wizard .wizard_title {
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 40px;
+    padding: 10px 0px 10px 0px;
+}
+
+.feedback_wizard #steps h2 {
+    color: black;
+    font-size: 18px;
+    line-height: 20px;
+    padding: 5px 0px 10px 0px;
+}
+
+.feedback_wizard .item_name {
+    color: black;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 26px;
+    padding: 10px 0px 20px 0px;
+}
+
+.feedback_wizard .wizard_buttons {
+    margin: 10px 0px 10px 0px;
+}
+

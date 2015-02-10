@@ -1,0 +1,89 @@
+.wpc_page_item {
+    width: 100%;
+    float:left;
+}
+
+.message {
+    background-color: #FFFFE0;
+    border-color: #E6DB55;
+    padding: 12px;
+    border-radius: 3px 3px 3px 3px;
+    border-style: solid;
+    border-width: 1px;
+    color: #000000;
+    width: 275px;
+    font-family: sans-serif;
+    font-size: 12px;
+    line-height: 1.4em;
+}
+
+
+
+.wpc_delimiter {
+    margin-bottom: 24px;
+}
+
+.wpc_client_upload_form {
+    float:left;
+    width: 100%;
+}
+
+.wpc_client_message_block,
+.wpc_message_textarea_block,
+.wpc_message_history_block,
+.wpc_client_messages {
+    float:left;
+    width:100%;
+}
+
+
+.wpc_payment_gateways_list {
+    list-style-type: none;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+.wpc_payment_gateways_list li {
+    margin: 0px 0px 10px 0px;
+}
+
+.wpc_payment_gateways_list input {
+    vertical-align: middle;
+    margin: 0px 5px 0px 0px;
+}
+
+.wpc_error {
+    background-color: #FFEBE8 !important;
+    border-color: #F73131 !important;
+}
+
+.color_black {
+    color: #000;
+}
+
+#date_informs td {
+    text-align: right;
+}
+
+#sub_block td {
+    text-align: right;
+    padding-right: 30px;
+    color: black;
+}
+
+#all_items thead {
+    color: #fff;
+}
+
+#all_items {
+    color: black;
+    border-width: 1px !important;
+}
+
+#all_items td {
+    padding: 6px 0;
+}
+
+#important_table td, #important_table tr, #important_table th, #important_table table {
+    border-width: 0;
+}
