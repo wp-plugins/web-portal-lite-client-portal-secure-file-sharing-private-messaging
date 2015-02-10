@@ -683,7 +683,7 @@ CREATE TABLE {$wpdb->prefix}wpc_client_categories (
 <h2>Find other Tips in the Help menu</h2>';
 
 
-'
+                $tabs_content = '
 <h2 style="text-align: left;">Hi {contact_name}! Welcome to your private portal!</h2>
 <p style="text-align: left;">[wpc_client_logoutb/] &lt; Click here to logout</p>
 <p style="text-align: left;">From this HUB Page, you can access all the pages, documents, photos &amp; files that you have access to.</p>
