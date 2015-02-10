@@ -1,6 +1,6 @@
 <?php
 /*
-Plugin Name: Web Portal Lite
+Plugin Name: Web Portal Lite :: Client Portals, File Sharing, Messaging & Invoicing
 Plugin URI: http://www.WP-Client.com
 Description:  Web Portal Lite is a Client Management Plugin that gives you the power to add a private and secure client portal to your existing WordPress site. Create clients yourself, or allow them to self-register, and give clients access to private pages and other resources. Upgrade to PRO for more features like file sharing, private messaging, invoicing, and much more.
 Author: WP-Client.com
