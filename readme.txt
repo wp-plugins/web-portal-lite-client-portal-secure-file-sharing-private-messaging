@@ -12,10 +12,12 @@ Web Portal Client Portal Management & Invoicing Plugin that gives you the ultima
 
 == Description ==
 
-<h3><a href="https://wp-client.com">Web Portal WordPress Client Portal Plugin</a></h3>
+<h3 style="margin-bottom:10px;"><a href="https://wp-client.com">Web Portal WordPress Client Portal Plugin</a></h3>
 <p>Visit Website &gt;&gt; <a href="https://wp-client.com">WP-Client.com</a> is the home of Web Portal Pro, a premium, fully featured Web Portal plugin for WordPress.</p>
-<h3>What is Web Portal Lite?</h3>
-<p>Web Portal Lite gives you the very basic components of a Client Portal, but there are many features in the Pro version that are not included in the Lite version.</p>
+<strong><a href="https://wp-client.com/testimonials/">REVIEWS: Read the Reviews from Happy Customers :: NO B.S.</a></strong>
+<h3>IMPORTANT :: What is Web Portal Lite?</h3>
+<p>WP-Client Lite is designed to give just an introduction to the very basic components of a Client Portal, but there are many features in the PRO version that are not included in the Lite version.</p>
+<p>WP-Client Lite functions as a very basic Client Portal, but at the same time, provides a glimpse into what is included and possible in the WP-Client PRO version.</p>
 <p>Web Portal Pro is in constant development and is fully supported. New features are added weekly, and your suggestions are welcome.</p>
 <p>See a full list of features at <a href="https://wp-client.com">WP-Client.com</a></p>
 <h3>Brief Description</h3>
