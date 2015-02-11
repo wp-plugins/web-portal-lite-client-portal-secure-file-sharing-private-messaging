@@ -12,13 +12,13 @@ Author URI: http://www.WP-Client.com
 class wpcclientlite {}
 
 
-if ( class_exists( "wpc_client_lite" ) ) {
+if ( class_exists( "WPC_Client_Common" ) ) {
     echo "You can not use Lite and Pro versions of the plugin at the same time.";
     exit;
 } else {
 
     //current plugin version
-    define( 'WPC_CLIENT_LITE_VER', '1.0.6' );
+    define( 'WPC_CLIENT_LITE_VER', '1.0.7' );
     define( 'WP_PASSWORD_GENERATOR_VERSION_WPCLIENT', '2.2' );
 
     // The text domain for strings localization
