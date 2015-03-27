@@ -69,6 +69,8 @@ if ( !class_exists( "WPC_Client_Common" ) ) {
             //add/update client
             add_action( 'wp_clients_update', array( &$this, 'cc_client_update_func' ) );
 
+            add_action( 'plugins_loaded', array( &$this, 'include_payment_core' ), 10 );
+
             add_action( 'wp_client_redirect', array( &$this, 'cc_js_redirect' ) );
 
             add_action( 'plugins_loaded', array( &$this, '_load_textdomain' ) );
@@ -84,9 +86,6 @@ if ( !class_exists( "WPC_Client_Common" ) ) {
             //add rewrite rules
             add_filter( 'rewrite_rules_array', array( &$this, '_insert_rewrite_rules' ) );
 
-            add_action( 'init', array( &$this, 'redo_login_form' ) );
-
-            add_filter( 'login_url', array( &$this, 'cc_replace_wp_login_url' ), 10, 2 );
 
             add_filter( 'woocommerce_disable_admin_bar', array( &$this, 'cc_woocommerce_admin_access_fix' ), 10, 1 );
             add_filter( 'woocommerce_prevent_admin_access', array( &$this, 'cc_woocommerce_admin_prevent_access_fix' ), 10, 1 );
@@ -101,6 +100,14 @@ if ( !class_exists( "WPC_Client_Common" ) ) {
         function clear_login_key_cookie() {
             $secure_logged_in_cookie = ( 'https' === parse_url( get_option( 'home' ), PHP_URL_SCHEME ) );
             setcookie( "wpc_key", '', time() - 1, SITECOOKIEPATH, COOKIE_DOMAIN, $secure_logged_in_cookie, true );
+        }
+
+        function include_payment_core() {
+
+            //include payments core
+            if ( defined( 'WPC_CLIENT_PAYMENTS' ) ) {
+                include_once $this->plugin_dir . 'includes/payments_core.php';
+            }
         }
 
 
@@ -249,130 +256,6 @@ if ( !class_exists( "WPC_Client_Common" ) ) {
 
         }
 
-
-        function cc_replace_wp_login_url( $login_url, $redirect ) {
-            global $wpdb;
-
-            $wpc_custom_login = $this->cc_get_settings( 'custom_login' );
-
-            $cl_login_url = ( isset( $wpc_custom_login['cl_login_url'] ) && !empty( $wpc_custom_login['cl_login_url'] ) ) ? $wpc_custom_login['cl_login_url'] : '';
-            $cl_enable = ( isset( $wpc_custom_login['cl_enable'] ) && !empty( $wpc_custom_login['cl_enable'] ) ) ? $wpc_custom_login['cl_enable'] : 'no';
-
-            if( isset( $cl_login_url ) && !empty( $cl_login_url ) && isset( $cl_enable ) && 'yes' == $cl_enable ) {
-                $login_url = home_url() . '/' . $cl_login_url;
-            }
-
-            return $login_url;
-        }
-
-
-        function redo_login_form() {
-            global $current_user;
-
-            $wpc_custom_login = $this->cc_get_settings( 'custom_login' );
-
-            $cl_login_url = ( isset( $wpc_custom_login['cl_login_url'] ) && !empty( $wpc_custom_login['cl_login_url'] ) ) ? $wpc_custom_login['cl_login_url'] : '';
-            $cl_enable = ( isset( $wpc_custom_login['cl_enable'] ) && !empty( $wpc_custom_login['cl_enable'] ) ) ? $wpc_custom_login['cl_enable'] : 'no';
-
-            // It's not enabled.
-            if ( !isset( $wpc_custom_login ) || 'yes' != $cl_enable || '' == $cl_login_url )
-                return;
-
-            // The blog's URL
-            $blog_url = trailingslashit( get_bloginfo( 'url' ) );
-
-            // The Current URL
-            $schema = is_ssl() ? 'https://' : 'http://';
-            $current_url = $schema . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'];
-
-            $request_url = str_replace( $blog_url, '', $current_url );
-            $request_url = str_replace( 'index.php/', '', $request_url );
-
-            $url_parts = explode( '?', $request_url, 2 );
-            $base = $url_parts[0];
-
-            // Remove trailing slash
-            $base = rtrim( $base, "/" );
-            $exp = explode( '/', $base, 2 );
-            $super_base = end( $exp );
-
-
-            if( $base === $cl_login_url ) {
-                $cookie_time = time() + 3600*24;
-                $cookie_array = array(
-                    'time' => time(),
-                    'hash' => md5( time() . $cl_login_url )
-                );
-                setcookie( 'wpc_custom_login_nonce', urlencode( serialize( $cookie_array ) ), $cookie_time, '/' );
-                do_action( 'wp_client_redirect', 'wp-login.php' );
-                exit;
-            }
-
-
-            if( isset( $_COOKIE['wpc_custom_login_nonce'] ) && !empty( $_COOKIE['wpc_custom_login_nonce'] ) ) {
-                $cookie_array = unserialize( urldecode( $_COOKIE['wpc_custom_login_nonce'] ) );
-                $cookie_time = isset( $cookie_array['time'] ) ? $cookie_array['time'] : 0;
-                if( isset( $cookie_array['hash'] ) && md5( $cookie_time . $cl_login_url ) == $cookie_array['hash'] ) {
-                    if( time() - $cookie_time > 3600 ) {
-                        setcookie( "wpc_custom_login_nonce", "", time() - 3600 );
-                    }
-                } else {
-                    setcookie( "wpc_custom_login_nonce", "", time() - 3600 );
-                }
-            }
-
-
-            // Are they visiting wp-login.php?
-            if( $super_base == 'wp-login.php' && !is_user_logged_in() ) {
-                if ( !isset( $_COOKIE['wpc_custom_login_nonce'] ) ) {
-                    $this->throw_404();
-                } else {
-                    $cookie_array = unserialize( urldecode( $_COOKIE['wpc_custom_login_nonce'] ) );
-                    if( isset( $cookie_array['hash'] ) && md5( $cookie_array['time'] . $cl_login_url ) != $cookie_array['hash'] ) {
-                         $this->throw_404();
-                    }
-                }
-            }
-        }
-
-
-        function throw_404() {
-            // Change WP Query
-            global $wp_query;
-
-            $wp_query->set_404();
-            status_header( 404 );
-
-            // Disable that pesky Admin Bar
-            add_filter( 'show_admin_bar', '__return_false', 900 );
-            remove_action( 'admin_footer', 'wp_admin_bar_render', 10 );
-            remove_action( 'wp_head', 'wp_admin_bar_header', 10 );
-            remove_action( 'wp_head', '_admin_bar_bump_cb', 10 );
-            wp_dequeue_script( 'admin-bar' );
-            wp_dequeue_style( 'admin-bar' );
-
-            // Template
-            $four_tpl = apply_filters( 'LD_404', get_404_template() );
-
-            // Handle the admin bar
-            @define('APP_REQUEST', TRUE);
-            @define('DOING_AJAX', TRUE);
-
-            if ( empty($four_tpl) OR ! file_exists($four_tpl) ) {
-                // We're gonna try and get TwentyTen's one
-                $twenty_ten_tpl = apply_filters( 'LD_404_FALLBACK', WP_CONTENT_DIR . '/themes/twentythirteen/404.php');
-
-                if ( file_exists( $twenty_ten_tpl ) )
-                    require( $twenty_ten_tpl );
-                else
-                    wp_die( '404 - File not found!', '', array( 'response' => 404 ) );
-            } else {
-                // Their theme has a template!
-                require( $four_tpl );
-            }
-            // Either way, it's gonna stop right here.
-            exit;
-        }
 
 
         /*
@@ -1565,8 +1448,6 @@ if ( !class_exists( "WPC_Client_Common" ) ) {
                 return '';
             }
 
-            $wpc_custom_login = $this->cc_get_settings( 'custom_login' );
-
             //for widget - doing redirect if it set in parameter
             if ( isset( $_REQUEST['logout'] ) && 'true' == $_REQUEST['logout'] ) {
                 if ( isset( $_REQUEST['redirect_to'] ) && '' != $_REQUEST['redirect_to'] ) {
@@ -1618,10 +1499,6 @@ if ( !class_exists( "WPC_Client_Common" ) ) {
                     } else {
                         //redirection for administrators
                         if ( ( current_user_can( 'administrator' ) ) && !current_user_can( 'manage_network_options' ) )  {
-                            if ( isset( $wpc_custom_login['cl_enable'] ) && 'yes' == $wpc_custom_login['cl_enable'] && isset( $wpc_custom_login['cl_login_url'] ) && !empty( $wpc_custom_login['cl_login_url'] ) ) {
-                                do_action( 'wp_client_redirect', $wpc_custom_login['cl_login_url'] );
-                                exit;
-                            }
                             wp_redirect( wp_login_url() );
                             die();
                         }
@@ -1632,11 +1509,7 @@ if ( !class_exists( "WPC_Client_Common" ) ) {
                             wp_redirect( $this->cc_get_login_url() );
                             die();
                         }
-                        //redirect for another users
-                        if ( isset( $wpc_custom_login['cl_enable'] ) && 'yes' == $wpc_custom_login['cl_enable'] && isset( $wpc_custom_login['cl_login_url'] ) && !empty( $wpc_custom_login['cl_login_url'] ) ) {
-                            do_action( 'wp_client_redirect', $wpc_custom_login['cl_login_url'] );
-                            exit;
-                        }
+
                         wp_redirect( wp_login_url() );
                         die();
                     }
@@ -1644,10 +1517,7 @@ if ( !class_exists( "WPC_Client_Common" ) ) {
             } else {
                 //redirection for administrators
                 if ( ( current_user_can( 'administrator' ) ) && !current_user_can( 'manage_network_options' ) )  {
-                    if ( isset( $wpc_custom_login['cl_enable'] ) && 'yes' == $wpc_custom_login['cl_enable'] && isset( $wpc_custom_login['cl_login_url'] ) && !empty( $wpc_custom_login['cl_login_url'] ) ) {
-                        do_action( 'wp_client_redirect', $wpc_custom_login['cl_login_url'] );
-                        exit;
-                    }
+
                     wp_redirect( wp_login_url() );
                     die();
                 }
@@ -1658,10 +1528,7 @@ if ( !class_exists( "WPC_Client_Common" ) ) {
                     die();
                 }
 
-                if ( isset( $wpc_custom_login['cl_enable'] ) && 'yes' == $wpc_custom_login['cl_enable'] && isset( $wpc_custom_login['cl_login_url'] ) && !empty( $wpc_custom_login['cl_login_url'] ) ) {
-                    do_action( 'wp_client_redirect', $wpc_custom_login['cl_login_url'] );
-                    exit;
-                }
+
                 wp_redirect( wp_login_url() );
                 die();
             }

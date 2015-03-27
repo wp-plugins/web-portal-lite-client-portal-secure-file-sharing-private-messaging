@@ -17,7 +17,7 @@ if ( !class_exists( 'WPC_Payments_Core' ) ) {
 
             //load gateways just on settings page
             if ( is_admin() && isset( $_GET['page'] ) && 'wpclients_settings' == $_GET['page'] ) {
-                add_action( 'plugins_loaded', array(&$this, 'load_gateway_plugins') );
+                add_action( 'plugins_loaded', array(&$this, 'load_gateway_plugins'), 99 );
             }
 
 

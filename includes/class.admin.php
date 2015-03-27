@@ -147,8 +147,6 @@ if ( !class_exists( "WPC_Client_Admin" ) ) {
             add_action( 'admin_menu', array( &$this, 'permissions_admin_redirect' ) );
             add_action( 'admin_init', array( &$this, 'permissions_show_notice' ) );
 
-            add_action( 'init', array( &$this, 'setup_hide_admin' ) );
-
             add_action( 'delete_post', array( &$this, 'delete_post' ), 99 );
 
             add_action( 'restrict_manage_posts', array( &$this, 'add_custom_portal_page_filter' ) );
@@ -237,36 +235,6 @@ if ( !class_exists( "WPC_Client_Admin" ) ) {
 
                 $this->cc_delete_all_object_assigns( 'portal_page', $post_id );
 
-            }
-        }
-
-
-        /**
-        * Setup hiding wp-admin
-        **/
-        function setup_hide_admin() {
-            global $current_user;
-
-            $wpc_custom_login = $this->cc_get_settings( 'custom_login' );
-
-            $cl_hide_admin = ( isset( $wpc_custom_login['cl_hide_admin'] ) && !empty( $wpc_custom_login['cl_hide_admin'] ) ) ? $wpc_custom_login['cl_hide_admin'] : 'no';
-            $cl_enable = ( isset( $wpc_custom_login['cl_enable'] ) && !empty( $wpc_custom_login['cl_enable'] ) ) ? $wpc_custom_login['cl_enable'] : 'no';
-
-            // Nope, they didn't enable it.
-            if ( !isset( $wpc_custom_login ) || 'yes' != $cl_enable || 'yes' != $cl_hide_admin )
-                return;
-
-            $script_filename = empty( $_SERVER['SCRIPT_FILENAME'] )
-                ? $_SERVER['PATH_TRANSLATED']
-                : $_SERVER['SCRIPT_FILENAME'];
-            $explode = explode( '/', $script_filename );
-            $file = end( $explode );
-
-            // We only will hide it if we are in admin (/wp-admin/)
-            if ( is_admin() ) {
-                // Non logged in users.
-                if ( !is_user_logged_in() )
-                    $this->throw_404();
             }
         }
 

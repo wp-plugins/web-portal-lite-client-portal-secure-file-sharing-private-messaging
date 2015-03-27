@@ -3,7 +3,6 @@ global $wpdb;
 
 $wpc_clients_staff = $this->cc_get_settings( 'clients_staff' );
 $wpc_general = $this->cc_get_settings( 'general' );
-$wpc_custom_login = $this->cc_get_settings( 'custom_login' );
 
 ?>
 <table width="70%" style="float: left;">
@@ -131,7 +130,7 @@ $wpc_custom_login = $this->cc_get_settings( 'custom_login' );
                     <tr>
                         <td><?php _e( 'Custom Login at /wp-admin Enabled?', WPC_CLIENT_TEXT_DOMAIN ) ?>:</td>
                         <td>
-                            <?php echo ( !isset( $wpc_custom_login['cl_enable'] ) || 'no' == $wpc_custom_login['cl_enable'] ) ? 'no' : 'yes' ?>
+                            no
                         </td>
                     </tr>
                 </tbody>

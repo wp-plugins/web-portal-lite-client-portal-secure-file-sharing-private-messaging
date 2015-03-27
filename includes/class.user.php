@@ -48,11 +48,6 @@ if ( !class_exists( "WPC_Client" ) ) {
 
             add_filter( 'body_class', array( &$this, 'body_class_for_clientpages' ), 99 );
 
-            //custom login
-            add_action( 'login_head', array( &$this, 'custom_login_bm' ), 99 );
-            add_filter( 'login_headerurl', array( &$this, 'custom_login_logo_url' ), 99 );
-            add_filter( 'login_headertitle', array( &$this, 'custom_login_logo_title' ), 99 );
-
             add_action( 'wp_footer', array( &$this, 'translator_js_scripts' ) );
 
 
@@ -1167,94 +1162,6 @@ if ( !class_exists( "WPC_Client" ) ) {
             return $classes;
 
         }
-
-
-        /*
-        * Custom login - CSS
-        */
-        function custom_login_bm () {
-
-            $wpc_custom_login = $this->cc_get_settings( 'custom_login' );
-
-            if ( !isset( $wpc_custom_login['cl_enable'] ) || 'yes' == $wpc_custom_login['cl_enable'] ) {
-                // output styles
-                echo '<link rel="stylesheet" type="text/css" href="' . $this->plugin_url . 'css/custom-login.css' . '" />';
-                echo '<style>';
-
-                if ( !empty( $wpc_custom_login['cl_background'] ) ) {
-                    ?>
-                    #login {
-                        background:url(<?php echo $wpc_custom_login['cl_background'] ?>) top center no-repeat;
-                        padding: 114px 0px 0px 0px !important;
-                    }
-                    <?php
-                }
-
-                // text colour
-                if ( !empty( $wpc_custom_login['cl_color'] ) ) {
-                    ?>
-                    #login,
-                    #login label {
-                        color:#<?php echo $wpc_custom_login['cl_color'] ?>;
-                    }
-                    <?php
-                }
-
-                // text colour
-                if ( !empty( $wpc_custom_login['cl_backgroundColor'] ) ) {
-                    ?>
-                    html,
-                    body.login {
-                        background:#<?php echo $wpc_custom_login['cl_backgroundColor'] ?> !important;
-                    }
-                    <?php
-                }
-
-                // text colour
-                if ( !empty( $wpc_custom_login['cl_linkColor'] ) ) {
-                    ?>
-                    .login #login a {
-                        color:#<?php echo $wpc_custom_login['cl_linkColor'] ?> !important;
-                    }
-                <?php
-                }
-
-                echo '</style>';
-            }
-        }
-
-
-        /*
-        * Custom login - link
-        */
-        function custom_login_logo_url() {
-            $wpc_custom_login = $this->cc_get_settings( 'custom_login' );
-
-            if ( !isset( $wpc_custom_login['cl_enable'] ) || 'yes' == $wpc_custom_login['cl_enable'] ) {
-                //logo link
-                if ( !empty ( $wpc_custom_login['cl_logo_link'] ) ) {
-                    return $wpc_custom_login['cl_logo_link'];
-                }
-            }
-
-        }
-
-
-        /*
-        * Custom login - text
-        */
-        function custom_login_logo_title() {
-            $wpc_custom_login = $this->cc_get_settings( 'custom_login' );
-
-            if ( !isset( $wpc_custom_login['cl_enable'] ) || 'yes' == $wpc_custom_login['cl_enable'] ) {
-                //logo text
-                if ( !empty( $wpc_custom_login['cl_logo_title'] ) ) {
-                    return $wpc_custom_login['cl_logo_title'];
-                }
-            }
-
-        }
-
 
 
         /*
