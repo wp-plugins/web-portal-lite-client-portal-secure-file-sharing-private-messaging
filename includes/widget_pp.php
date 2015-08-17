@@ -4,11 +4,11 @@
 // Widget for Client Portal Pages list
 class wpc_client_widget_pp extends WP_Widget {
     //constructor
-    function wpc_client_widget_pp() {
+    function __construct() {
         global $wpc_client;
 
         $widget_ops = array( 'classname' => 'wpc_widget_pp', 'description' => sprintf( __( 'Display %s %s list.', WPC_CLIENT_TEXT_DOMAIN ), $wpc_client->custom_titles['client']['s'], $wpc_client->custom_titles['portal']['p'] ) );
-        parent::WP_Widget( 'wpc_client_widget_pp', $wpc_client->plugin['title'] . sprintf( __( ': %s list', WPC_CLIENT_TEXT_DOMAIN ), $wpc_client->custom_titles['portal']['p'] ), $widget_ops );
+        parent::__construct( 'wpc_client_widget_pp', $wpc_client->plugin['title'] . sprintf( __( ': %s list', WPC_CLIENT_TEXT_DOMAIN ), $wpc_client->custom_titles['portal']['p'] ), $widget_ops );
     }
 
     /** @see WP_Widget::widget */

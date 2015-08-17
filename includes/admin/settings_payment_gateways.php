@@ -189,7 +189,7 @@ if ( isset( $_POST['gateway_settings'] ) ) {
         </ul>
 
         <?php if ( !isset( $GLOBALS['wpc_external_gateways'] ) ) { ?>
-            <span style="margin: 15px 0px 0px 15px; float: left; clear: left; "><a href="https://webportalhq.com/link/payment-gateways-extension/" target="_blank" ><?php _e( 'Get More Gateways >>', WPC_CLIENT_TEXT_DOMAIN ) ?></a></span>
+            <span style="margin: 15px 0px 0px 15px; float: left; clear: left; "><a href="https://wp-client.com/pricing-client-management-portal/" target="_blank" ><?php _e( 'Get More Gateways', WPC_CLIENT_TEXT_DOMAIN ) ?> <span><b>(Offer for PRO users only)</b></span> >>></a></span>
         <?php } ?>
 
     </form>

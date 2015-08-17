@@ -157,28 +157,30 @@ if ( !class_exists( "WPC_Client_Admin" ) ) {
 
             add_action( 'in_admin_header', array( &$this, 'remove_other_notices' ), 10000 );
 
-            add_action( 'wpc_admin_notices', array( &$this, 'admin_notices' ) ) ;
+            add_action( 'wp_client_admin_notices', array( &$this, 'admin_notices' ) ) ;
 
 
         }
 
 
         function remove_other_notices() {
+
             global $parent_file;
             if ( isset( $parent_file ) && 'wpclients' == $parent_file ) {
                 remove_all_actions( 'admin_notices' );
+                remove_all_actions( 'all_admin_notices' );
                 add_action( 'admin_notices', array( &$this, 'admin_notices_hook' ) );
-            } else{
-                add_action( 'admin_notices', array( &$this, 'admin_notices_hook_all_pages' ) );
             }
+
+            add_action( 'admin_notices', array( &$this, 'admin_notices_hook_all_pages' ) );
         }
 
         function admin_notices_hook_all_pages() {
-            do_action( 'wpc_admin_notices_all_pages' ) ;
+            do_action( 'wp_client_admin_notices_all_pages' ) ;
         }
 
         function admin_notices_hook() {
-            do_action( 'wpc_admin_notices' ) ;
+            do_action( 'wp_client_admin_notices' ) ;
         }
 
         function assign_popup_after_list_content( $html, $type, $current_page, $args ) {

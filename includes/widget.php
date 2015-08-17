@@ -4,11 +4,11 @@
 // Widget for Client Login/logout
 class wpc_client_widget extends WP_Widget {
     //constructor
-    function wpc_client_widget() {
+    function __construct() {
         global $wpc_client;
 
         $widget_ops = array( 'classname' => 'wpc_widget_login', 'description' => sprintf( __( 'Allow %s to login/Logout.', WPC_CLIENT_TEXT_DOMAIN ), $wpc_client->custom_titles['client']['s'] ) );
-        parent::WP_Widget( 'wpc_client_widget', $wpc_client->plugin['title'] . __( ': Login/Logout', WPC_CLIENT_TEXT_DOMAIN ), $widget_ops );
+        parent::__construct( 'wpc_client_widget', $wpc_client->plugin['title'] . __( ': Login/Logout', WPC_CLIENT_TEXT_DOMAIN ), $widget_ops );
     }
 
     /** @see WP_Widget::widget */
