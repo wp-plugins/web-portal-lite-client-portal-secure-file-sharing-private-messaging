@@ -259,6 +259,20 @@ https://wp-client.com/faqs/
 26. Full features available in PRO
 
 == Changelog ==
+
+= Version 1.0.9 =
+- Compatibility with WP 4.3;
+- Some fixes;
+
+= Version 1.0.8 =
+- Fixes;
+
+= Version 1.0.7 =
+- Some text changes;
+
+= Version 1.0.6 =
+- Some text changes;
+
 = Version 1.0.5 =
 * Stable LITE version
 
